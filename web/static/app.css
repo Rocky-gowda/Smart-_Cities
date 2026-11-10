@@ -1,0 +1,28 @@
+:root {
+  --navy: #14213d; --ink: #1d2433; --muted: #5b6478; --bg: #f5f6f8; --card: #ffffff; --line: #dfe3ea;
+  --blue: #1f4e79; --green: #2e7d32; --amber: #b7791f; --red: #c62828; --orange: #ef6c00; --purple: #6a3d9a;
+  --LOW: #2e7d32; --MODERATE: #b7791f; --HIGH: #ef6c00; --CRITICAL: #c62828;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); }
+h1, h2, h3 { margin: 0 0 8px; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; border: 0; border-radius: 10px; padding: 10px 14px; background: var(--blue); color: #fff; font-weight: 600; }
+button.secondary { background: #e8edf5; color: var(--blue); }
+button.danger { background: var(--red); }
+button:disabled { opacity: .5; cursor: default; }
+input, select, textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+label { display: block; font-size: 14px; color: var(--muted); margin: 10px 0 4px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+.row { display: flex; gap: 10px; align-items: center; }
+.grow { flex: 1; }
+.muted { color: var(--muted); font-size: 14px; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 999px; color: #fff; font-weight: 700; font-size: 13px; }
+.badge.LOW { background: var(--LOW); } .badge.MODERATE { background: var(--MODERATE); }
+.badge.HIGH { background: var(--HIGH); } .badge.CRITICAL { background: var(--CRITICAL); }
+.pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 600; background: #e8edf5; color: var(--blue); }
+.pill.ok { background: #e3f3e5; color: var(--green); } .pill.warn { background: #fdf0dc; color: #8a5a0c; } .pill.bad { background: #fde4e4; color: var(--red); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: 24px; background: var(--navy); color: #fff; padding: 12px 18px; border-radius: 12px; z-index: 5000; max-width: 90vw; box-shadow: 0 8px 24px rgba(0,0,0,.2); }
+.hidden { display: none !important; }
+.leaflet-container { font: inherit; }

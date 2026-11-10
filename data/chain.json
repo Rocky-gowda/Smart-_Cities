@@ -1,0 +1,3807 @@
+{
+ "public_keys": {
+  "Tourism Department": "9180f3b1f622b9bac29a97f231506d5feeb6dd19497cebf3aa356ccc2880f3f0",
+  "City Police": "1410b38193ef3fdfbb301ed842002f13895660f8df77f1e65a4f5e5e3843ea99",
+  "Immigration Office": "b26244c2fca59b4c0685e1b0e537a89c720fa55c7aa95ba62f28c36edf20d37b"
+ },
+ "seal_count": 25,
+ "chain": [
+  {
+   "index": 0,
+   "timestamp": 0.0,
+   "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+   "merkle_root": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "validator": "genesis",
+   "hash": "db1bac2056d4cc6e7b9c210787ad0071d3f447825eb8a4a66e6b2fec0233517d",
+   "signature": "",
+   "transactions": []
+  },
+  {
+   "index": 1,
+   "timestamp": 1793541731.1418357,
+   "prev_hash": "db1bac2056d4cc6e7b9c210787ad0071d3f447825eb8a4a66e6b2fec0233517d",
+   "merkle_root": "2d067e3894f4476e9d1a197166b4f42c12a1e6bdf411f42b3982745b0a4d750d",
+   "validator": "City Police",
+   "hash": "bcad491cdda354229f2dc7da3d03b040d5e487557cce3b25065babb331f41671",
+   "signature": "74a7352a74499f6fa7a912b48f5aa77fb0c8922686bee103a13681255f9ca3e0936bcb8d9fb3b882bd9416dd4c2fa3adbede23b2e690c510261430f7cc709604",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0E6115A6716C",
+      "credential_hash": "5839fe60a56bf35a397da7636cecb9b1e75c505a85e4c8553a34bbf6d027a472",
+      "kyc_hash": "cb6fca2d3263266fc6b1e50b579841680c3b09e30e4fc44614b5163f8abb878a",
+      "itinerary_hash": "4306300dba2f5631fb6d42ebcb9e822bc4bd7b745e0849397f9a1171079a628e",
+      "nationality": "CZ",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1366904,
+     "signature": "4f2d43f9d93f713da089a7dfecfb9d4f2da2a5c9d54ef328cb97009113f7187069988e94974a09de59e24680b418bfcf2d29d0c26460a07a50c96d6dfc9e3a09",
+     "tx_hash": "5975a50288c5c377c228240d82181f08f41ca682e53d542a0cf81154f49e03c3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-5BB40CD4B997",
+      "credential_hash": "e33db17e1ea5bb8906f2ca97696e8f09687c232401d82718e73603ff0ac840c9",
+      "kyc_hash": "a2251ad6d751b5a85d4e757be4f241b9c8ccc73a4df86f0b507df43849417174",
+      "itinerary_hash": "6d155d687ea5ff26717d9d745b503ee6ba8bc94e307575bddf26483062c96799",
+      "nationality": "AE",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1369636,
+     "signature": "82b00d8f44db63fec6501067ee5c01e90b8357a8e697a4a52bd7211a1388b5576c306ff0fa5d0552cb43e27e9b98a85138bb68d210d571a3cf33a8c5a98ead0f",
+     "tx_hash": "6374907917d9dbee6cbf60e0528486fa525fb07f30194d82f17aea14e94cbbc7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7480049BA1D9",
+      "credential_hash": "1773261bd04fd955b58ea7abc5c3af7efc1256ac8411bb7027fdf29c4116b3f2",
+      "kyc_hash": "365c96002d9c70ae51d0da498410526e6d3cfae6b67eda44efe60b34ec540871",
+      "itinerary_hash": "628d00506960c8887bbdc5d05178b66f711ba8d23853a372ba38b3afafe6b0da",
+      "nationality": "AE",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1371813,
+     "signature": "16798f40401b769fd44da101379b40300a67be35f4f2f34e3ee99aa8f6e033cfb00b713884d02392971119af8a6ed780e275cb7761116fabe616e44abb1a550b",
+     "tx_hash": "0c44a55e68341aa2d67334aa2a778385108b0fb8a8487b28cff553e319e61446"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7FD12EF30708",
+      "credential_hash": "b1ec3367adf0970c04fdbef21fae2b84d9b69bda5a550afdf35e53b304e352e2",
+      "kyc_hash": "56754c963692b56e3c00f11f1df8ca05267557e4aec6928ddaaa7bf7dcd39308",
+      "itinerary_hash": "20b2215950c7d7517b55c6a47446764bdf5e00b64f76548488752d778c50301a",
+      "nationality": "FR",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.137427,
+     "signature": "bd1b45dce878d1ede514bebd6ee25c6f1e8627b03e14a57adf2acc1b17f1ea228dc96f455e490285e12cc80819705ab30f6dab4e8eaf3dc92a08b1ffda269d02",
+     "tx_hash": "d07f107684f47118bee0c2fa7254eb3f8510b0f3cfb13849a30b62576913b4aa"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-49BDCEDA282D",
+      "credential_hash": "cffc568095d82a944c8defd6855563bfe10cec2d6b2568bc35b03505c3222937",
+      "kyc_hash": "92fa1a6fc83671ad62a30bd6148ece952789bf96d1348bdcd3659298a83ec65a",
+      "itinerary_hash": "c6b812a567a371322b475344c72c4f69c15d9e268aef8ed83db30c18273cd1c4",
+      "nationality": "JP",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-10"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1375878,
+     "signature": "27f3cba1519dca8fc5a506c56abc8869cdcc46f77f3b61a9bae373629f2f30e921af7531b7376e5d826ba14e4c2974dc36ff85ad4674d76ffaabd3385a0e3902",
+     "tx_hash": "7d08b8329291362e15aa32475f35c0d254e7ecdb3b03207276d43dbec3da7782"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-BC084A334915",
+      "credential_hash": "1d341597c3a261096acfad9f4a7ae9c7be82d2e5406cb6bf7ac3028ef19e8585",
+      "kyc_hash": "b976d21ce02f7c5c407fe83bad416d44c311ea45c8f072c7df32c06f6df15d4a",
+      "itinerary_hash": "a41d8184cae96f412fa62b231faf6d6425f20b0adf87e125f5f775a1dc20dcaf",
+      "nationality": "FR",
+      "valid_from": "2026-12-18",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1378098,
+     "signature": "285475b25a08409ebd42f8b1be3edb9db14277e0db030fe028357b1095fbdb42cc6b75d2880a6a8e55a9cdd462c53eb71ab40ba89bf43f13361dc7b181bbcb06",
+     "tx_hash": "d813063168ffeb4eacf42d1e968f64f0a4a17e42120088e01b03acb8168f4742"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4CE934B9EA96",
+      "credential_hash": "5d46d94586648cb6b7c01d85aed433a5cbdeea3f379c1e1de671e3ab2e3d6abd",
+      "kyc_hash": "a2364ae52fb1d7ae7e2fc231b0184ebf6f375e0402c2398f0e6953a397cc5f93",
+      "itinerary_hash": "5fc5b987bb820196fab564f25deaab92554220ab37f47b1277a3dde6dd352bb8",
+      "nationality": "CZ",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1380205,
+     "signature": "67830a8e3ec69be5bcd93c44ed6e6227978263409d9c0b91f75f4b1937a472d6f5065ed4f6a451302cf4b4e13cf1ab4f21bb58cd97a6d144f937ee0346ef6a07",
+     "tx_hash": "6764e86e6a945591b7f6d5333dd8427ac1ef9ed72c96de3797711c4c40b462ed"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A2C73B2CD306",
+      "credential_hash": "81e512323da79706348e6a31d85574309fc80dd161c822b0bbca260e1d4d1caa",
+      "kyc_hash": "a5f097e76d53b14084d4d931ec9922985de8de5f3db81b890df9f999fdd8d363",
+      "itinerary_hash": "b9e7e87766ee704926b7b046f34bd5c0683abefc8e562c32319129b8ac2df52b",
+      "nationality": "US",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1382377,
+     "signature": "a302607d53b61453c35c29010a631eac95f75878fe001bfd09a1c99c2052c2635bfa3d1436ef192b2bd144a38bfea91834fedf88d44b6126a14b52b03b067705",
+     "tx_hash": "c7331ceeef590c4179c099284bf1944af6c488416c62bcff332c0f4313b6861d"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4D47B918165F",
+      "credential_hash": "ea455f1ecd161d9805395505aefef10fb86aa663f94bea0f7a9ec83c1c08f6b4",
+      "kyc_hash": "12af38f36fc3baf7c8d7b0be8abb0459ea052d91fb035705ebea6e244445d429",
+      "itinerary_hash": "ab454c7bc2aeea4f83f6dc2cba4568330d0bc60d6002c932cf9a104920b55252",
+      "nationality": "IN",
+      "valid_from": "2026-12-20",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1384692,
+     "signature": "71905fb6409f6cf58be3f31f63c409833a0f9897040cb2cb1744143a78076e42a87f86e3e556bedfd86445857556d7cdf28b59faa5342811bbb4088f0dd95b0a",
+     "tx_hash": "929c90eb07b9ce2d85f76ba1367b3c483ac4070f6a05a990e2ff334a92a17a05"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-868C442CAAF5",
+      "credential_hash": "dc098012c109424ab22240192306b29b10a2e1c008970465f64ece2a83fbf7e6",
+      "kyc_hash": "0d536cb217a1c953356201a352234e3e721053188f7f9fff36e938ea03a38e86",
+      "itinerary_hash": "8f97e9171a8dbda370450658e7d98084cb0524672068baf47f2d565f7b4f515a",
+      "nationality": "CN",
+      "valid_from": "2026-12-17",
+      "valid_to": "2027-01-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1386864,
+     "signature": "3229831c256434403b4ab4a797be96cc87a0720291a4028061d0c97bc09c11337e11d3998ca00546ad3152161676c248f2e421890fabc7b0e544e78869156b08",
+     "tx_hash": "64d820374b17ab9a9a8848432f99144f79790775f64240086e9438f48841189b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FF2992B8F9D2",
+      "credential_hash": "47edf4a21cd97653020b4a7f270e334993f54dec1088b55d52b5956e9fa9d39a",
+      "kyc_hash": "a3acacd276097aa4e73c408c54aef12ee33c3ba5f01ac6ff6d3b8fb8bd4abb55",
+      "itinerary_hash": "360fd8961b78070132c0764cd3944e8a15465ee65419ede617cff55fc337822d",
+      "nationality": "IN",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.138879,
+     "signature": "0caa1ae87eeaecae7aac2db71be40391043afdcfb1f6d3d80b9c10b5535446aaed619e01a5e3f5dc768bde1d6d11ac6311f5fd97ed0173d40fac0f4e5ab06e0d",
+     "tx_hash": "e5f166fb1541fba505d912898a3422c837f1c4c8cddaa40432a507a579ed8ee8"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-74BE43FB9B3A",
+      "credential_hash": "b66070246bb38e65f0545b115d513971d0df7bc092fee697783079603415ec67",
+      "kyc_hash": "13567045f83871044a5eed4d6070930cd9fe7791fcc26274039f0d9984c5116e",
+      "itinerary_hash": "3f50d72922d0b9f2a8ac6986c0b26628801eb7a078ee66fe70c93554c65a9334",
+      "nationality": "ES",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1390665,
+     "signature": "f61b36a28928d252d1d63ec237d60856a7fdb29de60b553e50244d8748b5bca96259bd5c8121e64647c7868c3b713c7533c0ff1b8a7b3afefb598a3fe65c3e0a",
+     "tx_hash": "7ddd98f1ec6dfb7b33001e25f1035c44fd3e66c609456bd3d77ae6cc0432f4a9"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-DED9BFC79FD0",
+      "credential_hash": "b9515153ed6d2079491823e93e9e57cf1c7a8de1a5c03ec05734e0eb73dc44c9",
+      "kyc_hash": "d5fa9395a0b6b87f44fdb2c108e2bd819f6c3c5bf98a262ac59fe7f329713c9f",
+      "itinerary_hash": "4e4215510130c6f036d65a1d5badcab670816ee034be4f0de637ddc9025255d4",
+      "nationality": "KR",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-08"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1392481,
+     "signature": "0af80e3965fd1c05d01a29973137b17a1b0f6cbf8006d203d7cd05104f577120c3e3235a5ac0fb2b4aaee7e126963b1362ef348388a155ba7df7b9344e7c6c00",
+     "tx_hash": "a2cd8ccedf62b27ed0c49da677ce3f8f59c0ffba95b4447736b503f1cf3b5bc9"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2C8E1EBD6935",
+      "credential_hash": "36fe41519089799cd67f333bcb674a6654bc157596cced5675606409f83c8b12",
+      "kyc_hash": "43a78a6b5d1d86ff6661ca5028cfc41a49612532f6fea2fedfe7d21f34b26b81",
+      "itinerary_hash": "8839d7eb0d9e85ccfedd82470b1a090455b75bd536790565de22480b09925dd3",
+      "nationality": "CN",
+      "valid_from": "2026-12-18",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.139471,
+     "signature": "4741d34ba6efa2f70b1a128acb00eff2060d8a056bba87f6d59e75c9759b8c1e97dcc5fc60c061f958496b6a807fabd28ae3919d1cf0205346e92fbd36fbed01",
+     "tx_hash": "6999160f2820aef4cd5ac8c3673078bf7055b977032ad1751c68449ca6974b0f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-CC29DBDAD6B1",
+      "credential_hash": "74563de60257fb0cddeeec756e642064a539560948c504f5406a7b9f2d7f2afd",
+      "kyc_hash": "28f530aa87f468906ed31fc2e2f016dc505515648a274e5d1da8871272799a50",
+      "itinerary_hash": "d7b0ecc3b4587fa2caf4a94a8d524f26119ede1362328f96c7453cffe8c2dcb1",
+      "nationality": "CN",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1396844,
+     "signature": "f1aed3928740f9bd1e802de629530f4a4a8bf3e9d094f8b57a0ab51b29dfe460b8eac88704ec069a1ac0bdee9dfe4dec98e19f2c5da3d07cd315a424a12c8702",
+     "tx_hash": "22e2005bf70ac3f925f77bf6009318d28327e37bc10e0a012d0c419a2916f5b1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2B434A9716D4",
+      "credential_hash": "a9e00e472a58baf3fe3b9c0505fa3da7c811238ef2075afe4a2581c8d5cb56b6",
+      "kyc_hash": "77846454611e0f947c444287e51d3478a08158abf1495135798691a2d8ab500d",
+      "itinerary_hash": "243d03bb4a66f68db88b5063e27c781811074612a39f6ab315bdbdaee134f4b5",
+      "nationality": "AE",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1398842,
+     "signature": "bdfa1c6f7b92ad12fe0193c039fdb84c4f38952fe54256a0fbd80731f773caf4c0344653dda0e51a6e84293bd54d697b9781af3935ec3a3d44275d81fc30cf03",
+     "tx_hash": "2f27a3a0bfdc0ace1a78e3c54323f552b94e11db803a0e52bc9c3da9df43d3e7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-32E82F12BFD1",
+      "credential_hash": "5e53e8afae48b31281f464e20a9d8dead6b883699b1f2966a34281b8c5229c39",
+      "kyc_hash": "57b709ea9b4f74523dd3ebbc6c7eae7a7219231b0d23685f957e2a9e85a42b3d",
+      "itinerary_hash": "76599fc605aea703291d45af656207231e15063878c1eb5b9428938c13fe3e1c",
+      "nationality": "IT",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1400886,
+     "signature": "82406fd273e1d16e5fb79fbf0dfbe956a8f348aadf2930d28b6db2de90c7a09667104ec32f5796b910b7a71df8687db954169834124d620bee6ed1461c592600",
+     "tx_hash": "40fc65e40c2d94acbf2fb60d98af4e6b1d516cf172cdb7535a2f73addbecb9e5"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-90AF23845093",
+      "credential_hash": "e9601797a4d70a48580207951894a64d8b1ab8adecc9692f8b79a407eee2f821",
+      "kyc_hash": "f0cc9a4a113afa2fdc4c62ea34e2744a8af3320342fb55d48ca027a1b4a9612b",
+      "itinerary_hash": "c0dc6816a14aee652af9d59a873c9891741d9d2d38e3fd15e782373c1a8d3a9c",
+      "nationality": "IT",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1403482,
+     "signature": "4f27aab87c04312194db1d06980462458de16c3a3de601d714fc462941ffe60933153b8ef8ed7f80b08a001dcae310b2d675932fb7f89a4cff5149525ec40c04",
+     "tx_hash": "5847a0526609e8ba1b03a545f40faa0c3b573647f6c34491902c4019db26ba19"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-655794AC5310",
+      "credential_hash": "39ba3bbcaaf7787fe2904c422c53e904f0ff8d42fef630018ccd5a142033e2bb",
+      "kyc_hash": "491539f459aa3672b53897e9198132404b34b643d2f2a3be2cea121094045f06",
+      "itinerary_hash": "3b5409880457d74b1a88dd953eb9ebdb70c0a9ecaf0a4cb786114afa5006969b",
+      "nationality": "IN",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1405556,
+     "signature": "a156fcfbe69e19709333385328296f91b6c6b0372ed7d4afe2b2526efdacad084c74ab7df62e2222b9a5bf1fe3e3780b9ac8aecae515cd1ec09105f17ed51a0d",
+     "tx_hash": "4340459f2dc1bdb26503131d5ce2f4bd89bfb85ded9448e8b09473d7259f23cc"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-646E0B06C32D",
+      "credential_hash": "5c7ba72914a04c02578169334e6f5b9819cf5ab7c9a024fbce6c46e63eec7c0c",
+      "kyc_hash": "1cc295d41dafe725c4b50a81c0263eaa47ae04e628127cee45b725f8384ea79e",
+      "itinerary_hash": "0f2e1ff361d8479be89430acb6660230119e89fd9ca70a9d9f6b704531e1b526",
+      "nationality": "CN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.140737,
+     "signature": "74cccb7524a1b732b8803429b7b4e1b9767a3510f7748188c82fe3a4610a2ca2d8c048b50f104775344fa14dac1f872a2a8eaceb53581b1d69d41ef64227d506",
+     "tx_hash": "4dc8d64980dd006dd7498f8759cc7a201d864a3eab07f957c984fcdc93f31b39"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C9F0F2E8C90C",
+      "credential_hash": "b5bfb5a5f87ce3693ef1e17fb86815aa050265e7a5e7225ce985792e559e81bd",
+      "kyc_hash": "cf7b396a5d12199da7f1d3779274c9a5c9880526df5fecfcfbe9eb135e7d15cc",
+      "itinerary_hash": "48d5b281a65881943372c85426ca1c820363c9378960de83885e9e2c6a62de97",
+      "nationality": "IN",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1409373,
+     "signature": "e8da72b9d1dc52fa119d47cabaeea8ccf74240e49df44d9e15c264fd76577611e776a846c0180905241a8418352486f351615a34ceb13c51eaa92243ab611007",
+     "tx_hash": "db7e9a3d1fc82bba8b2ba3f53d103e3f1b7070603355ac9a3cf73f989a222734"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A63034B92665",
+      "credential_hash": "949d30e0b9413a8be9fb7360725b88a759b1ebb6f2cc34af72b271b656f90c47",
+      "kyc_hash": "deee76d175e070907ae122ea774978a46c0167256677cd2ad5da8ee64bff26a7",
+      "itinerary_hash": "d3a48a9300f575b820d5dfaf94b1c82e5a2f8c65e2c8460c7a763b6765b8a700",
+      "nationality": "ES",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1411471,
+     "signature": "ff8dd07f2d0941307f3d5a2066968d9fa5f153ebdadba8be1ebac702c35f657a4cfb608634d93c0e7dd8cda7dad9e2d835da903f3c3bd1335a2403ef85c94005",
+     "tx_hash": "0d7df3678a012c29a0c1715b7172dc8eda269388bfaba8ddba72ca0657ef96a8"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2493F0B3DCF8",
+      "credential_hash": "b3942707439b5162a9be63f399b952ba00ad10cec68746aff766981bda452896",
+      "kyc_hash": "074b4258eb6e19c1378ccc3087214eb3ebd1ed1f2867c6edc181ab460e7f039e",
+      "itinerary_hash": "284cbf41522a272d73f2b0f5cd5ba9d87aac69966feabe7bc7d9a42fa0b87ac9",
+      "nationality": "ES",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.141398,
+     "signature": "16197ac0c524101802f6572d8adb37937807daa2b29e264bbd20010f59a22c1bd13df9909dd11d30d912d4be864571a1480cefe0fb72785929ba85322dd53b0e",
+     "tx_hash": "6ce9364b19ba41e1ee4510695847d35468cba294bf5a2725c75163701550bb58"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-946FD8FD2A7D",
+      "credential_hash": "da24af022e392f1e9789f67354d838eb7d7734717391d7e58638e84111b30a59",
+      "kyc_hash": "ea471ff8407369d0b115ceea97dc5c5e0b247ed458a213860257c5b394dc8f70",
+      "itinerary_hash": "924ff8e3263550b81a7d87d7661dfe292d09ea4c5bf7153ed9f872277e0ea4da",
+      "nationality": "KR",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-31"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1415741,
+     "signature": "5238da88898911fdf3773af82a058a0148034bed000837fe527ea1829211344638274f406308d3b89d6a14f94945be0494690425edf5a4f4e575ce04fc91200e",
+     "tx_hash": "84a45b4834d17949ee1e689120bdaf3aab4b10d067a3d12b6f5494c37ea5df65"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-96C5088470C4",
+      "credential_hash": "2f8d76fc31170562210ce7df13c7472ec7fbd7846ba75aa6cb4617348d491ab9",
+      "kyc_hash": "2b7dc47e2f9cf160d630a9af7842da65fb5e6bb8d8a32f237e386a2fe5aef4f1",
+      "itinerary_hash": "12f4da4020d8135216c04e76b574522774e7140a152f30676327272314a2a613",
+      "nationality": "IT",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1417758,
+     "signature": "c1e37e886a4d6d7f469e479b870fc9437d7194d66c25579a43327f14dcd47c5ee8e3b63934c750a2c8f67e6289c90b6c1b9997b1d70ed8175a3bcf28ffb0d509",
+     "tx_hash": "dac92aec45fd355a67d50bf1147e938a3ec22e946ffc29840f7d7a9d0674b9bc"
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "timestamp": 1793541731.147258,
+   "prev_hash": "bcad491cdda354229f2dc7da3d03b040d5e487557cce3b25065babb331f41671",
+   "merkle_root": "1243a9795864d13c0a6dfe9b2622de0ecc9c116a168c0895697ce97523002240",
+   "validator": "Immigration Office",
+   "hash": "ca4dc688dbb7ea534f87684d61e3dbd0857be3104460f518a674e4bedac64ec2",
+   "signature": "490deb09ea3ba7743424c5fbde058a789cee587f2d385ff48d03fdd0b933d644c03fac2d39a0c692d541ed595f5dd167196331b6578b5415cf9ee3b3c182490b",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FF67B7EDDB40",
+      "credential_hash": "e1ed261d8540fed907c1582985f77fe87e9cda2cb3061eb8427fd6ac8fc7a2ca",
+      "kyc_hash": "b2a59ffca84966fccca2e341890f01717019919b7d7318c598dfbf9d0478f2cc",
+      "itinerary_hash": "715eabea5fb0e6e5ef73cf68432f00c9f9ff1ca0f8971a6f917f06b70f6ec4ab",
+      "nationality": "GB",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-12"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1424136,
+     "signature": "c0be3836b3357b1d63dd778c041dfd47480b4113c9e754901eae5aa0c3fab7092408bfeae34bf6a34a06fd8ad6fa87f3c271c34e6fbe7e7ac9dad173a43e670c",
+     "tx_hash": "2e01a9bf101a580a81eb2d7f332f7ae139dae70a657f29b077f6df921902b1d5"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1A46F01DEE58",
+      "credential_hash": "075212382a77175bac73e662bc5b478c3925033667ea82afc2134db2c1c00224",
+      "kyc_hash": "9d84c93c4100e09a4d8870d3cef339e1b05ed78256bdc22d6b44967ee3939bab",
+      "itinerary_hash": "dde722eb9498d9044433030af4564bc1ae2fa154568c436d93d1c0264f3c9085",
+      "nationality": "GB",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-08"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1426213,
+     "signature": "32c5421df541bc7873959ebf8b74b51642af8e668690738e82967e57b2c696802269ab4c3be5d66ae97ad965a253ede5e684a0c4a214c02d3a7ee8b83bdfe00d",
+     "tx_hash": "c56fe683f29129b892195655f0f580475fb320daed7bd7303eb3de1820b03b8a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-AB33A76143B4",
+      "credential_hash": "5d81730e2dc0c8e2760074fd2d99bd832c9f8074cb7ff27c7ce6bee8312c7de6",
+      "kyc_hash": "4b63e3023aa3668bac9ab3441a183c2196db794fbe044de327725fb7e3cce246",
+      "itinerary_hash": "48d5b281a65881943372c85426ca1c820363c9378960de83885e9e2c6a62de97",
+      "nationality": "IN",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-15"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1428185,
+     "signature": "a57853e3000e05d01ea9ecd95e711d2e3d2da42ddb283a2f2ff88f57582813142ee32c141c00803e44f2b66e6bdf1d5ce2642a715953d72e2768b549feb15002",
+     "tx_hash": "93770f5fcb5291e69147f0cd0d9ca1e5941c37463c50f9c3e32172a98de3e9ab"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4C7A2DC85DCD",
+      "credential_hash": "bfb5eb83d33e990891e1796929b985ab5fe9194d26ca44479749136a4b7514a3",
+      "kyc_hash": "20335d010e896a8e6f14403b09a875870229f99f2cf6ba633610a14ae75edbf0",
+      "itinerary_hash": "cb7f4a1e19d5c84420a736a9cf2ca1d6d9761de732988d11241973c0fe4f1e7f",
+      "nationality": "US",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1429985,
+     "signature": "a87c326abf2ec73f4704476e74d2e20828c0dcbea640df4ccd86760dd7b04404f790169b06d6d1a336cd891dce5450dd0102d5280c4920d212fbe3960a828101",
+     "tx_hash": "2fa200a6c27d2d50240dce488db76719e87de6b266d7eaeef15503921983cb58"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EF828A4E2C42",
+      "credential_hash": "f3d2e3167d6e79496e5aaf6ff8eff92246beae5a80013c642f7f6e6988966e2e",
+      "kyc_hash": "fc7561536559ed235835a23fd8e8d5b29df6ade68e7401b1f5cd1ca05f27ac61",
+      "itinerary_hash": "464ff7eca5a0678d6c76a93c9ae611903f491374ba001a5f6d6e2bbf678bdf5e",
+      "nationality": "NG",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1431847,
+     "signature": "f0ad542b8e3c1327dd6c4b48c33e6f4627601f64d75d915b5f2add5e9b155a27640affc8d6c28a0d50d8afe59a719fede3781c53594e4430999f8c2b43c11a00",
+     "tx_hash": "45bc184ab75d5180b565eeb53a0bd312afcacc360bf091233c051d66c0150679"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FE32496D34E9",
+      "credential_hash": "afe56f3e587c3b9b0fdedd98a44e66b8f95a1d6b1d8daaa8159c80c998274252",
+      "kyc_hash": "16617f8102f01303a44df736094d36d6bd5396dfe426d70c38fe072a5bad9ec3",
+      "itinerary_hash": "360fd8961b78070132c0764cd3944e8a15465ee65419ede617cff55fc337822d",
+      "nationality": "CN",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1434221,
+     "signature": "04f0e4a6fda53aef9bdca0c56064172d218840f4564361895596a3e7d452d3080823e68c2e0df18faaee139034d0a58ec6d33e3577b4a10eee7bda0b45e2be08",
+     "tx_hash": "31e547f0c61000e32dcd8fc557ec723e20b10220a4eb5e4adeade78d2a2bf26a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C4D563A12B0F",
+      "credential_hash": "cccf5f7e048f6a1e5a1f25a96d41cb18c8f6949999e3996aed9cb6e139d7086e",
+      "kyc_hash": "493e0407ff5a9028ff1792fd962d0d0dff04e8564af7b191514fab612a1de4c8",
+      "itinerary_hash": "1685728b74d29dd91a5a4fc304c5f41ca099029732ab1e65efcdb7cbb7770527",
+      "nationality": "BR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1436176,
+     "signature": "09f4e9a7e8f44ab942a455964443050fc0767098e605ca0b4fdb609eb970a574113a05da6eee057816386f33f78b204e3807311ec0a275b35d65349f3d2f8705",
+     "tx_hash": "d0342f388828c23f5ae4ed414cbe1bc7f325da525fc313e2e08272ec44177491"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EBE1D4E154DE",
+      "credential_hash": "30875391c37c5c434fc6647b856ff78ab555e301f2f05932139c1201a36197ae",
+      "kyc_hash": "4e5fa6e696e60806175cb08ddbdfcb674a599f90a40ce8337a1cc6eb93777422",
+      "itinerary_hash": "c9630215ff6f9024a2eaf8296ee514e945a6f59187312ed31764b70abe6d4fec",
+      "nationality": "JP",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1438036,
+     "signature": "afc3dcd19c0f8d8f6939ff9d72e601c2ed376b2341d7a97282439ea6162866bf25a38ab732f854f4c26a041b3742d0039602e1acaa804d30599f6bb0a411ab0a",
+     "tx_hash": "9f36c4e60740b3b107e059c86d07fc64a7c9d9f97f3d74f2e524895fb056776d"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-65119C48956F",
+      "credential_hash": "5cd2ef72f74731aaa2915c9a9bffded2e8caa28e0143cf96b3499d866d67c4d2",
+      "kyc_hash": "a6d479970ba95a23e742791cc93ce857ee2e508dbf85524382692ef2ef5635db",
+      "itinerary_hash": "89153d6bdf446b4a2c71024767c6160b06e36c91ca89169baef8cfc0060d8a82",
+      "nationality": "KR",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1439834,
+     "signature": "2e2e009b378faa42f8ecd192975888208e31f7a480e0c1f57b9c880555300012a6a7a1f768e19890c488a5c318fc82b3c545bebd22bbd2df8e0e201717169704",
+     "tx_hash": "4a34c129e08ab900cf359b3f00b83476a14347e0ca1b7bbc8b0af59f853101e6"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-305D46515DB0",
+      "credential_hash": "ee827fd850aa60cb2eb6429bafd799f950397a048b9218737fc4179d71fec7c8",
+      "kyc_hash": "60f4b00f6e595f6cc65ac965af5e2c5f489ced5880a1d25986c9e91ca7652f5e",
+      "itinerary_hash": "8930b318be3f20abb08fc21923881bcb0e38b2343fe36bdc9d3632fef30c4722",
+      "nationality": "NG",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1441524,
+     "signature": "e38aee80e3c1e60f8fd79e2fe3baafb2038836d88f508459de44cb2fcde525b803c6669fb8010e97999ce1b49580d5e5e63ebde7923b840d467467f2c3afee0e",
+     "tx_hash": "a4a8cd89991d08516cd597c35e50ef3cc1b302705ff8327bd4f23ecc4c0d5bb3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-5C6BBFE8BCC4",
+      "credential_hash": "ad8fee51260b73d0a00eee60bf6fa5b9e6ab0f5201d49999824d0d6ca70b0946",
+      "kyc_hash": "f6f40358816f7fef3fd53a224cfa542313db15ed2cdf89903253afa394355461",
+      "itinerary_hash": "67b2d7d90e5c48359c559b1f928cfe3fc51a2b066dad76d92c5344d6133e9a17",
+      "nationality": "CZ",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.144344,
+     "signature": "3ce9759cf92c705adc2b93dbc8f3bcdf769ff003db568bca2f2ff462c8bcef288a33eb87580f256c709bf9e1000b46b4debaa99f159145e847f30d9908abc009",
+     "tx_hash": "44d56bf4e7fadee338252fb18b1d4c9c21c5040ebdeb125203e92200bf77d1b3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D513F6DF07ED",
+      "credential_hash": "f71683c499eb9b3d27e732ca34c53fa948e400cff275be50c8df69e52273e264",
+      "kyc_hash": "6e130c0183a6f8a051cd335ff595c1cd24c6f71a3899c598c8043d00392c4699",
+      "itinerary_hash": "dafe6dff3004f7906abbfa52a18bcf10c79e5ffaaad8c86512865a057760478f",
+      "nationality": "US",
+      "valid_from": "2026-12-17",
+      "valid_to": "2027-01-03"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1445632,
+     "signature": "7ac523564dba54b56590c25db2df016a673c792d9622e04498fc21686e3ae8e587cc97e78f379b61fa49f5a3cfa575ec88c53b3edc3218efe5f903bc08baa002",
+     "tx_hash": "21355083f5d2a7df6b6b7b84f08e867d1b3eb46139c937a19a35548799fd8c8d"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C56B4DFC0C6A",
+      "credential_hash": "3f4afb236cfae17d84f81922abde92ee1787e91194346b34759de8ef6d0e3d5a",
+      "kyc_hash": "b25e80cb50ebad55fc345cc9bdc1f7df43e377738fb709a0763182b88fac9c1a",
+      "itinerary_hash": "1e8f2931820aebf72687600c64ed2ce3ed0c47efa192fbe9391f4a0c44b9d861",
+      "nationality": "IT",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.144774,
+     "signature": "ca29f37f8113e99490f1b2209d0664dc8bc3ca137a5732c53dd9933c7209b46900415ff577b3b977b4e27329403a005c248fb8836b63a957e0e620a6cf92660b",
+     "tx_hash": "e4bf8ccb5190829586627c4a4f96dc39806de665b31274b2d3124ba9e0ba9e49"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4715BD69F2CA",
+      "credential_hash": "31f2409f2d73589800655bfdd5d0f47cdfab831ae5111f04e4036717ca873942",
+      "kyc_hash": "3fbe51ff6db388bd956d98aab4e64e7e703a66d49f31611565972aae9949201c",
+      "itinerary_hash": "489852f5872f60be6201a16d529674601e095ee92df5a57c8bbbd383f9391222",
+      "nationality": "US",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-12"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1449957,
+     "signature": "ac1ebd4ca336b6f0f4c140118bdead084e5efdc330df2ad29982f752c1fd3239835cbbf9439a0adb91f04778ab8c0b41092d04c014934b1e0fbab7ede239c20b",
+     "tx_hash": "754e9cbb756155b0f4f20299a29b040e78c4b0fb765d65165b12b7a85f3277c6"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-83E7F89608D3",
+      "credential_hash": "1f15c4000c5ab0cb06753550684fc05bed4a631c8b8c10c8c350456bd2795a3a",
+      "kyc_hash": "655898724be752759f7dc1879beefcf51d8a18f88ea6d97560d8b047f8a52cb3",
+      "itinerary_hash": "ddb15c354f5f56dffe6c5c1e5ab483b4dd3589582c07eed130a576496138e488",
+      "nationality": "IN",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-31"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1452415,
+     "signature": "20de2c5d3aa5b00436129f2e51bf8251d98e994e8b0c10acbf30bec600d7cb5c33c427bf11808d2aec4dd084b4fbd2d5a99609f8a18928db8e8f81c3cce07e06",
+     "tx_hash": "3e29bd47c27f5895628fecac40ca44a361b2167e43a776ea345b6fdf6d720e2f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-F5105121F72C",
+      "credential_hash": "fdc5124c0df344683fb821d91e95463534b87c6e4d803633e18b88d15f6148c5",
+      "kyc_hash": "6d32a086f11964ffe28e01d66322d716739759f43aab5074c5d027e5d474ac6c",
+      "itinerary_hash": "718a4139823d46d512586f9f895b12b69a9f31918ee6a49eb4880b436888f04d",
+      "nationality": "FR",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1454716,
+     "signature": "e21149830372450006cb22e4cbf06b2aeab6d1bef4b58908fa3fce04d6cdacd1a27d7c2088f3e5e633047fa1bb7e97debbe65a912f34dd0405bf6b2fc8c4b602",
+     "tx_hash": "82688c17eb5478a25e7073cdee3b3472bf664cad52a2e70e2489e9984c41fc4b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2E504AFD3C7E",
+      "credential_hash": "446384ac69d366482b3410593ced1607cc022745838d621734602a65d34e5634",
+      "kyc_hash": "210b44b724ca7d3838eddc1d988323a9c18bc43b521d63532d88eae2d8e11c4d",
+      "itinerary_hash": "f77058081d0e2a9eb7504b1627daa2db58c6568852b8f7e9a8c375a4c328460a",
+      "nationality": "GB",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1456697,
+     "signature": "734270a13d798c266e5377dbcf350cd2f638223bdd9f36349ec19a43b7d671f6886d43f9dea1805fc89ac6ac4cb95729ae3ad6ff5f9151ef9a5cfb3e1b35450b",
+     "tx_hash": "72c3d0c513aad5d960e2a35c48c8422f8cb8a351883eed0f6661c8b91692132b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-06C18FE68ECE",
+      "credential_hash": "71e2fbcc6e4b71ffb1ab2817dfee1237448b9e5ff1e76dc2c71f04c139f410ed",
+      "kyc_hash": "a7ddc795232efee2e61678238d3802d4b07568d7d3f46b43c2e69bdf94407e61",
+      "itinerary_hash": "8a698ba9ccb0e4d261229b5cae0200c839c7e9613f04d2cfbb63d25c8aaac3bf",
+      "nationality": "JP",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1459184,
+     "signature": "3f67266ebf39dba6f798e2d9c3787c402befa9ea75c3de807a177b91c9593523f422e2a715e333d446e1637ffcc4263c5dbc20547f82b27f33d5fbf82397ab07",
+     "tx_hash": "bb3fa7233c364e447d2afcd841fdaf18047b8abf9cce61fdc518e4cbaa5c03f3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-50C763DBF6C4",
+      "credential_hash": "cf000d607d7ef11e32e317f87afe465d419af7c3059b23c3b5d89c0bffec56ff",
+      "kyc_hash": "c3975915973c7a2886fc935b56fc78c6e29a49c49ae9ecbace5d1bf8b4cc6214",
+      "itinerary_hash": "7f90ab80186e3f0237f0b1975cbb42f375269605ecf48d052ae7d6c5ada07b96",
+      "nationality": "IN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.146137,
+     "signature": "e4924d0ed2c6c347b0c4f9736b5e9ac9dde6e4d4d1a7e79fc0ee4489d8fac8231387a853733618592645a6d5200d7ab640864e4c739fa51f94c754b164146502",
+     "tx_hash": "940f7f4fe3f0d786cf0b598618b0f80af7a7dc860642fe2109e94b10d23f6413"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-66B39C4D5588",
+      "credential_hash": "9b5817038cc497507af6f07a8ebc12093d43db61ac2cd1a8757830a9e104b90b",
+      "kyc_hash": "e6574cee7b86e41260d05d3cb26d6cc4ea43a5e221ea49b4d28dc8d90d9d039b",
+      "itinerary_hash": "c0dc6816a14aee652af9d59a873c9891741d9d2d38e3fd15e782373c1a8d3a9c",
+      "nationality": "CZ",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1463199,
+     "signature": "d706630da97595a2499ae23356c990bef8c8343eabd3956277761b680b6c912303104d2bc64da318ffd4b110cd10fbef2de934c7ec51a6b4a670896a1a19230c",
+     "tx_hash": "228dca9a21639d8e36e72d25ecff3b6c00293279ddd42916370decfec1854303"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FF4A3519CBA1",
+      "credential_hash": "fbae5e9f78272b8c13b04e3c0c57c331ca343238f234adb7cc41870757f327fb",
+      "kyc_hash": "5d6f8495f9eb352debaa48f87fbabb2ee00154934676ef8a733eb1287d36944b",
+      "itinerary_hash": "5c8f551cdda96348a4ad66eb829342805f1721dee2f3454ac04067f11ed2f1ad",
+      "nationality": "GB",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1464834,
+     "signature": "37363a80bd277839d007f0e35b9408db37d49e8bfb438a3e0c0cdf149bd5f27e1999e528d3a32eac0cca5ca0ff6db9f3da6a11e3b0b38e7fbac0d3364a01c202",
+     "tx_hash": "98c2f39d2fd122155d88e126b4d80a449a54f3fb035eed740237c5a101740c00"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-18DB7C887788",
+      "credential_hash": "eb4dd12d6ae0fe60e972b85a127a361f716637dfff259acc551a5227bb30470c",
+      "kyc_hash": "9d95b093c056375b702369e308fa227531dd86fcd7c991caf35c4072d121789c",
+      "itinerary_hash": "6c40ff9683d281a4d99b2de0efbf87c73ae852cc9c8a176edc60154750a12fa4",
+      "nationality": "FR",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.146644,
+     "signature": "56cac46174667a40782d5af06f55d62f325cff30b7fc7e5b3bf7d5b0d98cbb88c78a67f333a89dfd2f2f5e2dcea1b5cf5e7c08081451b984618ffa3613c04102",
+     "tx_hash": "4545cafc5edb6f92118ade2c2eb230460d1aa7bb2810445ca4830e2cf8e71852"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D116F45CD6CA",
+      "credential_hash": "96a32ff27522baf326a7eff46c9fea9230835af6f3986cb735745ae6db93a67e",
+      "kyc_hash": "75f2aefa74697e0e4f0fae21765b204d6f723a5383db6977e2a73941a6c39960",
+      "itinerary_hash": "2c8becc5dee8e8c0779858edbf6f65318ae7b8cc661fa38b813a2f907c96d204",
+      "nationality": "US",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1468508,
+     "signature": "8c1de72c90c16e7d1ca007c796b87e7ab1851ad82855a9bd0592f8b5a5e2bd3b172f6d6a6bf309944cf974537539b45e1716f63e30b96f77faf7e0dd6b9fcd01",
+     "tx_hash": "92aa37862effa6e8ea5ad45ff48b6bf26a6e08d47ddc9de1675290660a024509"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4E6E930802A2",
+      "credential_hash": "fa28a00ab120213737ba1ccff54fdd484609cf7626942a191c2ab1549298057c",
+      "kyc_hash": "88c9a4df474b1aa7699985ba521a02b59db05c4909db9bb47740047d473e0d41",
+      "itinerary_hash": "399cadf3f87ff0fd1c4bec907a17f17613bf014408548029179b2dd9bbdd1ea9",
+      "nationality": "KR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-12"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1470454,
+     "signature": "6d3e9538e39a96d9309e0d6641a48592f36ae63626ecea0a2245cf285061eec9835eddeb275196abb6b7ab2e55ae873c236e08b91e7328f41ee5b4d1d5064f01",
+     "tx_hash": "f331f55c32892ada1b2aef63d73e9faeb4ed0a6ae85d4dd2901e23e6e3fe46c7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-B78ACD4C0FB1",
+      "credential_hash": "f5967ec8bed82c53ed4341f35c8e46da9fe1d1fea77a35df67e760138383eb97",
+      "kyc_hash": "866780bda8ce3ff9b357773d32b4471cdb8e82ffb22df5b4f1a6f02c5d4b1bb7",
+      "itinerary_hash": "0309a057373fc3d06f6d46fac189fabc007b9158e559d68d06185b97cc190ce3",
+      "nationality": "IN",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-01"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1472037,
+     "signature": "2accd8d8b4dc21abd77c3aecd8d430e60d8336ba86ee202e524457dafaab143012ab05c647993767326b3cb68eb5e1c4bcf286cc7a572a34c18b468740cb4204",
+     "tx_hash": "e233387ee55ba490bb85539ed4e51289bbc21ec1763d54eb706d9b75f1775026"
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "timestamp": 1793541731.1526098,
+   "prev_hash": "ca4dc688dbb7ea534f87684d61e3dbd0857be3104460f518a674e4bedac64ec2",
+   "merkle_root": "a6efa2db76772263d273cc073956ab61237966c2a56abecbc64a1000ebd7b729",
+   "validator": "Tourism Department",
+   "hash": "ff4e5480527785e563b48018188def485ce2fa6571d734a9f596a54500efd2c7",
+   "signature": "6d37a0244b37a370f57cf98a881b8985dd6cd7ed4d524a4a7db31b41fa5231d0b3dfb901e3d9d0d53b30ad29c7ddae7bea062b98107ca8b12219a851b8f9700b",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-ABA350FF6301",
+      "credential_hash": "4ca8ac07d758e4b6be45fd787ca9827d9fff72e5807ced7c61111943c24c1b7d",
+      "kyc_hash": "b5b86e4fc17574deb74bf3215342f50a07eba7f1422ed0fb25fe0819bb5e623c",
+      "itinerary_hash": "e113d43f92c5568481230aa35c753b1a1d011a8e5a31c91b75a6de30e41f2ae0",
+      "nationality": "US",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1477075,
+     "signature": "bea39f95730b0481eb9fa3b026d81a21cab4afa56d77c98ece0495db11b29438e3cd23bfb5c54ad6dc1375935f0fa703e1181c841a5ae4121e7ba45649c84307",
+     "tx_hash": "23663b7f74a1ef077bb980371ecd3c03a2d04a4493279d5319d50e41901cd852"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1CC6B75457D2",
+      "credential_hash": "1dc7e0477440f3872280bcf664c69fbaf580f6493291882ce1ccac4ca4dbe6d0",
+      "kyc_hash": "d8c221d8b1e825221b4b3947e0b8dfc8fad2d9ad93bce310c5c2ce59083fc2ec",
+      "itinerary_hash": "869b3aa5270dc0b8e3ccd06e24d3537f593c638e5ca2ab320ccc5fc585d5d6f0",
+      "nationality": "GB",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1478608,
+     "signature": "17ea5eaed174ccaf0f8a2b749f8a9e8a4db28d3f0671cfd1b6a3c1237e007bf9045435fafd7333201de8833385cc0b4c4d706fd29c7d74809e9c6f646b3a2704",
+     "tx_hash": "e0c0d6ba4c83dc0d6bff61e16cbd9c5e3122ee73fcb5022136d432dc3fdb289e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-14E37F5993F4",
+      "credential_hash": "3a825b1cc6956b8019892307c6b8d636e0b841996b38d5b428de4f2a6d6bc330",
+      "kyc_hash": "2caf25317464aa5f448020522ac733b106dcbe4724b1eae2e4761b4d2a667268",
+      "itinerary_hash": "72d050a679f98f738cb3aa40e7bb3c2f9360c78973d731e275aac5cdf35dcee7",
+      "nationality": "JP",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1480687,
+     "signature": "361608466bbdce6de109f4d8f5fd6a17d4a81769edce79626a13239758388ced004f8b5764044cadb948e1e0c32d705d4fbc65d3397eb3606182a1d55178d60a",
+     "tx_hash": "2982215d5057a110c37fec2d7521f160a7aee9b901956bf12d42fa2939983cfd"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-BFA8CBE91C68",
+      "credential_hash": "e73fd36fe7de0fd7a5fbe5ca799f2df24734e6991d05e6f6acc71ac3e5104b3b",
+      "kyc_hash": "e286a5476175b3ec8d84a2d62968275ce43c64e5929d0746bf86a717c4c23467",
+      "itinerary_hash": "db9419cf7e17f523ee5ab2880e677711b9b701af61efcf6454590ca8f6a65b7c",
+      "nationality": "BR",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1483734,
+     "signature": "52833f2e2551df976558f8f204a834b60b4f40c77942f7878f1781a2f6f7a63dff3c9964670af3cb68d8bbce860189f538e9e96897f641f881a691fd85611700",
+     "tx_hash": "d2f269cba660ab62a41581af4b9ea313600949f36420c80f9c16bc002c7fdee4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-77408E309CE5",
+      "credential_hash": "e8b7f84a5f1caf4c43f39abefc4705919951c056f20a9eb0809a2f829a5678a5",
+      "kyc_hash": "387f28edc21665fad00d4cb3efaf103cbd4e3189918d295550cc40c87d48176c",
+      "itinerary_hash": "16d928fad5d700db40c64157e4a6ae0390affb7fce692d3e19c96f2e2f7d6ace",
+      "nationality": "DE",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-16"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1486032,
+     "signature": "4f96a43a4ca7b1e530ccbd8c7d3ca62e5c4f79cfd0bdcf5931a3eb43bac29baf118b83dc9c323ae1da134a8a8e9eaf5b3ee93f391e272e0125b79224d30e7c06",
+     "tx_hash": "289443ccd7399086595cb60a29e210af6a163ab5ad8dcbc6191080954bc015d9"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0B117155292B",
+      "credential_hash": "9d66e5d25060c9f2f6c1bfa35f02519d52fcb68b5d2b5ba70e5bae78f5e005d6",
+      "kyc_hash": "b720d93f8a0772657fe110620f6eb171f08e99499a22b1e0afe31ae71c207749",
+      "itinerary_hash": "6e112276a55beedeb274c9a3247c596e40877139d442e8c3033aa89118ad3575",
+      "nationality": "IN",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1488016,
+     "signature": "ee976de004c989f5333934a7c9fd21d343a689442cdfa1c445b02ef4b82ee3330da1353ca7b62b873ca6ae928f6375bf1d8d469fb0c5fe1c8be7fe58bd70420c",
+     "tx_hash": "8b81ba17f4dbfb38c3b642396df9eae9ab7a24f5ddd4fe98c4ba5846af776d46"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EDDD4860FA5E",
+      "credential_hash": "037a6d9bed9a3578221aa6be72f04c403bc45920e6393ad784ecaa858c37ec49",
+      "kyc_hash": "b76cc924a2de51df70fdf5eab6cfd097aaad5b45e413922a884f35e15edf5256",
+      "itinerary_hash": "7062e2f1babf83eb19b360d5fe7e9d8bb0edc7b83a1f1b8364d14856bf433d69",
+      "nationality": "CN",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1490002,
+     "signature": "1b76cfe09b5f0490acdec108cc4c8068e76db55035007c3d6e6e6c517e113720026991b506872c5d3d644b1fc9b35878338edc2fa53b82361d08a6e61463900d",
+     "tx_hash": "8ad40bae70b41e16855588e6126ecf1e396c360ecc8bff4654596fcc0a86601c"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-BF8B4E88BFE1",
+      "credential_hash": "f9d33189903a691bd8937595592aba6ad75a51a1915d455ad16c36939fcf73ec",
+      "kyc_hash": "3a64123ba329d2f94a557deaa66b252906b2d33c315c850769325dcaca95e434",
+      "itinerary_hash": "47e9cd3eac0bba3ecf74bb7b5672604d57b526223874bc1218cc9b4e933f35b2",
+      "nationality": "ES",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1491718,
+     "signature": "46c8989023b2a494ba2d3b2d7740edf364ad4125063a2741cacd52a7080c194ad3c7317d7d486ebd7d5b78c98426859a141d0d10732a5aa4826827414ad3a10c",
+     "tx_hash": "efaa47f12fbe5ba02bbafbf504fcfc8c012c7516bd2a3428d5093cc59ad8a005"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D0BB563848B8",
+      "credential_hash": "8244b69d25e03fb7e001c28b1333661426603d173df96308de50b237429a4cd2",
+      "kyc_hash": "137c16e57661914a42511dfb5c1763b117501cfd18a070e609e54c68248b2db3",
+      "itinerary_hash": "aa48e7dc5cc92cfa87103942041401d80cdcf0a429bb64dfb7d3f3cc4c898df8",
+      "nationality": "GB",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1493635,
+     "signature": "4dc9ba9078c14855969cc88e762a87abe3e18e3d6eb7322cfe379407d8e96742b3a11b6bf3095eb028ba9d68c21aaa76ebd94eb8ccb343e64d869b80e5afd100",
+     "tx_hash": "ae49690089aa0cd4d20bf68ceda2f70943a2dd620220704c896705f8ce7b789c"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-83E055AFEB78",
+      "credential_hash": "126b16cad58da37a33bdb999fbbef0100437ec5ef5765d389041d36a736bb403",
+      "kyc_hash": "7146447d3b13bc74c3d1586e5accc6850d86be07574afe049d115301013b3fa1",
+      "itinerary_hash": "7e4baebad33023d6724a818eaf223e4f3001f5ba1e4943801fb81506689cbe6c",
+      "nationality": "KR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.149522,
+     "signature": "54e0aa8638f6413c9d1cbaf5b05f797a61dd852c03472c72349782bfd01c082016f4602ff4da2728b6b858e6003a70c2dedf7674503a02f6dc0d392e51365d00",
+     "tx_hash": "a1abc15fc78178eb6f84d5a426baa0976ec74c731cf29c0fba6bb7b72420cc04"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A9B88993484B",
+      "credential_hash": "757980fbc7e30cfa0b9582f9177ba02d22983a3db987c4050a257c52934626d9",
+      "kyc_hash": "e1b5fda584abc81ec0c18a0d4df1a1a450412bb5556a2ad71eae269015d65fa3",
+      "itinerary_hash": "109b685a4d234bd5f5a1d9deec750cb917e5c4e79e74409a10a5225261ae225e",
+      "nationality": "NG",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-10"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1497812,
+     "signature": "35472592f171bc189e82b84b29e441a2a06b3c75516f5fd4530ec03a666fc699845e24ae2634374bf18cc36eba2f2bba35c7f87f345bd5d5bfb52d927331580c",
+     "tx_hash": "22e71afbdd722cabb64cce403b3b250250aed53d1b1ed282372597ee44d52b04"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D3747B874C28",
+      "credential_hash": "f51197d528e8e3e37b769a12fdfca60c7b169180d5b52e631af3cdec90199ca3",
+      "kyc_hash": "db1d3a4d61456b68fdafa54078dd4be434109ac317e559c2c17ed7c1c898b281",
+      "itinerary_hash": "460d9b961b5697a216022b21baa6fe424f238b73edad100135983a9c3e061528",
+      "nationality": "BR",
+      "valid_from": "2026-12-20",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1499903,
+     "signature": "6f1bdf3bff239a3a665af57c111b4bde8bd0cb1fb3bd79c9ad2ede4f2b31623e3c67346e393376df7fbf25c13a26c42ece0cfecd8b3fa3f7ef45334cbd4f7d09",
+     "tx_hash": "f1066f999f93d548b116474c122cda827ce881fd67067efa949596a03c0631d4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-07E913751487",
+      "credential_hash": "291f19a09fb21409fb2c90ccd1a83d6f68367fe869e9a493a9f5e96c00f2e0f2",
+      "kyc_hash": "71d3b2759aa5ec9d6194fd40a776aaacbd791b606191cc648b5612e4541a07b0",
+      "itinerary_hash": "7f90ab80186e3f0237f0b1975cbb42f375269605ecf48d052ae7d6c5ada07b96",
+      "nationality": "NG",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1501603,
+     "signature": "de94cf6af32a0e17e52eaade33a691a282b4776036f80557bbf1ab662a60df35b22bebda1365f6a7c394044e3e298836df05eb4fa8538ffc1ed3fd6e5933a60e",
+     "tx_hash": "66f296ead6a5aa1044cfe1e37f1628b1557094e934c8b9d79d3268de6ebc266f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-8C397E37F02B",
+      "credential_hash": "d66a38819232305fb525464c79c78df10d7e6b3ab9fa910bea3b2d918ff1e2f9",
+      "kyc_hash": "b0424e1015cedb53856340736bd59e0791f8d73576ab92db08a30fb690d15427",
+      "itinerary_hash": "4306300dba2f5631fb6d42ebcb9e822bc4bd7b745e0849397f9a1171079a628e",
+      "nationality": "IN",
+      "valid_from": "2026-12-19",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1503563,
+     "signature": "c08f6d3ab8b4aa9180b8526b57f25ecf98a2f754faa1930302660f9fe859641182e75d2efb783f64974e40035e133af3dd4c1cd2d056081ad4fea5c22a971703",
+     "tx_hash": "3e588942bc81c9c972468c649cb94f96aa1c1317af4040ee01396f67766f7ae3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-927DE35D035F",
+      "credential_hash": "2d9528db4066049e52a88a4a8644f23a7db91753b3aa2ab29b73049fccb123e7",
+      "kyc_hash": "3fc56954b44443752c3e45dcc20e3c3e3348b710f9342d9b6d72e1b9f9efbc99",
+      "itinerary_hash": "f59800e4f6cb16b9848c23deccb16aa56b053ee3f0577de0d8315db9c8cb963e",
+      "nationality": "IT",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1505609,
+     "signature": "d00a949d31ec31bc345b4308d67e6dae34cd946694428b8133a0fe427385ee4157d053ff0e681d489fff03338e733dd089915deef40f3d520c8af6b890e0af0a",
+     "tx_hash": "63c0ce200e4a1a13702a3662a7a195120f8dd0bd891d3d488553252f310d8b3a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4D82843F4411",
+      "credential_hash": "b881c40bac3b6fc3477fc393c5d49ab4c16b79947e60d59057fa7dd899cb079e",
+      "kyc_hash": "93cc7af2297f7d77b7cd787af7912f217183412e09f27ba638aa018e8bb54a23",
+      "itinerary_hash": "74453d92f66678423593649b97efd4bd123c91dc92fb85ba5a0254d57fab5623",
+      "nationality": "GB",
+      "valid_from": "2026-12-18",
+      "valid_to": "2027-01-04"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1507564,
+     "signature": "e2c0afb174fc1a16b8be26adc7e372f019bb09740393ace97e84bada66aaff11b301a22cc79eb09ae5476f85111e1e01c2ac929f1bba301c30e55e3ca202e60d",
+     "tx_hash": "78a006ffb6978d0be88b16fa950ea4a99247f8c29ba4783505d36e8e62b092e1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1CC1F07B5AC6",
+      "credential_hash": "f71e8e614eb2a11fdc0cdfaaab926ab1f7f2d9f8008f8da4d64f1947d1cc1ed9",
+      "kyc_hash": "4acbfc913ea2328d454c63ae80775e8414d1f414e06363bbb0d45bfd24a254e0",
+      "itinerary_hash": "d5f24d08946164cd02cef56c7e5911ca06d497c939395335f73d577a87d809f3",
+      "nationality": "IN",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-10"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1509404,
+     "signature": "801548ed7d737b30ac924e405916d0856be545ca22ab61d31118890453bb2b09646e6873c9360cb331cc55374e0017de0079362618bde439b13693274a54140f",
+     "tx_hash": "f60fb25f82aee5ded44c7c638f840b18d3a8825e1b8bbff90718485018fa20ac"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C2F6CB1D2861",
+      "credential_hash": "e46db3d9ded75a4871c1113eaf08bd0bce20d1d354642089be0bd719ecc83c8f",
+      "kyc_hash": "226c308c753dc5bce6d6e2e87041023fc82f936a47f5ee8fba163860af89aed1",
+      "itinerary_hash": "77ac4386d585b89fa517fd31877b08a2c71eee0ab32c92246fe52c6a85815aaa",
+      "nationality": "US",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1511033,
+     "signature": "49d6407aa448ef77c5c070cd3e070245a1c6e1794c25af058d3ed1fc29edf3b4f9591a3cf01ac5a8241b422061d25a71543c7dec2b5a6833b7161d182f2c0106",
+     "tx_hash": "2bbcd76c9660acc7895cbfd370c7353eeb3e3bc9c6d7d01e3f8109c7118d65c5"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-CABE0758AEA3",
+      "credential_hash": "32270686c15e37f4cede28d2653fa84233d518ddb788e7204d9fd26621e32009",
+      "kyc_hash": "a46d7f7642d6620a1cf5e98b60a450f961d14943ea6d37f820de7d0597c38b46",
+      "itinerary_hash": "090b8aac280db0b967c412eb80a29f1f31fb44ea39f70e3539149c66f93ae3d8",
+      "nationality": "FR",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1513238,
+     "signature": "7427c5e8d2dab59ed9d3b42bd010f1d858dabb7d4e7689400235c777bb4d23be095c67c07ddee71e5f8050a86e81f093485b0612040c83902f58cbc62a5a320f",
+     "tx_hash": "5c371e6f66e215b72eea5dd0417ca3f224e23c9e1fb779998879aafa3d3b4a04"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C77D31E4890A",
+      "credential_hash": "a9f96a1655d9ad9f6137cf7038ab40198bf7e027322250b13623c8aaeff91afe",
+      "kyc_hash": "8872abbbe38cc9b49e23589d0cabe734657047c727813b11818f264340571697",
+      "itinerary_hash": "585ba9785b53960357a6d9127779516c75eda7908e5235f3e75800d0307ff302",
+      "nationality": "CN",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1515424,
+     "signature": "9cfdbcc9de5e979a209861d25e341f87857213442332b35c2fe006be927858e589afd9cacced3031886573ef9ba0f6b30b187c20de6dbb5cd511f1af17dde305",
+     "tx_hash": "0795597f372c1409b60f60836d49fd3d2fcaa6004c363f17e5abff5ae2e39598"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D4930D114A40",
+      "credential_hash": "11956d20631efa896b9365213f66b9303a0a5ea625704ad26f05dfba6d940395",
+      "kyc_hash": "1a520534e468d6310fc12e79ad2711b3044507869e82b43d303daaafbf26d3d3",
+      "itinerary_hash": "60c116793c10776c8a63c1c1963b84436f3495397e4520e3e4723f942d8b9e45",
+      "nationality": "ES",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1517384,
+     "signature": "a819d88be2acd4f61cef83d8dc7200b2f90b2fa0f3bb48898af9f4f056f92330e676fe4595c3c42dda88f8a2e4d01a56bc384f420e895572506dd03e74b0d80c",
+     "tx_hash": "7b5d038afd6ea5057f34f3c3a84797fe9c89e1101b9e75d0d8d862d0e54e0bea"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C4DB7F5ED1F3",
+      "credential_hash": "f9fe07582e935e18de910233942c4bf101eacd28ac4490b9030be2d10f8173ee",
+      "kyc_hash": "6ea13a0dcc394d0ff748bbbff1244c5067dd0560ce737468285faf9e7e750577",
+      "itinerary_hash": "48d5b281a65881943372c85426ca1c820363c9378960de83885e9e2c6a62de97",
+      "nationality": "IN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2027-01-01"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1518972,
+     "signature": "d9d728e53d6d50bb8111c34233d66808a230522b129be355fa933503417996c761595e6436104929329d9fd32776b050567680e39ccde35e38de57996957ad03",
+     "tx_hash": "facacfb249505da6f9df4b4ed08d12a319e41df8d0e20432e866410a99e62586"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EC2F2FD15E04",
+      "credential_hash": "b17fc6199233b0519bb368b60493856d70c6972257cf5235df965e9f1b48fce8",
+      "kyc_hash": "369f38dea5a5c80a6664f38f5e35e4668b18ec58c32ae7bee49edd0116b7f57e",
+      "itinerary_hash": "24d96d26fa6abf58b24e5573439e29c96af7b415b415318436dc6edb4e2bdd2e",
+      "nationality": "AE",
+      "valid_from": "2026-12-18",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1520746,
+     "signature": "4127d6a8905f2841447c909e75de4dc7258e6bf64bbceba78cfd735726a4abb86091f522d2c06e9e71e5e27dcfae5e904506e92b2fa76ddadc71440675eaf70c",
+     "tx_hash": "0d6f41d8e4aec542fe820a5c818d4086714a0fa504377ec7d73312a7a4b59cee"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-78B8203B1C1F",
+      "credential_hash": "95af2b996a5110f9b7e74f033ca8b52b8c71eddb07802755752a9a55a2a511f3",
+      "kyc_hash": "e6f43b5d0c0c0a2ca19e39258ca20b9cee9b8dd4cc147d7fb897ac6916052780",
+      "itinerary_hash": "dae1e0f5905bb62ed64d96c4ca4ea8baa21de2a021140b3409355145e0960980",
+      "nationality": "NG",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1523266,
+     "signature": "91212e16f56da0c3409b8637369e6d77560416e50aa45eca0f943c1322fc1f497194372b1348af1893ecd4604e7103fdffbedf0b70d561ca37ef79a036bbe800",
+     "tx_hash": "ea4118c8f1fc18d8bb16d56bb2988681467d30f1a76478a549e275192a22ad1b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D57148285BF0",
+      "credential_hash": "4c14dce92039bbe5f5f6453a4227ba3c9528523a19ca13f9f1a046b1cc1bf50b",
+      "kyc_hash": "8556485c3b2de2a9eb01ec3a0e9e5444f63fc2981ce8b8855d2fc523ecc46eb0",
+      "itinerary_hash": "a3596374674a584ebeea713f8eb296ad4b1b9bc5c90e6a41b501984fddc17591",
+      "nationality": "ES",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1525443,
+     "signature": "62f4229fa3761a8dc795e5dea242f272c75c5724bcfd8ef763886278138528f38c620fca00e42290e1b6f30bcb5581a95e6cfcb8e8fd4a4b869c9e625556c204",
+     "tx_hash": "714a56c1fcdf7e07a99e24d5cd4285e59144f45070011245f6ca3977ef3c5188"
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "timestamp": 1793541731.1575038,
+   "prev_hash": "ff4e5480527785e563b48018188def485ce2fa6571d734a9f596a54500efd2c7",
+   "merkle_root": "c697ed2a6b60b5b3107b28a2216a262797113bcd17ef10a32b489faac6a73b71",
+   "validator": "City Police",
+   "hash": "8b3ff89ecfb2f4c0e1932609bd153049ee00efad038008f4da71a25fdc31c708",
+   "signature": "7053c06cc8f33d1bdedc811708f9060a75e5bd25ceb9a90468040417e80894c4ddddeb5531bd8dc6371f18341572559195d70dd836cf1065695dcdd4e926e101",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-B82CCCF658AD",
+      "credential_hash": "dfdfa4306af22a8838993bf9296859955100e39fd049d0124c1aaef1a97f41fd",
+      "kyc_hash": "1fdfe72c12797568233ce7e916c57d7345d846828adcb1c8a77df37b878297fb",
+      "itinerary_hash": "8930b318be3f20abb08fc21923881bcb0e38b2343fe36bdc9d3632fef30c4722",
+      "nationality": "ES",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.153137,
+     "signature": "742deb52ef9b992536090990f81e8d476ceec69b04b8b263db6c52051661a955aa639e8cf62b33ec6f19fe5b8a0b78618a8a93be6980614eca72881544abb404",
+     "tx_hash": "045fab6c3a4ec41989231a9383fbc5239fbf5b447716406468e887276bf7465b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-6BE38E08AA7F",
+      "credential_hash": "f3fc465761ae6fbe2d8f82c1f7e5c34dfb256bd03b5c0fff6d2125daafc98e30",
+      "kyc_hash": "25abef49aef4616336877d3cd3bafd33fe82e105f1797a3846403751ef24d253",
+      "itinerary_hash": "1e4ec26e6e9c87cd274ccd5886be16d6bce445fa6e69938c3a013ace76b464ff",
+      "nationality": "FR",
+      "valid_from": "2026-12-21",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.153374,
+     "signature": "f85915d53ef1fe871163d496ffcb0fe13a63cb13c03cf7c62f47881dc946fa6d4714c0ee9b50511499f8eea410f5dea5c9d4484bd6769a7c4ad3de7a7010b207",
+     "tx_hash": "090d83e437ec2dbb9fa15cbc93304397fe34babf0d3cd152a1a22cf89e65e092"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2C184CD4719C",
+      "credential_hash": "4eb1617da7c13c37dab4138e4ec7b5721f9e286a2d483a9b2e4554f5519e685c",
+      "kyc_hash": "72c7bc8e95ce5b0a54314d0016b50c498ff017442e290bb0041d43ce719190e7",
+      "itinerary_hash": "da9f420d845a8c4cc865cb76f443017e096ab7f834274de1f951f41eb870fb1b",
+      "nationality": "CZ",
+      "valid_from": "2026-12-14",
+      "valid_to": "2027-01-03"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1535773,
+     "signature": "e14563136c1f8523cadcf671486de0a8577c95030f5cbb7744b08883a5b85788ca7b06d73259f843b49e44259034c73376af26f8088d3e73692730cb91812801",
+     "tx_hash": "6d669f9081cf9b109b1a7e21369cc8cd8f276db1546155d78521416d06918144"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-8CCE91886FB9",
+      "credential_hash": "2bc98f156cc22e610fbda7938510b0a0e5966b03898f6dc436900067a2ac1b1c",
+      "kyc_hash": "49d611b5f87a0413e957963eb066fbc5429ba8dae666c25af8d2f66aa56bf431",
+      "itinerary_hash": "adf5b7b1887c360bf84064536bbe438205f6db3c860839de337be857d2fe214a",
+      "nationality": "CN",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-16"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1538115,
+     "signature": "1d17d2fa2f2ff44cb0d9e66c8e37f99206c403fec18eab361ad563f3dfa6bbef9b519329778f69875ae9a014a5bc639de927f117a5747a05ae3b6f142d82e705",
+     "tx_hash": "d9bac2e03dabb3725e591bac64f4b90b02d67bfb1051e00745d7db1001066c42"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7A323105A0C4",
+      "credential_hash": "f5324a829cf9e9f16f71d3d6af2c0a6e907ca778c2bc54478ddd5bc2026e376d",
+      "kyc_hash": "8be9bb1a8093cbe05f57f9295c6fda33acfb3639a32fb8e56720fd4f124de4b9",
+      "itinerary_hash": "2c8becc5dee8e8c0779858edbf6f65318ae7b8cc661fa38b813a2f907c96d204",
+      "nationality": "DE",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1540294,
+     "signature": "dec476b129e8a163b28b18c71eed62a9c6d049b0bd39640ea1da5308e8d051d4703451038532184557617cb74570c7bf39ab8edaa148e48983394e95ea613a0e",
+     "tx_hash": "f88a1f3629b879766c077da810b80176303cbf0d1a86b98456b887f4d1e0635e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-210F810084EF",
+      "credential_hash": "e35846d9c237e15dc9c92dde6fe518a70f4009f0db2e8ff4c0bac8ffb2c22c33",
+      "kyc_hash": "feff2be115236711fed94567a66374f95569f25298baa5e523a5fcf238540fa0",
+      "itinerary_hash": "d3a48a9300f575b820d5dfaf94b1c82e5a2f8c65e2c8460c7a763b6765b8a700",
+      "nationality": "BR",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1542213,
+     "signature": "c68e56dc8467b31a0063f29074727fdbe384596fa6b7a6d0877ef3aa3b527259e6de3e290030ee3df97e302fffe8b30b104da08d784b02c173a103d338921d06",
+     "tx_hash": "5dd72a55375557a9b5690ee1874dbde8123e5b8f6940900304b80754c4919676"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-AB6985DEA38A",
+      "credential_hash": "38597e034a90070be3fc3b49d8c92f26ea4a59e637a427da45bf6d282a211137",
+      "kyc_hash": "06731096dc2dcd51190c5d8f09a5e912f1d35f46e666d8172526fb2642fdbcb4",
+      "itinerary_hash": "3385dbc86e724ad409fa47c6bb142a4de0a46b3d1e89fd8c3c229edebeabf800",
+      "nationality": "BR",
+      "valid_from": "2026-12-07",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1545053,
+     "signature": "4b0f977148f69314817373af0dee6ffe5a98494f1deec3e1814f0c6277c41d8f0adf24f2237908d42d07690dddebf452b29a005e9ed813c108baa0577c61690d",
+     "tx_hash": "c8950dd5384fffec779704c97ce4a24a158c53da72fdd5bb9890fefe6d717b92"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-952F9733DC0D",
+      "credential_hash": "a030b133a9c94402f4722fc8b0e745883598b07f52e48a067770a1b901dce023",
+      "kyc_hash": "7f58a6fe6a691ef1fb9a4ef85371a8f42cee6bdc0bbc70ff7debf865cefc890b",
+      "itinerary_hash": "adf5b7b1887c360bf84064536bbe438205f6db3c860839de337be857d2fe214a",
+      "nationality": "FR",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-16"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1546643,
+     "signature": "ba15fb017a7fcb756a2ea9d985765855880db90531fe3779c8d716931b90e8a32e846727b0cfa7e466ab41f246c0efab675a4fbeefd100d20b17b3ea02bd8f0e",
+     "tx_hash": "8746729faf2d29930db6b573000a29c3f3c65e72f4aeea41cf7ae326fc490568"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-696947F3167A",
+      "credential_hash": "3d9ffd2eb0ffb074fa7c155969de3bec8b90adadaa714755b94b39f7db5c9ad4",
+      "kyc_hash": "f8908b122d72a94346d5b7f18df250de9b5292d8e80cd513d8f568611df45a8a",
+      "itinerary_hash": "3f2fcbeb9ffdee877d31ed598e8b9c3090c0674755c19b9cbafb145d5d80b170",
+      "nationality": "IN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1548033,
+     "signature": "7ddafe90b5fabf883a9ab2229d315c2cc02de5b87013b15f060e0c3166dcf73145aa65370d78a15a21b6ab34a2c327cc7f48942710255e2ad71ee7126b0f0f02",
+     "tx_hash": "1cffcb8637d9c9b8769d6f4f2670d007968e8de18b553347b19ac2b69e4a11e1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A077C9695D89",
+      "credential_hash": "0bd8216bd4b6609144eb060c938039700f7ec092ef16f7ab2c4849f2a2a7b235",
+      "kyc_hash": "073762cd8ebf4987c01290406255bffbef7144e9d22a093d28322cc469719267",
+      "itinerary_hash": "01429caa7f7b83993735f2b33bdb0985a81662072e5c4df03b76c004174d84dd",
+      "nationality": "KR",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1549504,
+     "signature": "883aa32576ce8305ff689c0de1dad65eed329f515bc0064f67e1dd57c650c4b05d24d1fc992de662a7a3bd785919c2224fd46ae3d8ca31c2fee9fff784d8390d",
+     "tx_hash": "ab7f6ba86fd2f46c0b6b0cce783af68f5c97fc428859def900727bd16f184693"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-ADBA5B54EF33",
+      "credential_hash": "c748f109b43c21ab53578ecb5396d6e238749adbdbf04dd0bc1af91a694eeb05",
+      "kyc_hash": "1935353d2913df80c8fc3cb409544c6719099f9abb1eae714461dbe826834395",
+      "itinerary_hash": "d25bbe795f7e428a88078f5fa20b9ccd8e947dc677b1f756f9b4ace9a32702f2",
+      "nationality": "US",
+      "valid_from": "2026-12-17",
+      "valid_to": "2027-01-04"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.155096,
+     "signature": "7f500796315208f3a87daf20902aecfecfedc2ea2428cb0939d54b0666a08d8c7c524a19ffa9ac65ae624f5ffa5e15d45a530858983153c9e18e94b023705906",
+     "tx_hash": "6e9deafb292134c55350b0c2e32269267c7821a1da13bc7e20b15a527f2ead59"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D7B1C532E967",
+      "credential_hash": "ecec466ebf3b2c890d6540f382310f78f5091623e91baa2ccba4a4a257502eb4",
+      "kyc_hash": "c766be6e0d4ef903f914a208671e75bd57c39264665500e6e67222317e06a757",
+      "itinerary_hash": "e9a4c69647cefa5cdce0050967827a36a980a3edea8d71c613491ccd9052d901",
+      "nationality": "GB",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1552489,
+     "signature": "be4d1d8d038a68266b42fc49a0b91ddd93fb43da3b20302bbb64cf555a9643ef96da1c1e72403e5933f5b3360db29fae30a4cfd4f751920f5ca2161d68e2a00c",
+     "tx_hash": "668a5ddca102bce9fed8583976510a69f6928e1b1ced30bb7dc3595afdc79a6f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7B3354D6A097",
+      "credential_hash": "e01a9262e6fd26d596cc3addba3713b7cc270fe71682e6a3815719c729e3225e",
+      "kyc_hash": "2e00f58b30ad1c313a726ad5afd96f837cc16d49c0ecc32ab5a7e57e44e08292",
+      "itinerary_hash": "ebf0d50330c4bc089d7604de1d1b443384d30982f63693d3772a7f8273e0f9a2",
+      "nationality": "DE",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1554546,
+     "signature": "6c4b60124bd6dacb9422b1848c28b3965dd6e0af56e4fe708592678658aa57621b9377a8c9126e9290ea1dbda5c3eb068a5a5d95dd8afbb38ed5bfa4c5ae9c02",
+     "tx_hash": "1c9ceaa7f735ca3b83eee0f9663798944435efbb1d3670ef52ece27b34d31826"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A9EA469FFA63",
+      "credential_hash": "f7dfd28cbab69e3da9e564c9aa405017a3a92f4adf9d65d31f58362346564128",
+      "kyc_hash": "f3cd1509395dc72940ac5118118ed35010a0e46fe35614f281a0b4638546a79e",
+      "itinerary_hash": "b8475157b4e9c0950bd4041a6fe564770ae89ca0153f8c14efa78d097bb58676",
+      "nationality": "CN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1556232,
+     "signature": "64b44431f3839aaff7ac821c5c0e9ac72e9f2f22fa0d81f2f5b7d61d900c2d4bbcd6d1599b33cbc7d9a16c758b2fdc192deacace575a107721493285e041a40f",
+     "tx_hash": "5664d8e51f7ea063c4fded5274ac16021ebbe0249375aa47cf881134235f132f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1C1ADA6746B4",
+      "credential_hash": "df8b17a32159804a15948a888781b48aeb4f217c8db16af1d5153142f84ab0eb",
+      "kyc_hash": "81920fbe7cb8825ab4a382a3cbd576d63e2230ef230946e2d5b973dfa9c475a6",
+      "itinerary_hash": "9c8f37ef9b7370369e29dcf2ef696f495d37efb9be51a5b3fe4224e043dabd2b",
+      "nationality": "IN",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-08"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1558535,
+     "signature": "3e9ab2953f4fee1cd6f41d0e81c158883c670a0ed50a83f99215b7c6e007730ab6397fc38d19038365c0595f2eeb048b967e9aac5fb3274d9baa4a4302d20706",
+     "tx_hash": "2d9f0e36ad3a7726edeaaf7f23ce085fe9039d45243f8e931462cfaa390fe57b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D2B481DF83A8",
+      "credential_hash": "3a622449c1a5d18978f14d435e37e89465b462e7217cc895d7be3432abf978a7",
+      "kyc_hash": "e640f38744259637c92e8526e430e371843e2e1d029d39e892a427ca459c7c39",
+      "itinerary_hash": "1685728b74d29dd91a5a4fc304c5f41ca099029732ab1e65efcdb7cbb7770527",
+      "nationality": "JP",
+      "valid_from": "2026-12-07",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.15607,
+     "signature": "5ce1021e307ac24d4d540509ac0b03d3ed8352a26d167f3944545934a000679f19e6a15e7eb20b4abc2339630f3a358a91f1b4a747d56e55a44b07cc84d25f0e",
+     "tx_hash": "012977d27c263fb7a4e5166b51127737080f0a602e3ce137aa4df3af549c74e1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-60FAB1B1B317",
+      "credential_hash": "2a97f862865dc2ee2bc8b0defe956de2508110566c5f4322c59048f29e6d1703",
+      "kyc_hash": "8a079b06934403ffbaad838f08059a1fe08fad2e36007e1ca5450d975a7dd6fd",
+      "itinerary_hash": "f1304ee9e970a26faf5cc38a8cf60f5faa9b27cd5f8e7e541611b3aa3f372dae",
+      "nationality": "AE",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1562319,
+     "signature": "6d58d5d062ea1984876546af86a1a2d037ff55c6f3b96ccd3a5b966036566281f868de544cdd256e21aee8eecc6912fe30c7bd0cb96bba1dd73a46e1e3f7aa05",
+     "tx_hash": "850c772877ad1f643cbf966e30a7f69a806d2bd43dd3fcb1bf37e9957b78a020"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-124FE1C82D33",
+      "credential_hash": "ca569a9b33bebd8baeaca75bc4dac143bce5e90dc966e0c1459259484c50b2b5",
+      "kyc_hash": "4313144a424b7978176f5ed0476dfcaf5205eede56b3d9273dfd42f4b95f590e",
+      "itinerary_hash": "84c62854992bbc0597085d9dbd3aa4e4e2655e3fc372baade714e529db684550",
+      "nationality": "FR",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.156436,
+     "signature": "38b3e4f6cfe709bb09701e1c430ee88090da448bec76dea8e5dafe707c63730c576584c2212ad4c5266566cbc85cb646fba71363f9c8ba0db6213d19e066de01",
+     "tx_hash": "44fcaabe0b15baf2c5b0766a2ad0419cc8ac9667ba6f719725fe0685ad421afe"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7396B6E2E9F1",
+      "credential_hash": "41a8f0f9c9e7f040e372cc09eb444924704fce421aba680ca2a1165a3b6b49f0",
+      "kyc_hash": "7c877ac90c9fd342f3ca3e70039058f3ef2c8c968d975a980cc031e8535335aa",
+      "itinerary_hash": "628d00506960c8887bbdc5d05178b66f711ba8d23853a372ba38b3afafe6b0da",
+      "nationality": "IN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1565716,
+     "signature": "ccb4f08911e2e293cd25b42479fd71128b7312b991f2c952929f86fde18229b6829d88e7c94fb3e76c913cd89055d8e99109be966771bea5c4944cab17f71002",
+     "tx_hash": "a04f3ee5744baf6f4a161e6cad47926f89a3e12ec6309ecba16d792428734fc9"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-CF64B3A0CB04",
+      "credential_hash": "a0f01e12244db725be40418ea21a5ce9e45d549184168e3e7807439128a59157",
+      "kyc_hash": "c00512ff7c302d4780bc039f39219f6d2bf5001186c5c2bca15eed292ba2b852",
+      "itinerary_hash": "c15a1641fa5a3bc93caa21d904e9907eb4b80a7c9995832aee5a95a9716740b0",
+      "nationality": "CN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-09"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1567018,
+     "signature": "c95337a51b5637b77f22145f892cc81f466600cad0b957edc1a3cc51670705f84504ba7e8f6701d9facf7458d39726a6a2771bbac063bab856f7ee1f66e11109",
+     "tx_hash": "926731d9c7a409b021f82d2f456d8e0627012240e214d5c8c3d2259bb8c73a6a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-5ED03F7F2B5A",
+      "credential_hash": "3a0344f9a5adefc256edd023379735d82d7a8d9b498f383fbc8196789dc62c3a",
+      "kyc_hash": "20857ab4bec1546d7e841762588d4629263e82b9601c55504185cbc977cb789b",
+      "itinerary_hash": "0c79f6129c36be9f733ead3a55a5c27a10bf79092b5c75f0fd770da06b26f288",
+      "nationality": "JP",
+      "valid_from": "2026-12-17",
+      "valid_to": "2027-01-04"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1568503,
+     "signature": "dc8147a9c95de94201af0e76fe4c6d372f2ca4ed2b512493719c75a046cc0ff5ba57afa1c21ff94e16309ef467fd07541ffdb73506550b8c1b6d736f8a5ff309",
+     "tx_hash": "7bd3621aa56bfe992a62213e571525ce94277fc3abf0b74a0ec69d250e1c418d"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0ED95E2B3903",
+      "credential_hash": "76b91c4c3edcd95fb17b2e4c056300d74b27586952b27006d8cf28a51b0ce990",
+      "kyc_hash": "7f8ab1e815a09713cfc69a49754415dbe30037830782717ee9f48d62b8f13c4c",
+      "itinerary_hash": "093fd8fc1b5f6320e00f057af3b2790e8e810c6020ed62c633071860fd94827e",
+      "nationality": "CZ",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1569903,
+     "signature": "54801c910c965aeaa7f1f2716877cd871ed9a367e1e0fc717b86c4e9fb4dc08d9984b1b56bf4550b1e1e1f4e17fbdaeee969477c1ad783e839fab995e75a630d",
+     "tx_hash": "8693949ac08c8fbdc83a9efe62d7c177742ac6e68582a2da9db0d7b8bcef09bb"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D89C4300F9FF",
+      "credential_hash": "8d72bfad08d522bc7a74157de77cc6d08da12973000fcd2efb178aa00daba938",
+      "kyc_hash": "dd94f065812d14dbcb808fcc8550bf64be5cfdce592e9039d37a1b84f5eb4a99",
+      "itinerary_hash": "e6adbbcfc295885ee5b4c136b4fb3810a3bd48dde014693fc6aa245f60545d79",
+      "nationality": "CZ",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1571496,
+     "signature": "fe3cd907bafce391c10272a64555dc3f66cfa8d84e0d1d872341f379ef2e1e99dc50cebd77811bf9eeecad8a830502f05389d20df642390a3c3f7f795564210b",
+     "tx_hash": "6472b1f26aad465e06147f85d598726f402d74a3560f7b9fe79d6f8a46621a47"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A30BD98ED139",
+      "credential_hash": "103a872c5f140e3aff8f3203b897c6b5e712177ed2fa267d2a99dc808599c990",
+      "kyc_hash": "ffc0ad6be4dce6c83ad5bda926bf400217d012c40c994b059875d385ed488b6c",
+      "itinerary_hash": "616f99b801ac4a18d3a8867bb87c4702af2e9e89fccfe47ee71c85464b1a0fd0",
+      "nationality": "CN",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1573093,
+     "signature": "3d49dc79930db2eeef41750fbc3b1a5b23b6c61fc1550abe951b3656d8848f42c026da6f5980d27d57181d2bddb0c98f89f14ae458c9419e9b8900e979f4d301",
+     "tx_hash": "effaec0e66b82fa76c34a8dbe0350d02934c19d3b45b998b04bfeae9fb2d460f"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C5CB787D5793",
+      "credential_hash": "2da9319277615e54d63dd284db32c1f79dbb5049401844dd5ac8045dae99e6bd",
+      "kyc_hash": "cb0b8aecfd3f66156a43eebfed18c0d7f81149484162e3d31a3a29bda091ce54",
+      "itinerary_hash": "281d6a0fb5cebb5c5ac115867c0822fae66e1220a58157c6573c50a3de811cee",
+      "nationality": "DE",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1574504,
+     "signature": "612c2a5e6d39185bbc06821c2f9e08b16452cf0d29cf57f5bf6efd2994222a255b7cb521f6d821eebaaada9cec01674e3f2f39a2ecefef1d2fbfacd4339c560b",
+     "tx_hash": "1d043f7b556b47939b9f523e973b70f09af63c6d966ea5c619aa486d31b5d704"
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "timestamp": 1793541731.1614087,
+   "prev_hash": "8b3ff89ecfb2f4c0e1932609bd153049ee00efad038008f4da71a25fdc31c708",
+   "merkle_root": "9580ed0f603fa60e30d04fbe74af883c97fe9869e5f7132d6836cee6e6446e26",
+   "validator": "Immigration Office",
+   "hash": "a37d202f4719f3f04695b5bee6ca97eeb2706d737aaebc66906ec4f1ae01b69a",
+   "signature": "1a3c79f0f1da494ec5585dc1b72a71659d1c6f9a9a491ddba40ec35084765b5baa400a139f0b315b018ddfe07dcc4c3b9d44017ada87cfa015320196f855e00b",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7C76FF054011",
+      "credential_hash": "a18855217932c6e70cf44dc0be4db4c1d0bc0f24b570e9c029450c66e24832a6",
+      "kyc_hash": "c0b619ee91612606e9568d05e31007b870dea74cd91cf09b588cbafd425e98ef",
+      "itinerary_hash": "da4a906dd5777b05553813b0e83dcc7740056f58264bb4c35cc0e5b4c3b87e3e",
+      "nationality": "GB",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-13"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1578639,
+     "signature": "a005d1c87f5720c56fb8e9125fa7a200245efe69383effbefa8053599eb4a069a5481c87224a192492ead1c31279198da752c006cd484f74b57a7c02b36c4b06",
+     "tx_hash": "a438c72fba91f2bbd514789a9522bef162bfda8d6c52eeda8100c17aeb5d8f73"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-74483414C804",
+      "credential_hash": "5b66d3054cd06529cd41e4715da2c00823ac4dfc5ae8af7ab490463d0f4c3486",
+      "kyc_hash": "f30571eae6638a9e71ee1faeb8b2f281575a983e0173b51c86f10d24d5310f89",
+      "itinerary_hash": "82dfce82454b5436b465fb72c01e4de88cce26a43a811caa68ea358b1dd9329d",
+      "nationality": "GB",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1579905,
+     "signature": "62d3a2aeba70adff7ca9f05fa1c1634e05313a1d70052540575cb22f55f3fdcc2834e3a20fd9aa64e1239ec23047148c1d48f51b88d04c59e1bde60da9c19a08",
+     "tx_hash": "e3c661c8aed920afe71d4abf5b73a37d0b2f56dce6311114d77bcee6c77695c7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-36F1CC95E2FA",
+      "credential_hash": "8783d23a0a015222cdeb9a5c695a6134f815f4cd797352339ff2cd42c125890d",
+      "kyc_hash": "ec442ba180ca5d9c632961b7c3df69a67955d5076f3d69b94da9bdfa359299a3",
+      "itinerary_hash": "7d09bdd2e16b92adfc29083524ae445bc1d0952440272e58cac86f3e05d7210b",
+      "nationality": "IT",
+      "valid_from": "2026-12-21",
+      "valid_to": "2027-01-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1581326,
+     "signature": "b796763b0db722743725b71c328bb7fe654419fa9b5155b2aa0467e6faba53e465a614b81e4f9cec00e560160abbf6a14fe139f9c7442f52c21ceaf8abab5900",
+     "tx_hash": "dbe587def9ff2ac31c1700efd5b3f0d49fe49686d445ef1e1cb8b64f76af812c"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-61741DAA5BA9",
+      "credential_hash": "c8c9cd82da4e69235b5c9a8f55c078a9ac83769dcf9b4a134baa4114e3a17132",
+      "kyc_hash": "fd7d97b6011c224139332f7a9f80a1bd443379f6fca93720d27bc7defb60ea3d",
+      "itinerary_hash": "9c8f37ef9b7370369e29dcf2ef696f495d37efb9be51a5b3fe4224e043dabd2b",
+      "nationality": "BR",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.158292,
+     "signature": "1b38785f58e6b90a6f5978b9995f49df4427b5e42190749751a06519b41b752269e3153eca5c6321cc978291c7a5000b7b1a4c36187f0f9d898c0fa7e6460e09",
+     "tx_hash": "342d3b8e37c21c57122c6d6b372050a74ba4f986c0a844375103ac07be2dea9c"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1A3E7BD39B47",
+      "credential_hash": "42f2a7f5610f5deefaba6b6827ec5a7213c98bdf108085190f76304126f63cab",
+      "kyc_hash": "cea2f6cad534379d7e2e5fc58c64df7c7154acb35b8546cd0c4e7547ca20330d",
+      "itinerary_hash": "549e79482f6f9dd45cea2305929512d2635cc09b349da79d831d1ebf5a024080",
+      "nationality": "ES",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1584396,
+     "signature": "8b766a43be07620dedeb5d9e68f748b02bbd45f688fcc0f56bab62af518fb963cd66e69c8d4bddbe2a4e441936ecc34fbc5e08936d73e52b53b0e59c4664000a",
+     "tx_hash": "ae9455df3cff62f76e426ac8902f2fabeb0c55a2888cb611ba4ef57787872d19"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FD1876E8CE68",
+      "credential_hash": "bf8b6ad62631a130dcb6e5fcbdf89d7f65924547b8933fde21b87f1d92052200",
+      "kyc_hash": "e786c8668c440320904b560cfbb87a3d03512b1f773e9922b5c7a1283ee07f93",
+      "itinerary_hash": "cfe814cf15c1e444317747a01ba55099103c5b0de1452bf9a8904b2d03f3929e",
+      "nationality": "IN",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1585798,
+     "signature": "d306d4a3329f9dccc199ceca49de1135d831d538c59ba8a42fd0bbf74e51ba7b9a7be8d986888881cc88483249641736ea80af3b59a686e22eb5232ebca64506",
+     "tx_hash": "e3423c7415358724dd8faec0898f7eca59b07408b2d12c07043ec669a2c802c4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-188BD556B389",
+      "credential_hash": "9a82c3ac79c39f2f0f6a3a4bf3d0ea9a167427475d355d8917e9402e7437183c",
+      "kyc_hash": "f85bfd7454305ed737197576bcc9c5e7961fc9d0fc3f227ab89f8a486ed3a2c2",
+      "itinerary_hash": "30baaf8c621ba236ec981898ead2059f3c3e006d11c08afa79c80691833a2c0c",
+      "nationality": "CN",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-13"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1587057,
+     "signature": "cc7829126c7d7b2e49a06fe2ace2aebe452ff2956c4921a0c196c68c20bba9c1c872b5071bab89be1e62486b6d1daeec6dd8baae9be773ac60b681bd49a8690a",
+     "tx_hash": "c3276efe4d53935c68d6eeb5409ac4bb410f86656d5900f3c23e66d3cd6400e8"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C2120660F7DD",
+      "credential_hash": "3b0e20ef56d773aa0c4ac0ad43be74e6b8915702995f3e8cc398557ce87e378a",
+      "kyc_hash": "5d9ef7d57d2f4b6adcde1e4d4a407b977bc322a6e28495b9448314a1ca2bd959",
+      "itinerary_hash": "715eabea5fb0e6e5ef73cf68432f00c9f9ff1ca0f8971a6f917f06b70f6ec4ab",
+      "nationality": "IN",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.15883,
+     "signature": "0aea8f9001cc0c1a49ba237fcb61be2551bd890db2f4b6d1b9d570c78817e0305e125ee54fbf82468833293088b8835e071a4ef8972c8e2cdee0757611c4500d",
+     "tx_hash": "7c9c6b7e888f7dc7aa3a0b166f8506b06b0c71079b20abe94141904cf47ddba0"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1BCF2B39D99E",
+      "credential_hash": "5df2139874992eb91cdbf86a409e3a19eaf7f6c297e0bbdf28d6fd03487536c3",
+      "kyc_hash": "60d39523bbc69802adc0e75cf1d2ae0c06ade2e850366c1df8ff0a71973a8662",
+      "itinerary_hash": "e113d43f92c5568481230aa35c753b1a1d011a8e5a31c91b75a6de30e41f2ae0",
+      "nationality": "IN",
+      "valid_from": "2026-12-21",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.158955,
+     "signature": "e2f5d1c7afb7265195ceef8691a9ba0c6bb1618ddc18dcea82cb8fa727e19bd283ae7cb867ef652b7467b9a59f50fc751c52544d8d21783e859698baca84d103",
+     "tx_hash": "3a345593273dee67b3bec4657d0085e2a1bf5bc72e76cd2393eed46845001653"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-79C22AE76814",
+      "credential_hash": "6e5c2e5a728cdd03f8359495b7c85dbd5866c6b694f4ca7bd56eb632e075a98f",
+      "kyc_hash": "f3dd4f785b3da5885e8c249e5494c2889f11cc7c0d8fc1e879b00a6850b28f35",
+      "itinerary_hash": "f4fbfe77f34ba7cc60ee6688151845f5fe947132adce4bb4da4abc06fc63a1df",
+      "nationality": "FR",
+      "valid_from": "2026-12-17",
+      "valid_to": "2027-01-03"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1590886,
+     "signature": "fc3104ffa2940b19efd34d5fb393134a6ff4c50c5f5eb06dc0391b9fceb19a5b60362f8f64a84cc6c00275ec5b4f14609e88b1a7a5b830c4d9c9571d04d9d909",
+     "tx_hash": "c896c55ce32cd697189d726cebd37f382edf2886eeb0546c816046a6c1d5c52b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-F755DA1E5B1A",
+      "credential_hash": "f14a6d807a8475f915a8ddbf86ac99f9d5e08ed846a9f9f4c0fe6fe135c55c3c",
+      "kyc_hash": "ddb9618b35317c9264980f6e243dde03e7a3c495d4d2a31dfabb3c8ddaa85b50",
+      "itinerary_hash": "cbdb56c44238e4fd765823856123af1d74c1892d76563ac86c44f4411f92cfc4",
+      "nationality": "IN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-31"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1592283,
+     "signature": "2a3c877beaba0354a4d216412589270767a51a169b4e4167c1d2ed07a3ffc37872b369adae42fe026b5e44b5304fce02065155462ac95072fc799d086e305606",
+     "tx_hash": "ea05250aa9b854fa7c5e834c28612fadc59e260bcd9f0f1a8cfc1e9da225ca5a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7584367D55C3",
+      "credential_hash": "407f36d356d1eea246a41c338fa3e5054290bd3eab99e2cf42ed90168405d076",
+      "kyc_hash": "613d8e63edaa18e699d4b227814d9935f5420fbee3a76a020cd46e7271d8ea3f",
+      "itinerary_hash": "2e24c26c1c792615a338790b2b264eeedb9195e816640253a5467ddcd637dc1e",
+      "nationality": "ES",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.159417,
+     "signature": "a323fdecfcd28367f7d77b7261bca40ac64e81eece1df82e41313aa1295712de9ab71b2c554f82e401fd1939e2665c9535c1e1b3a11a24fcd4a62d8bdae13404",
+     "tx_hash": "4f9b6da7feeb464326279328b213468e7465a9086f2f01a275a46af7a19585d1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EA3A65A5BC77",
+      "credential_hash": "807c253863439eb79605909ff569e7b40c8e8fd10e5f6d807c709952b18540cb",
+      "kyc_hash": "c307bff1e856afa0c6b3d2d1a8208d57387b432d9d40ad8aaa10d438d1572b6d",
+      "itinerary_hash": "7e291a7be72b1bb076bf94c9a069d804a9b4806cdf2c2c227ca2cc8400619c24",
+      "nationality": "IN",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1595953,
+     "signature": "558beb4ecd2d2f5c0766dcbd00555f2a045a492c0a22ecdd614616456243115f155a628a4753993b6df196c9d1f7185bf29670d85f86898fe0af57e0693ff506",
+     "tx_hash": "68f64b248525ee5c728eeac50c0600987590c6035a10c11d29e5c76073949886"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-DB00B074E9B8",
+      "credential_hash": "6f046c8a797e86440828c54010071e6dcba2b6bede82e153f1bea79424848df0",
+      "kyc_hash": "282a5af6769c6af8fe4bd50e16ea4976b1e3b6ad3c05f54770a9a7449798148b",
+      "itinerary_hash": "df8dbfbc17c6c47c85ef3dd2e2756963729072108e8484963041fdd3eaa8cf1a",
+      "nationality": "AE",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1597466,
+     "signature": "d6e43f8e82e6e8c98b5d81ebd94ad481dfd060b99875327421e968eba97b11351f07443e9517d7d93ac1262c47dafad6928f8cc46f707febbf45cd61cbbe520a",
+     "tx_hash": "70d23502f3a70aa5fae4830d59b2053bd66c6ace237ed9ca0e87fe9121f4a09a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-9F1BDDE1AEED",
+      "credential_hash": "442965e562962a952ede6f708cd2002ee430b529b9607ae0a59e0463ba0c09de",
+      "kyc_hash": "425a7351b1e818b9717ecaa06e4e4e4a533d703969ea2796ce9a445ed1b37cf8",
+      "itinerary_hash": "be0362b9073b66086d55103beb1c2187ada85994bd37714c52b0f2c76fd331e1",
+      "nationality": "AE",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.159892,
+     "signature": "1e474783213b5e1e4c628545bb246c2d16a0d000dcf3f323e7fa0b74e98bb30be41fd72f31becff5d1ebf543aefaea1da46f30a034434546fc612fa158451805",
+     "tx_hash": "02ab7bcb3a80a9200a7cad5365c2480293119dda3f6a4f5a2e2d5a444bad0587"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0ED5F057A7D4",
+      "credential_hash": "465f555c2974f98533f5c43a5f5cad17b56a7a96d01ebc32cac140db58e89c1a",
+      "kyc_hash": "6f65b0b3c34541c8ca13d6f51f921b6351a013545cead0183e94562fbe6909c5",
+      "itinerary_hash": "21adf69f17f119b685446c8c9d65f5c4f89a558680814111210b7ed9898f3254",
+      "nationality": "IN",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1600256,
+     "signature": "ca200d3d673f7f3354beb8b69e56744d8b13c52e7ac4cfe330b526b01052514dbb82557c7ba535d5da65a81fecd7815020dceb5962cb44fa69bb1db69ed15b0a",
+     "tx_hash": "f7c37a095369f86fe47707854dced228bc618d6befdc46c1585e8a2b88d44d34"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-B03E5685B8F2",
+      "credential_hash": "ff2d592fdaa32ac1f8f96d9e7e71c191feffdbefea3e5dbf759e45ecd5b21e6e",
+      "kyc_hash": "cc5a40d834d95a26c12818a510fdd2d7831e328ca1a90df5068bdbe2bba29510",
+      "itinerary_hash": "478fbfcd99d2fc92f5b06b6fdc6fc4ed03419359184191fff2921e4d12f50008",
+      "nationality": "JP",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1601596,
+     "signature": "14f3622e97facc9a404e0837dc27e8030ea448446c3bb6a8db426cdb475adaf5422c817e68fdc7988c404575dc962714eab0b2eef2d155c19e44b6183ee92700",
+     "tx_hash": "2fac7607ff4a84e407eee5ad79f23496fee201634c0ca972e00dcb098b9642e4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2BEAA778BC94",
+      "credential_hash": "071f2c3abbac9e3b8ad8c01bb6473b65771fa45ea6068599ddeb78a497c83141",
+      "kyc_hash": "4604da1cd9a0244e94ca405a793621d574db5467b3e34e8b68afd17e8dce69d5",
+      "itinerary_hash": "8b8b173c11012abb30311e946df3f97a24e261e6372548673291f641e8db5af2",
+      "nationality": "IN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1603253,
+     "signature": "18cee144b8dad5ad82b960f79d909b0ec5ed2d1ecfe1f67ec7be7d3094cddf9dcc3008f7a5d2139aac06a76c6fae7425db99fa8306297173be59f5e47704780c",
+     "tx_hash": "0586bcf6d1270d2a912fee32b8b4c27e7ef5ac06c366d69658180e08455b0d69"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-37FEFA8F7AB1",
+      "credential_hash": "95533b8b201a78abce554853007483d5b685ac287a7d0149ff7ccfda59a6ed6e",
+      "kyc_hash": "9e2b14b4f5ef47d2626f653fed21e62ae734fd083afab894edce8ac2fab1e48e",
+      "itinerary_hash": "02039a8b06e730efd181cb5b1b0a6ae79feb95c3b1debb16bfd8f24abcbb0db5",
+      "nationality": "IN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1604743,
+     "signature": "03bca59a8ee09a3858ca923020e43953672d683d96e8444d9ec06132de837ad9f0e59e2693e71414fd56ca60972b8825f4763ff205acfde6cc3c249b2aea2e02",
+     "tx_hash": "36946bbf51bc313910bca888097159a5c78970155745ebb505669dc460334a23"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-ECE72A201E92",
+      "credential_hash": "ef4bf4a555412b35d660359d888ebaca4d17a394d2985d5f5578bff07c38e3de",
+      "kyc_hash": "d754760466cac8cca64323013f159629266256b0fb862623e4a15e6ab5b00c4f",
+      "itinerary_hash": "7ec2bf4322f09eb420d3ef88bca4d361906588ecb99b401afe33cb91a093132e",
+      "nationality": "BR",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.160619,
+     "signature": "1fe6eb74a531e55fd00e46d7b38410b3f4750be7f96044f3f37b768d1a5479475e3e163b6706ffde81c1e23666edeb3cb026222813381af1b812ad09d1ea6e03",
+     "tx_hash": "e4e3dde63bf53c5bdc8adbc7c448cee195300717ea64c935fc70c1250dcfbcb1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-69F100A9BBFB",
+      "credential_hash": "03d8cbd2695463ef4ead8504dac80f39067292abb64327e439548ba903c39f02",
+      "kyc_hash": "7b23166ae2eda5949c9bd31e50fbdcfaa5d97ffb6ed94ee9df21f6d284772afa",
+      "itinerary_hash": "122a44aa9f685467f06b6d18a2a3675179f16e9dbc994efbd0ba6198e049f446",
+      "nationality": "CZ",
+      "valid_from": "2026-12-19",
+      "valid_to": "2027-01-07"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1607714,
+     "signature": "4cc40b8bdb5c9830e4f36c480fcb06fcb08a5d98f5d35b4dccf0f1f838f13821aeab57f4c862a50df0fa8d27869915e7b80357a0529499493f32b970797d880f",
+     "tx_hash": "724e7b9c74927fded53c45abd70b4c036c9c6acd98249b3fdea8bd22428a562b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-8C5FFA00E5CD",
+      "credential_hash": "c807e65a2cb7fd1631d0c56f70af5dee24f6001ebbfffdc2ceae5a269e73f2db",
+      "kyc_hash": "acfea26bca2a40195c0c9d98b2a730a18bb8827f4dc97171f774b25ff51f5b07",
+      "itinerary_hash": "5fc5b987bb820196fab564f25deaab92554220ab37f47b1277a3dde6dd352bb8",
+      "nationality": "CZ",
+      "valid_from": "2026-12-19",
+      "valid_to": "2027-01-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1609037,
+     "signature": "ac7b75182d6fd605a2783e7ef522ea96e7bcda69eb4bcc5ecca27e3b36c6690d9dc5a53925e259134464b791d8652251e4673beea5a103ec708196db0cd08e03",
+     "tx_hash": "cc1723ab9785f11fc7157a721df67a80b32302a924a1c03656e3a3cd6d8c75ed"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-08F35BBB9CD6",
+      "credential_hash": "afbfff525342ee948698b155871df6ccbbb07ecc4ebd6f4bbf4c974f560491b3",
+      "kyc_hash": "73628b57e3648f5c9eb5506e40f44701adb2af12ac83970ef5333be776ad5bd4",
+      "itinerary_hash": "ba8d1c63b95966a657fad65e4af0fd375a2e7b862d5138807965f0b0e4f74d73",
+      "nationality": "BR",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1610572,
+     "signature": "60bafddd438a7a97adbc118505138ee640a46fd97ec35e6f0585716ee5c9feae7d64b75a4bf1637ed4df4aa8e229143a67e86dbdbe9a195af3e1e51cf718770b",
+     "tx_hash": "0c3b14296fad27ed59564fe585298b06efd7e5d2cb56806baa844578514ad642"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EC8221A6DBBC",
+      "credential_hash": "20dc8ad0d506128a3c48ce417e06f6af06b8c6933578d92e3619192d8bb4154b",
+      "kyc_hash": "9964b41dc5226f968bc97fd1017c40715cde64c2de045e20ecbed8ed2859e4b8",
+      "itinerary_hash": "3aadf679c63af4afce9bcde32f3d9b2acaba83b0413e964d4c9ac1047f752a10",
+      "nationality": "IN",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1612,
+     "signature": "8ff263fe431bcc1da50163e1bb2ecac633e1d0017e99037058134cf25c9dfa110309d165165cbfa1d5016fa831def9342c1fc5b7c35fea4bd8a661e2eea5b103",
+     "tx_hash": "371032cb955f5af30fba445f30888cd229e4c7eba636c4071fcc12e0a4ecb26e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-92CDD5E61F56",
+      "credential_hash": "4760efc03640dcc06ae3f72146a5de149e3d6c91cad6b2d5d9008dff8b64fc77",
+      "kyc_hash": "4493e71be47ce0b76799fad0695eeb1a28c7a80e70560e528bd93239f73716b8",
+      "itinerary_hash": "2486e974da99afb9138dab0aeb795f27891e678cc74fac9f9cfae36318598887",
+      "nationality": "BR",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1613615,
+     "signature": "2808531be5c64234e6c37e1d3fc45556408ce0dd171543648fab92742df44dc473870d135ef628c778f617bacc39983e65e58102fa7c8a62003bd822afefa802",
+     "tx_hash": "58287d7e3db77b7f8cc1d8c297a0e755b53c74ba3ad00ad0f37e036722edbcb3"
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "timestamp": 1793541731.1659899,
+   "prev_hash": "a37d202f4719f3f04695b5bee6ca97eeb2706d737aaebc66906ec4f1ae01b69a",
+   "merkle_root": "5fe7d53a8300326ebdfde993a0f8018294fb6690618059de233707b6b3177686",
+   "validator": "Tourism Department",
+   "hash": "1b83e09cf979a781ccd047ab1f3f821d3570fdb744575f52695edb314cdc2b7e",
+   "signature": "10cef2aaa60083f85d4d640fa257d18ab0dd452984f4f2ed6e84cfd19cf2d88b8077ba4e5bb3494759550139a473d592fa7bb23f825714764fb2588436402701",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-70B7C509741E",
+      "credential_hash": "4870bfe7f7b75646e5e9031af3d544d20a6831f322cfddbde83197acd2cbc30f",
+      "kyc_hash": "259fa575abb529dfb4d53f50d3dbc84644c97ea9a7878e64921fd3e10fc8c86a",
+      "itinerary_hash": "f59800e4f6cb16b9848c23deccb16aa56b053ee3f0577de0d8315db9c8cb963e",
+      "nationality": "IT",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1617713,
+     "signature": "fffdc9e704b3ac2c66aca3c682bf984ae3a96a433d9d8164ad43368fb76580d0a12b76ee4c28bf0e2a1a4e6a63ee84fedb9968ed905c774ef95b0bfa34466708",
+     "tx_hash": "3a897bbcac2723dc932731e07c20305df5fb49442e415719b99f6596d75c3f33"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-59120188FC62",
+      "credential_hash": "9cc7c47b1d0fe830c0f0a5b34a99aeaba96ac80e700ff056446eef2d37673737",
+      "kyc_hash": "c3de73efa69d3a0462802a2325020112be4ac1cb14ceae92d6038a8a3a2e7ee4",
+      "itinerary_hash": "67f3c5227c984a976726a478bb90dbbb8f3521bc3ba3563160c7b10d45aaac66",
+      "nationality": "GB",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.161924,
+     "signature": "3c25789e6367bce45e9e3c34a508f30aacc97cd60b43c36a7abecc3f7cb115921a3e47da23a29e4402db08edc6ecb8335408fe97dfe0dfdbbed736a072a9d604",
+     "tx_hash": "19617401b5d71e7a5f4cff788b09eff9edf5ea6791cf28888eb03fc547bb0169"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-99434D627D2A",
+      "credential_hash": "940f09e19c5474783760f08974fbec35d01adff5a791639ca5bd5a59da7e1e6b",
+      "kyc_hash": "c8e34d9df174602b855a9508a31678bc4702b94a480c1b733337ded59c2a1100",
+      "itinerary_hash": "9543c5bd3b469afd7bfc15c6ce7d2e0b38d2a22e5520f783309be51360d9833c",
+      "nationality": "DE",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1620579,
+     "signature": "b7c6d6d750bd3def26caa8bf7d6057a111ca0f355d447fbe3cdd0e213bac0ebb7a396e0db628cddd6d26f1b0728565e7d30af7998423e4ae411698937f26f400",
+     "tx_hash": "1b735025a29c9ad673a998113bd7f58b2774e91eebf1c32514506841761508d9"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-54F8085B532B",
+      "credential_hash": "e0e004b6039e54f5a7e8ea1b770f5bcd185056bba44636264a054dd9830618dc",
+      "kyc_hash": "63e7108ecd816cdefabc646243e7a14f8ab038fddb6732e4ad4e8b21e6b60c30",
+      "itinerary_hash": "6763dc6f4ff93cda4b533b3fe7c0681036aa1f51a82a2f8e0bdc6a4a6bf1c7be",
+      "nationality": "DE",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1622236,
+     "signature": "de0ddbb2249588a4c013c13c8d387b29ef78d061a3ee1fbc875dbf7e022a42bb9cb92742e9bd28cac001362fe28cfec6303a3f27f75838992de7a5b8d6d6e509",
+     "tx_hash": "4365bc26b3bbe8766fa9a0fb179e83ad53bf6c365b79efdcb99faf2033c55cf4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-092B3034E306",
+      "credential_hash": "4ae83993c3ae0511cd15cf7279044689d335d739da022c818bb08f7a271def48",
+      "kyc_hash": "79b35659d252e2c5d2626c4f0d5802a7d36465787913651a3c89b4a7ca1bec47",
+      "itinerary_hash": "c73dc41d9c7b3da2efa4f0d1fad234f11173957e4cd4bfb49fad741d93807f19",
+      "nationality": "NG",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-07"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1624231,
+     "signature": "ce7ae534d7c70bb4f9379030a47689be1fad0f80870317901dcfaa00b20b8bfc328497344573f5004a8f340a4399d686a7e499559975a88488e3863fab712605",
+     "tx_hash": "0d6f8ee3ef22b5805ffb46d85575ed99e2658754e4903d1bdc0a3c2af77f19d0"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A3ED948FD184",
+      "credential_hash": "19133eedffc19d48c25c106cb57bf15c4b40d19186e307141fb20b648ed2f0a3",
+      "kyc_hash": "fba0308ae0c84844774a44996e950b3dae3e01edfb2f29fc8d1788383105ae10",
+      "itinerary_hash": "193ea6e94a35ce77aa84d024c2b072cf4d34a70802c4873b760d66c626ac2638",
+      "nationality": "DE",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1626332,
+     "signature": "7d580ab76e5bee09298b69ecd68d17d4bdb6ccfe4947139420b933590d3b3d9c07c9a272bd0d22fa4b5f45eaa1cba1d3c192c7b5b1e7af0310f88e679a7a3702",
+     "tx_hash": "2022dbc3358c5e566857bd04b0a6c17679279769999732cd702153a6ba7005e3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A9A52381E4B7",
+      "credential_hash": "70c5d90975f17b1d3a39a2e3ea4a9437c87fb8456b91efb2cfc3fc048863fc05",
+      "kyc_hash": "eca013921ef34dffa07292a1f1d683ae0d7fee20ba79e15e18a37c681065f029",
+      "itinerary_hash": "5a07a6f30a8ea770fa1e483f928f487065761f76f302d53af529a42d3f2e78f7",
+      "nationality": "CN",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1628802,
+     "signature": "a80a4223d05d903067530c31b5b074ee45712cdb0ce84ed99fd835fa5ef76f747714b1076792c201c59be7fa26750c79335055ff9bd3388de5d000fe6088cf0c",
+     "tx_hash": "1a283c751e3c1c37b682136ed82d2c5d93692d3ca4ce5707751aed9a07cd3c4a"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-745D9C62F10E",
+      "credential_hash": "99761905122157df9373a960c0b47ad7437295c6f91d6c357563439702cbee36",
+      "kyc_hash": "0729c1af720aac2d15fe40b38551e8ba97f5bb8699758f04d7ce168b75692f69",
+      "itinerary_hash": "8a6b2ee87c31592197743f8b9a289b30f3f3b8ae9aaba0918a329bd20e7e8039",
+      "nationality": "NG",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1631389,
+     "signature": "ca179aafd5f56d6bba98d5839721ea61ccbebf2e17963f2a4c98b7c3f11079ea7d7b7ae52ab72d33e79a36b81d9d507a22042734d828a60d750414ef38da3a01",
+     "tx_hash": "57f5345327632dcf349a21178e9970bf52c82b1bb50dc55a9c955acc7828ce8b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0EDEF8C421CE",
+      "credential_hash": "d462575fbd6597cd1009ae413b25eedb66fedf002bfd12087a22f54674a3a1f9",
+      "kyc_hash": "94b88bf89fe67fb85ae1889eba2173816df3e5b5cd8ae2e21bed6ae35f276f9c",
+      "itinerary_hash": "3aadf679c63af4afce9bcde32f3d9b2acaba83b0413e964d4c9ac1047f752a10",
+      "nationality": "DE",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1634133,
+     "signature": "236b8c09611b30507100f5f0f43a2976179168ab4b852e86fa29ae353fd264e66653f0838f92d8ac2ee3764f62de0ee7b28fd6b75b75cce63b05927babecee0d",
+     "tx_hash": "22c32cf87bc3a38646b9214d443134fcfd4b7ce30c9ba503b8d1ac474aad8ae1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-5599CDBE2A9C",
+      "credential_hash": "a232180f3dd75451148d7df80d47abf8e66f8345c632042afd9a6b4d1f4c9271",
+      "kyc_hash": "bb4b9b945d51567ab0c5c2b383392b38aae1139869bfea2a6c52fce8a3fde033",
+      "itinerary_hash": "8f97e9171a8dbda370450658e7d98084cb0524672068baf47f2d565f7b4f515a",
+      "nationality": "KR",
+      "valid_from": "2026-12-11",
+      "valid_to": "2027-01-01"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1635988,
+     "signature": "2ff22b2a7e43f01f64b3480dc438e9197ea7f37779b395a6b46ac77a06bcd1aafdb6a4f38f85029804535b7e231553f09442178a6677c6bbd0dd909f6a7f840a",
+     "tx_hash": "201a4220dd13dc7c44b39bdde6f304271ea012d07ab58dce6196619b8582094b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-AD786880B130",
+      "credential_hash": "8322dd96944257ea5adfaf530d966540e0cb1cdb1ce46396e3b7382129e43432",
+      "kyc_hash": "8f3ffe487fdb5d6afa7307c11e88e1f3939a5c7f10c0119167bf8ecb710d1213",
+      "itinerary_hash": "0f2e1ff361d8479be89430acb6660230119e89fd9ca70a9d9f6b704531e1b526",
+      "nationality": "IN",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-10"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.163743,
+     "signature": "d61a35095aeec742227e40a26e555e8fdea403a6f7d016757a349bf50b7ef356b0d4d7bfeb94c4253c215fe9e134dfcf00bf909b0262c03260272c1c4aa48f0f",
+     "tx_hash": "7de4031c09d4d23968d1284b8f8199d182d18608f5b55bb194e29cb03218d9fa"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-E6E228692CE5",
+      "credential_hash": "5c851780c5513d503918be0e772640d88055a2220d7cf9f48b369d376c46a41d",
+      "kyc_hash": "4a563b7e484867d1f2609937c7f3dea38be8ddce219b25da2f398ad779db928d",
+      "itinerary_hash": "3f50d72922d0b9f2a8ac6986c0b26628801eb7a078ee66fe70c93554c65a9334",
+      "nationality": "FR",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1639023,
+     "signature": "784a3db8c1b3b925e9d4bbe776e334d330289a8949c73d5499d88e56297f21882424c10d214aad9bbe05b3ffb987070cd8dfedcddf1d8e794ac6fb45ae811e04",
+     "tx_hash": "e30272f663df1588c624e9e566470d74c29a3373a71ec2c09b2c889c9156e4ae"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-632ADB1C427D",
+      "credential_hash": "a13c880c1c79c2733ffc028e071cd1e9f5bd7de05d7b06d8d005bf74ce50f38b",
+      "kyc_hash": "6db64227c2462ebfee7df5ba58b52ae503a91853540b2c1fb90135ce5745cda9",
+      "itinerary_hash": "ae8b5fe359a7bd4b2a3b1c7f480b721ff7d33441a48dd62bb53038b2cb2c8bf0",
+      "nationality": "NG",
+      "valid_from": "2026-12-20",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1640494,
+     "signature": "915a46f55107012c96c0d24725a754914417774355439fd49921c8cf61e15f3fc293a95bbdd40950a4066a552c276fe5dad85b6fc6dc0f460a03bc772bf51a07",
+     "tx_hash": "268ac412cb461081dfb49defb440e2072c0533c5fd4f407cf29594427190e0d0"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A08160A14102",
+      "credential_hash": "6a44c1f7230c564e416c604a5f78e60675abd38cd4ded52aff1db3f3f3fe1002",
+      "kyc_hash": "838a7ca46d239568bf73db95ea53b97fd507b73ca829672c23fe29ac8ff4ff99",
+      "itinerary_hash": "21adf69f17f119b685446c8c9d65f5c4f89a558680814111210b7ed9898f3254",
+      "nationality": "DE",
+      "valid_from": "2026-12-21",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.164198,
+     "signature": "857c9232c280b1a3f5126663bec5d0ea3903b510eaa1e85889b072fb4dead71b52abfa03df77ff00b5db67e6dfc1560931b63a45feafbaddb622adbaa156e201",
+     "tx_hash": "63cef96896a277d6a26a9be595890a8616f3e232e62dccc6d67c3b0c8f8b78d8"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-CB13E6FCBCD8",
+      "credential_hash": "20a016c4d0b70edbc9c6c17763d5d52b4f9a470454b2919089ac7f641aeeb503",
+      "kyc_hash": "3ca7b233602a6065be89742c1ea6cf8f1831ef4048b2ff7ef4d7ea6e089ae9ec",
+      "itinerary_hash": "924ff8e3263550b81a7d87d7661dfe292d09ea4c5bf7153ed9f872277e0ea4da",
+      "nationality": "GB",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.164393,
+     "signature": "e57ef9df236bfa47c0c00394d9602dc9e404a917725f10c9390e91fb922805156e932c01aad1ba36298f3afb0abbe0ac4690aac465af63a3a11f67b14aaf0000",
+     "tx_hash": "63d977125a09eff2089cfdd0d4137242a11e69b863cb1b4c975aa022265e0521"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C692F9324EE8",
+      "credential_hash": "372e44023ba33d32e2d4b3f3375d6fd5c363c2cc2f4f6471b08464ffaea015af",
+      "kyc_hash": "777c1893918fdf04265d949bc6db517bf4298d934975c3252a7a9f13a1eac2bf",
+      "itinerary_hash": "0f2e1ff361d8479be89430acb6660230119e89fd9ca70a9d9f6b704531e1b526",
+      "nationality": "BR",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-09"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1645358,
+     "signature": "7bb27ccdb5496d4b52a8811d65aaa10a1c1dded13d7a262609ed8d7675564feb62ca02e977edd443e713dea186c17b28621189b8c62263c0a83a8861e4d83a0b",
+     "tx_hash": "df29473961db2ced2886d7584d405255d1506c9bf776be7959c1fce52b66cedc"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D637FCC7B4C5",
+      "credential_hash": "edb2e421651ac1b40310c2940c02d1ba1f1e5177d5e9063e9a0e9cf7e79153a1",
+      "kyc_hash": "d27546f94903ae639f9f3045193441f5936b8aa2a873a1dd0b84469b94c50bca",
+      "itinerary_hash": "7ec2bf4322f09eb420d3ef88bca4d361906588ecb99b401afe33cb91a093132e",
+      "nationality": "IN",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.164669,
+     "signature": "cdca356f11fc4c535d76b22311aaec8070066aa1014129c527fdd63cd07e095b3b1f07fb1261e61dcb844f48cbb6a2af0b90712fcfcb0521de10cf62c76ed50f",
+     "tx_hash": "79efd530b4bc6db145a1c083807e1117d3dd4cfbfce4d430ffd69be49c71ca91"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-05BF60574F8A",
+      "credential_hash": "7ad81436dd41ed8ef2221810cec0b79c6969600bd9235ef13fdb495bc46eaf1d",
+      "kyc_hash": "652ddc77c9b7bc09153a540828e30411028876a114d582f6c12a9712c653dc1a",
+      "itinerary_hash": "e9aaccd8f5443262d1c226b82059c9dfa20e30ef4782de830221cc8d665a537c",
+      "nationality": "IN",
+      "valid_from": "2026-12-21",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.164804,
+     "signature": "fa040a48aad80f79920e09cb210ec90e616f619186e2e0a87230775b3985193910ceca679011835f17efeb84822a2d469d2693a2f188b9932a1b1385423ab302",
+     "tx_hash": "f8eafac1b510cf3e27b32b1ceb0dea7495a6bfa3e72b5efc236b2fc7cfe0863e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-3C06670B4479",
+      "credential_hash": "c1a6dac7a72bc0dd8748fb10f53ee605e5759242b602f37888c7af0800d68661",
+      "kyc_hash": "7bfcb19af5360517e6e60855c918dcd252e4978c086aeeb832dd641b4fd19c3c",
+      "itinerary_hash": "7062e2f1babf83eb19b360d5fe7e9d8bb0edc7b83a1f1b8364d14856bf433d69",
+      "nationality": "AE",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1649911,
+     "signature": "7addcebbcf474f040e12209dc00b39f26ea6bd44d61585abbbaa62e564ef1424dbb67e8da3362a5b70f23cbed3763fee1e9ed5e8348dcc2afdeadd130219d909",
+     "tx_hash": "031c909aa46f516a26fb5815f58e11e76b1767ab928ca8eaac62d20466b7ca83"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FF31FFE9ABA2",
+      "credential_hash": "3d74d2da20192fb3acbe8e14e4cbb588b811b0e02037454e827ef37f415d8d91",
+      "kyc_hash": "7f4b9dc16e171f081279c63d51668bb28486004c2044955f9e5e103f0750a121",
+      "itinerary_hash": "76599fc605aea703291d45af656207231e15063878c1eb5b9428938c13fe3e1c",
+      "nationality": "FR",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-29"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1651247,
+     "signature": "8041c2a256106083bf1c6378297dd5c23ac11e0758e17ac175086dbc3adb9960082fdf8d27f1def01ad81821879e1dcaccc3c23a5851fae35d67ee61dfc5f70e",
+     "tx_hash": "7737fa4541c5381151d25f79cd0cd2a168ef0c258709074fa974f0b01c24dec1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-7A7CF5078E0C",
+      "credential_hash": "9e9c8735ad6b515546e25b7c58ce58cec40b9f840e0e0040ca2788406177554f",
+      "kyc_hash": "9e759c5758edb2a280c01b889f8d392deb9e3374926db0d2308bae23eec6b067",
+      "itinerary_hash": "5b58d942417532536c4c9f4412a7ff9c136d3798aae0ca898fbdb721777faee5",
+      "nationality": "CN",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-26"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1653082,
+     "signature": "7a2dc1e81f5a7e801a586fd3ec52bdde66207a5036ccb391cafd30bc6c6adff511e72ac7deda76b6e7ae6e9179f2c39abac5276462314dfa2b480013ac4f7601",
+     "tx_hash": "14202c187817adf40affacee580415a47236bfea6f81606d7fc3253c5fe7615e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-34585A858014",
+      "credential_hash": "381e9d8d7c47ba74248a1a7cedf9fba77c6baab4fcff3367b6de25b4c914f4ba",
+      "kyc_hash": "44e26dd7abdd1a7376b7eb27e526517af75603cdd7796607c0a0aec681f4e768",
+      "itinerary_hash": "b9e7fcd6ab987a8350c125e3e8559dd670d69abd3910712a8c8eb2e3854230c8",
+      "nationality": "JP",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1654665,
+     "signature": "749b3c66a600de3828e3e064425b459fd6d7410636d122a15cf80ccb0bea95a6eb2584615b19055e3337f449b059e29fb4fa4a8ee7ce662e700a25df45f88306",
+     "tx_hash": "f4914143d9684749e06ad80a208ac93da7b6ba0cf87ff928e5b99e6d39e34e23"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-DDD2AEFF574E",
+      "credential_hash": "5a13c4a0e1d06603126d2f91ee1263e5adc2ce44001779add4df7f02a1cee7b3",
+      "kyc_hash": "49716f9c6f1e60a7c8b9613437d38e40145ffc59fcbbb6a4960936862ea6fc6c",
+      "itinerary_hash": "ba8d1c63b95966a657fad65e4af0fd375a2e7b862d5138807965f0b0e4f74d73",
+      "nationality": "GB",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1656158,
+     "signature": "45e5e8a02b056856c75bbabed02e0c2df0de232609abd3d21888fafc3d4aa38645a3951f1c6391109779ba5aaa90952e2b89ed00d344a02083875bf379573304",
+     "tx_hash": "aa058eed14b9e2da6a6735e2fd28d5b4524e133185ed2faacb4071fa7e0beb94"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-9AC42868FA17",
+      "credential_hash": "f2726a0ff7dc7e95e475a01c8ab9547a8958df3375c2f0f351a2b85e92b83a4c",
+      "kyc_hash": "31b42bdca27e84a3b81ca0e97b5505c6f6e56c5de8c38849fa7bed78ccc7389e",
+      "itinerary_hash": "e18fa17132fb06242d499f7362c45b1a92d540d476475c73d0f4b0198c0b8cae",
+      "nationality": "IT",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-15"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1658041,
+     "signature": "7aa4634bacaabc4a964406c56c130cc9636f699fa8a24cc419b300c9408050faf8f9ef70f991cda08eba91b48094788fb97495b51fdf4708c1b99b2dcb153004",
+     "tx_hash": "85c7b88378f9da1293bffd3f67548b7bd925a78d6c3a9c1585d6406300411c38"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-52F2B0FF6D53",
+      "credential_hash": "7d07f2e820ef12e652f288ebf6724e98dd897dba0dd98a8ebaec6e8443cde20e",
+      "kyc_hash": "33289a5c6712488d04ef120402f83ffe869dfc202c1292c99627598eb88b2133",
+      "itinerary_hash": "232344e1fc8bae93875f5c0e0070a2447c982e872a5646d866484d6867e5eb31",
+      "nationality": "DE",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1659443,
+     "signature": "1114ca95a48dcf5653f674dd9f3cfd02ab75191120f35a47a29c20a182901f92e75576ef56ab1e353799c31d40440db295da970bfd88d012d442800273112904",
+     "tx_hash": "bd968dfcba6a202b1f06a2fd0d3e4abc41c61a05aa6486a6fda75a260191d5df"
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "timestamp": 1793541731.1703863,
+   "prev_hash": "1b83e09cf979a781ccd047ab1f3f821d3570fdb744575f52695edb314cdc2b7e",
+   "merkle_root": "ee206fa737a92a237409983d0659ce9ee3feee205d5cba089bd01db1afa6e02f",
+   "validator": "City Police",
+   "hash": "69883c50bc57c7a689f94041d03709774042744f9619536456204c9a1fcbc5a1",
+   "signature": "f2fa2ceb085d897d9580aedec119c4e3c498ffdd9a9183e32e7c8e940bf3f88c29a6745c9ebb8eabec39b8eb1c7ace47c767b1d4105525c5afd32c68d4b48b0a",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-E76C97279C88",
+      "credential_hash": "233b3316a4e1b66f10206cb43a8b5df7395fadb3def5f6010160ee0a3bf0a126",
+      "kyc_hash": "c430806974330d88b3f69f14c4226ad68f9e30707af69b8cc3b7ad9349acf1ae",
+      "itinerary_hash": "f3f4c99ee5612fb89c25dbf0284ca3771ef0217d4fa3a0bf8d486347482cabb4",
+      "nationality": "FR",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1663566,
+     "signature": "389196c618d5045dee06be089dc1ce23dfc2de30e2c5625ea4f2555d8af7089e170e5ec944429394c2f85ae0f127a85ff72a6624c208409421d0e25a4b8cc203",
+     "tx_hash": "e121ac1d9f8a07e2658337963f7ef3e866a3064faaac7984ea57b281db4fcf27"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-31FDACD105C6",
+      "credential_hash": "91a685b1e1ffffff3edd15fe02bc58e26396cc03d498d710e09b9d871b1bfa61",
+      "kyc_hash": "7fa06672bbb3ba4bebeed690ace3993eba3d3a90c3f41111f29bea3b2445fcb0",
+      "itinerary_hash": "12f4da4020d8135216c04e76b574522774e7140a152f30676327272314a2a613",
+      "nationality": "US",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-07"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.166498,
+     "signature": "a17046fe689bf7f28cdf1072aff9ef9113ab3e15cf3821c7677e7dc2bbbef2d4630ba9a813bf45e38b6552ca3880173f9ee3cd6e3a1b84cbe0b57a68f95b9e01",
+     "tx_hash": "416320da8b502a1d4cf2fe0851fc4c98860f6006b8a2f62d8f73f2310341086e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-5ED8E5D8CCAC",
+      "credential_hash": "3d00039a957bbc196698d1f976edf96ce2914b23e80404ecf2a5f6852417a72b",
+      "kyc_hash": "d2513b1059d261193ffa6787ad79623805ceb6c6abfd3b9b2f490873e79d15f6",
+      "itinerary_hash": "12f4da4020d8135216c04e76b574522774e7140a152f30676327272314a2a613",
+      "nationality": "JP",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1666293,
+     "signature": "8c2cf4b49ab9f0afa8e0aca50a7b9956305697b78ef371838cb19e7f58458bea1a2ca5461c52f5b55499d9cc8a18d9d2361eb307a936f71723a08fdcad5bfe0d",
+     "tx_hash": "e1033e81d18b2a0bdd305cf1c5fa296fbb15871b6d84857e0bb0e4adae6abffa"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-B6EF3B7CC931",
+      "credential_hash": "c7ba1e9d847b694fc1354bfed38cd99bf7c0161b4ec8e632cf221a63e7c6b052",
+      "kyc_hash": "110d9d1935a7cd2e44d193cfc02c95bd7397293722afb23b5a9f3a26f5f4b307",
+      "itinerary_hash": "84c62854992bbc0597085d9dbd3aa4e4e2655e3fc372baade714e529db684550",
+      "nationality": "CN",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1667633,
+     "signature": "f10f4252f5e18d1c7c39777cd5f2d8a961aca08293073f4d902389e3c3551c3c91fdce66c1b0022069a9b43261a3f97cf125db797b1c74ea420eada883e6c20e",
+     "tx_hash": "8a0341768298ae23095d79ed024f0a79d0f550aad903091f212f188382e77878"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-998E880C5585",
+      "credential_hash": "6c16bb56c9b0d1b69d7781f83d9c522d0cad6c4d57669c20088af87a3f26c998",
+      "kyc_hash": "6dafdde2399defa074aaf93a5da2a7a310aeb3cb7f79f2f5c40be11b9d6f4205",
+      "itinerary_hash": "5bef96cab2c3e72286b713ac3d21ffb7b6b3070becf539cabf4b18adaa3baf63",
+      "nationality": "NG",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1668923,
+     "signature": "33ba615b6d6174c137fff364a0365c9ab5603bfdb5769944a4031afb6119bee9983d678fd984c45d8e837dd7658279f6566ad20512cde81a372b31f0b447b904",
+     "tx_hash": "e4af5f554faf82cbbffa612cf73656fc633fa2eb2bf82694af2cc64ba5656074"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-04EC180F1141",
+      "credential_hash": "16f85b40aa686ff886407a9b7a03ddff32ce0443cb98261105e00770f8747d12",
+      "kyc_hash": "f14b4044c91a781ed7c79031b8c90a7b26af903191229ccfadd8e7d8415f7eba",
+      "itinerary_hash": "b62930c9a6113684f9c8fd9f97172b4f46063cbad888412b6b1900800177f881",
+      "nationality": "AE",
+      "valid_from": "2026-12-05",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1670425,
+     "signature": "083d6a9174f1ab13b1a1ed1d9bb8e3c6a71b7d13ec0712916174c5e45f2f97641e6ebce522a2f76b6d03227c6c00e7bde2df9d2eb1db32c467f73de7a31a1b05",
+     "tx_hash": "3982b5141e7468eb0f1961791efed29fa4634b903e80a47e3b87e638d8e259ce"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FDF5CFE59710",
+      "credential_hash": "500252bca61bc5b260c14864cca8b28e80b6a92184bc4ca6af1da085a9daa1f2",
+      "kyc_hash": "0ae7626d822330512116259c628dce7abbe78670948d6efccea9851db3ffa5ec",
+      "itinerary_hash": "29d2aaaf92a78e358fddce678b1530620a1ac3f1669808f1798b34fe3afa4815",
+      "nationality": "BR",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-06"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1671956,
+     "signature": "efd705349e9478d60f59493ab0c1233f4b03028ca9b7cab1c210e3dc1d68113ad2f0ccaee35f4fa52bfef530e8a1f32c75d90aa731e021631bcfd0e955820605",
+     "tx_hash": "08b11c4408d3898402b88b0d3c84b07da4627e4056b6f1f5380495313b75c6a2"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2CB0387B6997",
+      "credential_hash": "552cd0346e66dc41fdcb0cd2b75f9f313c96d33c9aa1460b54937f0ed6c0f10e",
+      "kyc_hash": "c997acc51bad9c21f7ebc8b6ef0e6a61de40a634d0c13b39ea18ce3292243343",
+      "itinerary_hash": "6d155d687ea5ff26717d9d745b503ee6ba8bc94e307575bddf26483062c96799",
+      "nationality": "IN",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1673784,
+     "signature": "d6371421ef2a12dc4bc886a659e49b443e946c3adfc37995b8acddb2f3b9881deb7a0fcf3d121f0eda7ef10aae53fdbe07eba70aa57e0bf284241f3bf798f206",
+     "tx_hash": "216f80358063cc4453c6b0198b984f0f18eb457c99cd3341881cfd5e6a525a12"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-3797BDFA4E4D",
+      "credential_hash": "9dbfec85a3c033f6e6b7c6a2ccc8da51abe7b946123e2237f26051085e6cae2e",
+      "kyc_hash": "b55d39496f8267c341b90918efa7e69878676e3813561f662b7292842b67721a",
+      "itinerary_hash": "7f102b188b95c3a9e45922dcd7e2940e7fdc34f0b1c53ecd3fad50ad392adea2",
+      "nationality": "DE",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-25"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1675465,
+     "signature": "cd44031b3df2f63e01a75f8a436211e8c2fb0f506132f764199e7d9775fee011d8362f052c4022165c5245ce3d8f9ca44aa22580b156d945d207de58933fb20f",
+     "tx_hash": "653902b152dbc6ec6354cb2ec6cf096bb1f51e3583840752a6f56bb0276bdc0b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-000F6F38E221",
+      "credential_hash": "7f948b0ce5eb291e05eca8f3f9c8c9b76e0ac2a2e4cd6039782093058a0d558c",
+      "kyc_hash": "2b76d6873c239af617fc7b21e72aee19a58e1ca2f57679de6cf44cb2fbbdd897",
+      "itinerary_hash": "9bd72b032c5c6979ec77035ef0c77cd7d5fdc7cdb8660f3af57a62f13376c5d1",
+      "nationality": "KR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.167687,
+     "signature": "3ca700c66e7eacdec6dc7b3c740744bedf526d84af5abf6c882b7f10383c908e5622c9ae540021b21628576a257ab2000afffe8748194b4ccd88f73289a1d40e",
+     "tx_hash": "1d7069e15b56e187881cdaadbda0dceaab757e1f476f9125cdc489176e98d93e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-E921015E4568",
+      "credential_hash": "760e6c61f544fe707af024bf1660506e3ead945ec81ab466a35160b39ccc4501",
+      "kyc_hash": "fd849efafffc43cfbbab88a3cd3ebb95e76caf9cde9df04fa345806ce5c046d9",
+      "itinerary_hash": "9df2276654a47e292f35bd89b7fa0904787c839562e3c5647a8a79e87c0403cb",
+      "nationality": "NG",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-20"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1681504,
+     "signature": "657220b7ad44f6cb1b1083438f1a450a2cf227b6c389160bc1e2325f841fb5cadba2b5451316015720a543dda68528afc65c11d3d83f59519ac30dd96a30ee04",
+     "tx_hash": "c0d8c5ff2ba15a74c9665f8795c05dbe129ea140f543e4f4924eb8d41733c7d1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-6143249C4F16",
+      "credential_hash": "9d738f9f24b849fc203554390a9bd6f932340aa281e17ebfbb73d5d4b7016334",
+      "kyc_hash": "244a0eb511d7ad405c7f2d12f72c38985c9dd1a830468b42c9323d3b5a34b993",
+      "itinerary_hash": "5c8f551cdda96348a4ad66eb829342805f1721dee2f3454ac04067f11ed2f1ad",
+      "nationality": "IN",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-07"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.168356,
+     "signature": "350762f3734ae10fc33916a2863a59797b5905ea981ae666257db67fea7dfe2f4cee1c53d79c17203d49bd9b9b2424c17688abc6a2d9176e3d94f7e965f24f02",
+     "tx_hash": "4434e6970f43c469573dc96e98c17385bfe33a2282c09828c27177cc6a8f1303"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-EEC5DD939B4D",
+      "credential_hash": "2e630b95a208b0ecb2c802367e8522bf96305fc42bc19b461eb1cbe7a771461e",
+      "kyc_hash": "0a865d4184e03631f4555ed7c377a80f5103789c97e77b2ed922a3c0034afa7c",
+      "itinerary_hash": "8c8035ca14e5232b77fad5eb6b98196f23dcc8c7dd167e3f7c25f4c810ea1db5",
+      "nationality": "ES",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-08"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.168511,
+     "signature": "7c1cc48bf7831574cd6b39f05e9ed72af36bdf88385506be76d3e05043e57fa4738f3425d4bcea74f194f299c1d018dd7971b88e52dc1c1746d5a22df55a0103",
+     "tx_hash": "c5626473ae64a39373d5677c799422eec38c21991178a775071fe4c7df69d706"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-87FD494D54DD",
+      "credential_hash": "826a7bd2c647a74a5ce5301053e7b120263fb4ea4b4a7153d37a0b082f6bf967",
+      "kyc_hash": "113e4b286d2fac8d0ee9e5ce27d1280e569a3eb2b65a7deb35a91bde419a90c7",
+      "itinerary_hash": "8e0fe31e5b2a88eeb68ea4425eb35b85e12b5c71ec897345587b9000d14afd4c",
+      "nationality": "IT",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1686478,
+     "signature": "8ea350565dd3a799c010d93a3f525a85374e3dd9c11878c4e5a702d72a318aa5f0e997ca84d0501ea162b8d762f77d0a02572149326fa76146579773264b3709",
+     "tx_hash": "fdb616067cf0dffe9934d319193074c657940154c0b06d02abfb8e380878492b"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FC0B361A158D",
+      "credential_hash": "f875a7812a4fe8d18a375df46e50b677156c114db9098b0ae659c0d97c449fd5",
+      "kyc_hash": "d9e090f3aa4170cb0ff8643b3bd8d911673ec5db1d459bfcc094f3b42dfbb5f9",
+      "itinerary_hash": "2c8becc5dee8e8c0779858edbf6f65318ae7b8cc661fa38b813a2f907c96d204",
+      "nationality": "CN",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-23"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1687827,
+     "signature": "0f0e253782f1c093060b1ecf55169846691eba7700431e138119cc48652b3f84f939221e698cbab7cabd8abbb8111eb3a33f3d2d2cc1d76ee999d950fc714f03",
+     "tx_hash": "b4875d6723090c23721022883810ba7968c59b6ec179fccda7048550c43f64c1"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-54729ED803A4",
+      "credential_hash": "9ada8b20b852d17d8e858461f8e47d858ee354c9ac2b72dcbe69d4c1006e7ab7",
+      "kyc_hash": "dc0875fa785440a4b2dd0862e6d1e252ddd294e3026ad72f2e23662f67c20cbd",
+      "itinerary_hash": "d2b96bbbe7a9bc9beeed28754e37632c7f84f0010bc6f40eebd2020a51684c69",
+      "nationality": "CZ",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-31"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.168925,
+     "signature": "65e126c4b964a6eff630bbb763bb5707f0dfeac7fcd0814b6e8231a2f9797a5089ffb560ad5287bac2d8677118a1178690f5f5134967832cfb789c0781b8350e",
+     "tx_hash": "f4d8a3515c71a6bf8a73a28d35cd445785e71b32a994130eeceb9a643f2935bf"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2300E911FFBC",
+      "credential_hash": "342efdee5f160b77c74276f80c567096ea115239a249941afb1708626f49ee26",
+      "kyc_hash": "eb6fb9c275ef448d51587dcd1cd2a9c5c70f2223483cee5da23d039e59ad00cb",
+      "itinerary_hash": "f564a2091e14a91f21518afb3f3c26d65eca6da45a0daecc09ca3368e83f2744",
+      "nationality": "IT",
+      "valid_from": "2026-12-14",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1690834,
+     "signature": "46888e95fb63bd5b8c625331dd1371e6a77d1cd8c8cf69a5194d083ff3ed77cc97cf832c4e9587a135824be133b0503f3653dc27be61e0acfd3c1eb9b8b7bb00",
+     "tx_hash": "fbd574f8a24f515dcf93a44894440f092d0a41db9a1de3a8977f763b1eddcf40"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-A3D22236E7D2",
+      "credential_hash": "9c043a333a13f724cb6c0fe8caf0c74d056c2f995bb63d971a2a4e391f19c676",
+      "kyc_hash": "1cc980593c507148120e2fac804f2493a4df7ea0dbf4a6055f72eb719d902e43",
+      "itinerary_hash": "cf47af324ecfd5ed58779882d172fb04803ef7731d93673de394eb7165683d72",
+      "nationality": "GB",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1692364,
+     "signature": "4b45ab11845b39edacd558ea5ddd83b4ec1353518215d2c3456d9df79d112ed2aef805a278fd7f3149d63341368d882e1c9a627eeaab3b14a02e1dfbb0742d05",
+     "tx_hash": "7d55b9cdc7c9bcb35f2f1a2032490b92117c4c7772830d8ed142e5cb380c8e28"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C2EB99AA3E58",
+      "credential_hash": "ff2052f2cece1c9f31d75d22d5387eff1f67d94745b1b71da074bb5663359164",
+      "kyc_hash": "b3d7c7d3292830f8175493434cc14372fb174ed6cfb461cd8f9dbd37e9f82d7c",
+      "itinerary_hash": "bf6651239859d62807e56f466fb58454e9c2f05c2e5e1ebf08e4542394a33571",
+      "nationality": "IN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1694162,
+     "signature": "a21c8686f912e5476b49c5e063865ac35815964dec92f20928c8fa31187bee343dc17ce34f9d57ce82db89806075eb761e3551f05d4dab4864d9ba296c5e2f0d",
+     "tx_hash": "8b4195ec3a73f637ffd3a60cf9ee2fc0714cc46193f2acf89e97a43965a738f0"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-6D5B1C882EBE",
+      "credential_hash": "55ddbdac2ae421bcc9e5cee3366113ef13cc61363183f13e7a3cc3c8471f0eba",
+      "kyc_hash": "2c995bbd545ab9643b0c8c07d0991e41c86933e0df4e86c798e7bca1004fc416",
+      "itinerary_hash": "092d023f80586969733f42508bae4db43341dd760faa19043b48081f955dd60c",
+      "nationality": "JP",
+      "valid_from": "2026-12-12",
+      "valid_to": "2026-12-15"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.169555,
+     "signature": "008409ff47d2ed5fff03cfec8b2d572b0972e08e408a6dedaf03ec032ec8a64a6db099b368c965bd909cd08b1bea074d7142abc9ce5da4e5d1c2575b8724e40b",
+     "tx_hash": "1e748fb142677906373c8b4655a7a8b9b890455e234a84e7bd90b4564defb132"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0A15FE1C55CB",
+      "credential_hash": "e853f853aca44d0afbb7e041c576db35a4903ccd606e704789914f8e668c1033",
+      "kyc_hash": "14a2eb538ce894dcb5df346ff67d419c7388b8ece95f758b3886afd965bacd5b",
+      "itinerary_hash": "585ba9785b53960357a6d9127779516c75eda7908e5235f3e75800d0307ff302",
+      "nationality": "FR",
+      "valid_from": "2026-12-17",
+      "valid_to": "2026-12-28"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.169743,
+     "signature": "100d10afe99fa8936d9f90f60a0c50ce80c3ed3a8370af013d33237f40226c5c23405d15ab2997673217ee6bffbe5b7812d4ba715faaa454ffb0d8fc230fc002",
+     "tx_hash": "b2d79d6d6a1bd0f8c7045f8e6693fa38b97d44cee2c2fa99941e3988e8b7fabf"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-CF3B3FE79A52",
+      "credential_hash": "640b4242d58b6c5c18c0e62a717b591ffe96ecf39ec42c62ba7a34a9211fb912",
+      "kyc_hash": "6e48c9f6229e34825986cfe79de88aa59f6cec57ab0ad66dcd9e9347a12ddf67",
+      "itinerary_hash": "ea9f2077970f0eb5d163c0576c5e7e7ab84e99e2ac0d5030c49d62f3159ff359",
+      "nationality": "NG",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1698925,
+     "signature": "a3072b4d06a2c6408d2860340a542c29cef8e316ff89b6187e8fa15bb523328c7a7e492efe5f88625708559510e6619a20ac9ba1f9c9aec5117bd72d66e7970d",
+     "tx_hash": "00a576fed3010500c01bbfcbddc4f93f4afa18f759a4dc1573d1ea4a2ca325bf"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D1E34F82A24C",
+      "credential_hash": "763d8b62340bafd2a2a7045f4fd73ee6902f4b65b05db008f150cfd19c72e567",
+      "kyc_hash": "71265f5620f704573f215e6f3a21c06ec9c10a3965412d0795f3a4e711959700",
+      "itinerary_hash": "478fbfcd99d2fc92f5b06b6fdc6fc4ed03419359184191fff2921e4d12f50008",
+      "nationality": "DE",
+      "valid_from": "2026-12-16",
+      "valid_to": "2027-01-05"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.170026,
+     "signature": "dc1cceb8571215e276856317532691b5f9c7e6d188946e98d67bfb94570ae0b8016749b7012de20c0cffb62a9c4028936c5b91cd017ea01c9b38cf669fa6e004",
+     "tx_hash": "d0a8093220ad214e7f387cd2cdfc1a5aae04f9317a2704b0ebff9c2719eb09f3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0D05A3E16A39",
+      "credential_hash": "ec581797aaf139439aac50284aa2d7d4a7f95e8c424c17c38d2be80fa5e18942",
+      "kyc_hash": "b2a9711eb98fb6ea9d80e8c833a3fb4d9dfffbeb363ad36d508dce51f2728ddb",
+      "itinerary_hash": "9b5d769885eeb08be0f089bfbb67ba60be4415d3a1601e2838ccf85f8fd0c81b",
+      "nationality": "IT",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1701674,
+     "signature": "3ef837a7ad04e9afd9ebc2881d96c4bf8f023f7550b5ebbb77a298a1f304198fad4113e36a06d5a68ad9fded5826e722cb1351145742e5e5a61f10b6ed64530e",
+     "tx_hash": "50ebd2cd645466e17d34f4db90965cb78102226745e84f4fafadab038f6566b5"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-FA0A11EF6634",
+      "credential_hash": "cc7588617e663399166df546d88d9b58e5df1b30b5e8a7e5f6db60db26849ef6",
+      "kyc_hash": "5b43ce7cdbe81387dae2344b59c57347262c66cb5fe37b6789ca97874b739803",
+      "itinerary_hash": "54b62268e8f557bd48c6a2c4b5150cf683bd576469e3a014cf9bfd8b05e51883",
+      "nationality": "CN",
+      "valid_from": "2026-12-15",
+      "valid_to": "2027-01-02"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1703362,
+     "signature": "0ae21a2c88e24040f0166cdaf813e5fabafd70b831461d95dc5adce592dd50a95e5db43a91ba3567bb93f3164eb8f3867caacb8a0dfff33770a4d0a3d6a1f500",
+     "tx_hash": "3bf86bbcce9fd2f24f75370ab87b924b741fd2358666d140d27cb21d90bb1efd"
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "timestamp": 1793541731.1748772,
+   "prev_hash": "69883c50bc57c7a689f94041d03709774042744f9619536456204c9a1fcbc5a1",
+   "merkle_root": "001d7e2725222322ccb23db19544240fa13ec98b1765297f529b25fd236ef816",
+   "validator": "Immigration Office",
+   "hash": "27884a126ebf0fb47aeec4161318028ada9a7f9f3f44950e3e0192cfef031339",
+   "signature": "99de7ac7980f7b751b08224e6ff358ca658ce5cf0084a4d724e0acffda014b984b0fb794ed2b8e67e328312330c04c6362214731b746f280f60c565c7cf7c205",
+   "transactions": [
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-107594B7D3AB",
+      "credential_hash": "54dd3f54ac6b8508a383bfd9e709fc71192992dce17f5befc4dbe98b09cb191e",
+      "kyc_hash": "7b7abbeb0449e395815c9955cb9faf95042aa5d947fe7a8f696dea6e73dd2645",
+      "itinerary_hash": "ddb15c354f5f56dffe6c5c1e5ab483b4dd3589582c07eed130a576496138e488",
+      "nationality": "CN",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1707213,
+     "signature": "7bedc9d1724ee04ac6a36e7f8529ea6d8fcd790d483cd47c1bcbfbca661b4a96ddbb946fac659c8547579b69537f792662b125d9aaa883584f17709db83e1f04",
+     "tx_hash": "aa596461f3f82ee6d3dbe8461d7fe321f221efbd131b057c33ad88b5455db5ce"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-600A8F5DE6EB",
+      "credential_hash": "d05c7618f9af4b796bf636a8519a08b8268ae8836070509d238c07f6ee7dbe6d",
+      "kyc_hash": "bcdf880873634ac07231601457c97d7073d065b3b6acc613368031bd2774e934",
+      "itinerary_hash": "8272d969834a5aa41905fe24ebe5bb1518f3f0cc3f3825fc5f2c26391f92962f",
+      "nationality": "GB",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.170888,
+     "signature": "6833292fb8d8829c93a5455bf64c7041c1bb964439f665c1e32a0e4d2bfcc5c0d6382f3e031959c6386e5f3eb6f6ac1683e3940592c0a722e3929c35878e530f",
+     "tx_hash": "fb2357766d939000492f3ddf68b37cc43e259198dc04ff3efe340b94c6389b86"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-35634BA4E9D4",
+      "credential_hash": "efb19c07868c9d04851b5ff1144299222ce866b43ab1325a617b427b9d72a0de",
+      "kyc_hash": "7aa91e7ea3aa204c527df91d72acaeaae35614268a40be6c6699be3bfec5113c",
+      "itinerary_hash": "96f2d6601454d9cd5aa9ff1cdbfb53c16e1cd91133608f0decb7e5e317ba2411",
+      "nationality": "CZ",
+      "valid_from": "2026-12-19",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1710298,
+     "signature": "b95fe3ce3baa6525ae0c88287a0b5ee019b12dbdf077f28878a32eb0021b697c5b1929705d6ba4c79521b8c3fcb84268272a77927ae3c4f97292d0012abba10d",
+     "tx_hash": "cd05b2259093ac1ad5b6dbaa16a72ddf342f7f61af255f6587ce21651c1abc69"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-1338E7D55462",
+      "credential_hash": "cf6879ece0b438403dd3e2e8a1aff1814044d225c89b0c6bf0b60f3913ecc0c9",
+      "kyc_hash": "474d756ca6b95274cbc837c56ec2f0649c8ba81febd9a468ac271ec46c1aa5af",
+      "itinerary_hash": "fa1616feba454a809e78b626fbc77144579fceacf5234fb84ffa2b0a690eab35",
+      "nationality": "IN",
+      "valid_from": "2026-12-09",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1711679,
+     "signature": "bf9edaa2a8b103c3323b8ee966445d11f9ef2fe6c3bab830ed3818ceb15bd23f404cf3b6e89d266c2fe4b2e40021eccb542bfc88d1d03129fe199796f4b1230e",
+     "tx_hash": "a37ebd04a451b90d2963657ede104cb33443ce4b2a91b1fc02e4c32aa0339ba4"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-099DEFD2461B",
+      "credential_hash": "036dbb230643c68a34c874e5040e09f33885ca8a38fccd152952eaabe6d513ca",
+      "kyc_hash": "ddcab4cbfd4e0c2742c4f421c15f7131418bef2803a94e72eff6ca3deed8fdf1",
+      "itinerary_hash": "f7a40e0021a8f17c6aafa04e0f2b39fe1b5999490daa312f75bbf71f1f2463d2",
+      "nationality": "ES",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-18"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1713402,
+     "signature": "cdc3b5bad3b5b532ab9c342c94bf4172ed6a483c864cb982a26eadb07481ce0531b091a65bdcdfd1f76862a22632c9101356d215ce211d923810efc1b423db02",
+     "tx_hash": "bcff6f6c0d83cfb853a0b4ec5d733905f672510351faa91c1da41f057473bfb3"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C012C9D20777",
+      "credential_hash": "1afc418371a9ae06430800471ee42ce87c475314ca99f3425c63e65327306e5f",
+      "kyc_hash": "38ee86148785e3831330a955896c6092c5e23de8a16550f5f41c1878092c6b1d",
+      "itinerary_hash": "f1304ee9e970a26faf5cc38a8cf60f5faa9b27cd5f8e7e541611b3aa3f372dae",
+      "nationality": "FR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.171482,
+     "signature": "31fd6e634d5482fce1acad162768224160f9540155a51c35b834d7e41c2cb609c6d3e7a09595983fe69c2c3c573dfee87db8eb5b0c1a038a57c00eb109edff0c",
+     "tx_hash": "fdd8bcdfe1b41afd2a6e72f73851de2a93280c8cd514db25267bf21da3630855"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-0E1243080901",
+      "credential_hash": "08d1d5e4a865a767985b3a7305da3e8d4889406e7e0cce66ca412e66cf4b8be6",
+      "kyc_hash": "966d92beb49d47e1a114e3c3dfaca6630d3b8bfeec08b00627aa8e38d91de511",
+      "itinerary_hash": "2542e98485a99505a2d3211db8002070d4cccd0215601ba77c35d633f49fcef1",
+      "nationality": "BR",
+      "valid_from": "2026-12-10",
+      "valid_to": "2026-12-16"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1716516,
+     "signature": "5b0171035978f3447ef3afc07cffe46b1c77786b5f5a9707359474cf23878f72701b51800587c4eff843e31aa77de725954dc3b0be575a884c9aa0070293a20c",
+     "tx_hash": "93750bcc67879ddd48a2c06c0537eff6da97ba5c4c152454c397bc78338e59bc"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C2C0B540F7B1",
+      "credential_hash": "3d7433a228ab118fa163e873e19a180dc05c6e63314ecfe376c67eda7c26347a",
+      "kyc_hash": "f015e1e186ecb737c2ae66b2490f44e727b3199ac95df8a114acf64091b984c7",
+      "itinerary_hash": "ed73d7110589bc6be43e223621ecbedc204654610a73b704831a8259ea237ed3",
+      "nationality": "GB",
+      "valid_from": "2026-12-16",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1718001,
+     "signature": "1649f9f7ac29da7928b533107cf104e4b35d15bf5b24805b7df3e95a0c6ce45475027033b784bb77581a4c4b1535859b7acb298ccf1556c69ea275720a33d308",
+     "tx_hash": "754e4b35486a191d2891c5219bc02056a6a46d05e9dec509f7b6d5db1b0c6c75"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-39C15497A7BB",
+      "credential_hash": "fc750b742da2fde54650dc504ad96d1443d74dec8022db414d227aad94889016",
+      "kyc_hash": "7309b3d4b1cc0e1c2f838f711af899fdc5384b40528329a1b6e647a07e33295f",
+      "itinerary_hash": "8839d7eb0d9e85ccfedd82470b1a090455b75bd536790565de22480b09925dd3",
+      "nationality": "IT",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1719427,
+     "signature": "85cb852cbfb67a78229572c0a00f53edc91ddc7761d4bdce9b6edd1c26f27657ea47c71af45237a82bd115b6b334cc42ecefb0505d3852d5c2b9e89547349001",
+     "tx_hash": "1ecfdef0460083b59fc971601f6dc36e3f19e97c933e89c4181ce4ce1bfa2dae"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-E159E5BF24B6",
+      "credential_hash": "16ab882a14c305385a2071175550d5c0e4cc96ca8df8246a9e6864f1defe59e8",
+      "kyc_hash": "ebe0281bff8d6c962c9648c9b7cc827620ba49339c059f399f97dff199bca417",
+      "itinerary_hash": "d2b96bbbe7a9bc9beeed28754e37632c7f84f0010bc6f40eebd2020a51684c69",
+      "nationality": "BR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-15"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1720948,
+     "signature": "c377c5108f353852011ffe56b83ab5dd212d02343f8f00df76ed9a2424e362b57d5963f0414e1bc98a1d70b464d8ed46cfcc45ea98d23bc471827738b67f7408",
+     "tx_hash": "0307ad9a78752770298b05cf141ea5191a159696df1eb24a06232f67b0633267"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-637675E911BA",
+      "credential_hash": "1561ca5bc897d69186177f91cbf14395ae0933820e14cd577f14ab75a862659c",
+      "kyc_hash": "9fd7acd87a05a3a856d518bcd4c9eef778ce2650f56a8a8f50edd1066f839286",
+      "itinerary_hash": "7caf42f3123009e448d9d41bee93c329b8228442f4362d96af0c9a6f61808529",
+      "nationality": "FR",
+      "valid_from": "2026-12-21",
+      "valid_to": "2026-12-30"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.172236,
+     "signature": "07a13d0bb32c36c93cf04f3832d90f4d74227ec9cee16be79995929002381de4d48f158a15ec6f89e929541ac304ceaf3b758b16bfbd86ebe61265888129450a",
+     "tx_hash": "317a1ae896b81b8ce47af9704b53b102795c09d8d5d7a0d2ca97a75b2b7dd18e"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-20831613DA0B",
+      "credential_hash": "a768c55e9c255d126c4fc37900ce701818421bf2d53fba55d498e794294ba702",
+      "kyc_hash": "396d085af845e6fed43a193dc487780930318f3e86f7bf2b680449e4ce1c464a",
+      "itinerary_hash": "f98f56860c3c4bfee6ff79f63de3df792ff94c483798c1122ddfd51149e84ba6",
+      "nationality": "CN",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-22"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1724465,
+     "signature": "f6b52d2349f3ac0cd311fbaf1fe239e0248c3686166ade072fa905ce2a3781e4b917a5f190876ddaac5c16e4673b0ac9a3afbeafed7738f42699de0efc12ab02",
+     "tx_hash": "ffa6e7a61e1afd1bcff4defdd14abb56c10ed2cc75b29de91ea07620d5061ee5"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-E456D2697CCA",
+      "credential_hash": "305142c91e10da37ca81ea7e34dc8f1c90ca9615f5a24b8242d593ce04cbba2d",
+      "kyc_hash": "35b72f497ef7bf2cfe757244592d009db454c673c487c5543f0c33727bd8039c",
+      "itinerary_hash": "e18fa17132fb06242d499f7362c45b1a92d540d476475c73d0f4b0198c0b8cae",
+      "nationality": "IN",
+      "valid_from": "2026-12-07",
+      "valid_to": "2026-12-13"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1726913,
+     "signature": "267702d3d3f374cda8aef0c07335fae0ca1ff7df6acdc183f143a09667502df0d5c23dc085cdd257b8d8d1e783973f51eae1af57030be30e37b37e7672c4e40f",
+     "tx_hash": "7694239ceac7625501a577320b0a264a97563cb505ab699c0904a8b8d1b91fcd"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-851647FF1F0E",
+      "credential_hash": "4febdb0e4edb3879346823aa9fb403af0d178c339d32d8d1f62729408eac6b9a",
+      "kyc_hash": "4f810f4e8f9620768d0511424553f7ba414b29b0e279f1e3c19549a5de1fe8a5",
+      "itinerary_hash": "0ede6fd9ddb6e17af0bdab4d4abfcb8b3313a715122b5b8092d433e2d8ac9855",
+      "nationality": "BR",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-31"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.172924,
+     "signature": "31acd25b20abe2101cb032aaf6343ef7d8efa70451909d810e325e8cf63c0c509a15cf2fb2185aa5209679ed04534b80ebbfefa037d6ac11fc2c34b6dda4410c",
+     "tx_hash": "cb8b128bd04ce8479ba26df886310ff8b7f746b7265cb2fbf9d85104c4fc9252"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-79AE7C4995EC",
+      "credential_hash": "89c7a2098a90a0e68769a3a31b810aa611bbc7b8d8e35d439f1cd83911e6805d",
+      "kyc_hash": "c09fed10650b8f7ff9a3ffd7a3570a1cc933bcc370a3bac25541cca044612932",
+      "itinerary_hash": "41a5787db7249312fc3cc3586e1b0021369d2ca4f89254fa40800832ddc037a2",
+      "nationality": "KR",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-12"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1732092,
+     "signature": "581562ba6fb054a905f579d435b560422a682b84a15681da5224e1e227c4fa2c188c1a2bdacd615268c4aec547b0ce47263de2c93bc0bdf5c1b02a7c8f491101",
+     "tx_hash": "cebcb2853fc02fbbcd376865518725820efc9838796292c11baa47bd0097a927"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-28C992105F7A",
+      "credential_hash": "1834c31ed23093ddad040803c50011ee742ab69db73e0f94d94c256bb2616f99",
+      "kyc_hash": "46ad74324af3cbbb9f17619cbe85c72b38db20cbdc504cceff6e26c058e581f6",
+      "itinerary_hash": "9bd72b032c5c6979ec77035ef0c77cd7d5fdc7cdb8660f3af57a62f13376c5d1",
+      "nationality": "BR",
+      "valid_from": "2026-12-03",
+      "valid_to": "2026-12-14"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1734324,
+     "signature": "966eb9d3832984d444780c900707fe9e7db0567e3ead34576efba6eb964aba4b5cc8ac2ecc8962261c7ff7ab281b2747d5d54988f858602ff3f511a31b0ebd05",
+     "tx_hash": "7963e3ee2312cfcaee06e696be2801fd0fefe2d090349f63638e87915c03edcf"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-798EE1775C09",
+      "credential_hash": "16198902a4e0335a794586e37a7c23b057523cee858c0348a27e294c87e427a1",
+      "kyc_hash": "367a8b7f48c804205aef31c3cc347633114978909afb0e7f26594cef6ed86cb8",
+      "itinerary_hash": "cf47af324ecfd5ed58779882d172fb04803ef7731d93673de394eb7165683d72",
+      "nationality": "BR",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-19"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1735706,
+     "signature": "7a67148d32964b9e896ef7f372d64f37e76adf2e1f07e892e51b7bccd2d399666e047f938fad3d6fde4a719c3ffc02da15bb948a221bcdcf4994bb53328b3a02",
+     "tx_hash": "4e393dd77b94330580b672ee773c85bb579a285599927a21ff262a65ad6e93ff"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-2DA7EBA535CD",
+      "credential_hash": "a5fc7c135042482a04a9b967891845e9c0d897381cdf267cf976c9aad630971e",
+      "kyc_hash": "1acaadfdbde1dab839dbe713b341da8b8dcd70aebcdd2f5ef9d6004e44215b69",
+      "itinerary_hash": "a359ccd9eb78003fbbb1da1582f0276aff3828edf23eea7a9d43ff6e9e6f0fca",
+      "nationality": "IT",
+      "valid_from": "2026-12-11",
+      "valid_to": "2026-12-21"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1737516,
+     "signature": "60eee9c5e6b0024a40b5a6f3256b51ce761ed9e46714851aa513cbc0ea6ce16e4f8e3872dbe8d09b764f727555120dca99f3412b571f8562ef2d02e3ebd3fe0a",
+     "tx_hash": "9d6b863ac626dd2965bcbae4378d17013312a83c562e4c6aca1921b02f8307f7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-DE71F8AE5FD5",
+      "credential_hash": "134650354cb7624c271e1a2520f326761872dd2466d8733736e61467c67cfb0f",
+      "kyc_hash": "5470b7801309a4d8385b90634e74df9a1c206d109c11266f8ffadb090876c629",
+      "itinerary_hash": "84058e59901b9d82b2efab10881d66f473e7ed2bbb921216fd41b2afa985e7c9",
+      "nationality": "FR",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-11"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1739109,
+     "signature": "7d4663a0f48a36e18d2ef1d552c998d2a8643c9a683becefe8b6b92c7a45779e3043ffd5dc9aa91c9d5ee7721c403467c5bed3ef3d6148e355d3d750986dbc06",
+     "tx_hash": "70c2c4a19f18012154bae767e55e4ff9a8f9aad387c01e5e4b7fdf9c6dd5eed6"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-DAC071B2E192",
+      "credential_hash": "36c1a649b5bb22d9453893a414e94e73b50312e94f3ec202f078dda791fa8e79",
+      "kyc_hash": "f064a3adc9b4b4cd11efb529fffd1593634892cf0ecc319f2314e2b283202ca3",
+      "itinerary_hash": "3b5409880457d74b1a88dd953eb9ebdb70c0a9ecaf0a4cb786114afa5006969b",
+      "nationality": "AE",
+      "valid_from": "2026-12-13",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.174056,
+     "signature": "bf69031bc1dfeaa618cd3b49f0d71df1c63f01be89477687a6c9f6de4336d3389313aeecb55bc12f5795171a3f91a32219fc4d4dd386171ba8d76ca370ae6f0d",
+     "tx_hash": "82722cc611f6d4ab94bb049d7d8426837363d9446a5197f4d2935203a74684ab"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-D89FD3F55779",
+      "credential_hash": "6f438c9b3ed4ed823a168032799c8ebcaa8fb9b7f585c4e672e6570e36c32b4a",
+      "kyc_hash": "7e47f1b76a4f3d7878be51e517f5b77e7401e170eaa08300026ffe4ceb26e106",
+      "itinerary_hash": "f64c7fa874c1877046f17274ad51fefb9edd86822fc8aa14b0a8558381f1a715",
+      "nationality": "KR",
+      "valid_from": "2026-12-06",
+      "valid_to": "2026-12-17"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1742058,
+     "signature": "a8c0a7ef7ba1047542bcb0cd0a55e84c38b49da44f482a465e2838891869fc4497cbc50e4c862bfecde5c30b657eeac625f9a96d2fa2ec6994ed104c899c7107",
+     "tx_hash": "4eda67f906be4d5be2cca641823fb303d4dc5e16f39296041d6f9e8baa9a2b00"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-F44978566833",
+      "credential_hash": "79250dbe2ce4b3da5f145a4e9e653c4ca609a4ff6950290a72bf4beb6d0764cb",
+      "kyc_hash": "75c2cc61782e8195896a00b21e0b5b2cecdb87653af5de50cef6b08222001424",
+      "itinerary_hash": "092d023f80586969733f42508bae4db43341dd760faa19043b48081f955dd60c",
+      "nationality": "IT",
+      "valid_from": "2026-12-15",
+      "valid_to": "2026-12-24"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1744103,
+     "signature": "0af4f97d21db5b466e1e1680136225b2f84554cfb7004ce0fddf3b990543acaf686ca4a3fff845a873458bcad1f2fa0a14e3d7e7a9dc003afa5322f73c6c6701",
+     "tx_hash": "f3e652f7e2def7d073a8aed68bab82f0fe400f76d99f5644a4d3e763165a4dd7"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-4B5DCD53D03E",
+      "credential_hash": "6e5dede8ab4dfe24f54841785ff8629c3eee90fb35e09fd1a13fe12b3a03fc10",
+      "kyc_hash": "342aa5f7755b1d176e9990bfead375943283cfac0e698a560d197ed952aa267e",
+      "itinerary_hash": "193ea6e94a35ce77aa84d024c2b072cf4d34a70802c4873b760d66c626ac2638",
+      "nationality": "FR",
+      "valid_from": "2026-12-04",
+      "valid_to": "2026-12-13"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1745658,
+     "signature": "6c6cf9dfd98f8b60376b6fe0cf9fb2208f85a42ec8ab9568a711d7a1bc6e7a2adfdb8c97b113297b1f9af52803abe27caac466ad32174266d4c897102d4b6901",
+     "tx_hash": "a1b5ff5c51289eab3561427ed6c7dd8aa05b2a7d0ce13805d7e84a265b3703e6"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-382D05EBED0C",
+      "credential_hash": "ac9276e93a620eda11b14e5f122f6a20c23d676e49bea42ba162f485e4cb489d",
+      "kyc_hash": "26ad29c4cc2b99471cc58d142a41d837272dfbaf4570c28e366297ade0914566",
+      "itinerary_hash": "f573ee02d48c8d0087f9659f4b96d7d0daea96dddf586aafb1935bbcc37afaf8",
+      "nationality": "IN",
+      "valid_from": "2026-12-08",
+      "valid_to": "2026-12-27"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1747003,
+     "signature": "3859402395118ab4a5e3148e7f703ed9811923f4ee7b9fabab7cec5b4aa69d0f515f73ef79fda7e56af14073a0b6f9f7cc059e8c7934f64b0780d16bd44dff06",
+     "tx_hash": "f76b940b5b784bc26f0ed7013be6764fe9cf5fb8fbf226cda0f4f7fe440097ae"
+    },
+    {
+     "kind": "REGISTER_ID",
+     "payload": {
+      "tourist_id": "TID-C01C9248A875",
+      "credential_hash": "d25af540c01532ed917009f1a250da13b8adc400d2b7f952633b42995f14fdb2",
+      "kyc_hash": "8688a6409a6a41991bb07e6cf829f1fa199b0fc1c822debe1813354366d8a643",
+      "itinerary_hash": "e113d43f92c5568481230aa35c753b1a1d011a8e5a31c91b75a6de30e41f2ae0",
+      "nationality": "FR",
+      "valid_from": "2026-12-07",
+      "valid_to": "2026-12-16"
+     },
+     "issuer": "Tourism Department",
+     "timestamp": 1793541731.1748328,
+     "signature": "9f265eb1c71a92c228d2689b07c2c24e8edb1a10276da756f1da22130b94d88edc19246a2d4ebb5a6e5241c32eb33fc58475e80c478974085471b1c684e87302",
+     "tx_hash": "24679f766498da4cbd1d39dbdecd6477e8a76cbd1a2ffe23630b4b29575ba495"
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "timestamp": 1793541731.2085557,
+   "prev_hash": "27884a126ebf0fb47aeec4161318028ada9a7f9f3f44950e3e0192cfef031339",
+   "merkle_root": "8f10d2febfa30a9742e7cce54e7aedb7f8df08f6d1fb231d2a1be48ee49321e3",
+   "validator": "Tourism Department",
+   "hash": "72183f2bdb16df88d4d05a27230707dd3fd11fa706b036b705aea622d0eabb43",
+   "signature": "26c1849755c79355bd7558eca06edd841e1332c25218ea60bb0116e4751716c81fd5659678beb77a962c3d5b524a5dfc45a607be7096b01a9fd7d0a912ba0007",
+   "transactions": [
+    {
+     "kind": "REVOKE_ID",
+     "payload": {
+      "tourist_id": "TID-0E6115A6716C",
+      "reason": "demo revocation (lost device)"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2083035,
+     "signature": "58882f8e07c4cefd57a1580f5b2f2958ca65974bb091d04e9599086153735785e0c367afe6d95100d04cd7d12108baf2fe242560b42478396917f2d0a09e910a",
+     "tx_hash": "b5edf088e022dfb6283ad917250c85f458b0f723943e21223ccfbfc9e56baec5"
+    },
+    {
+     "kind": "REVOKE_ID",
+     "payload": {
+      "tourist_id": "TID-5BB40CD4B997",
+      "reason": "demo revocation (lost device)"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2083714,
+     "signature": "6b8ca8c9aa2bf73b2ed4ad1d3e9f53dc14389f651789ee0241f5c881bd48c67a2fe99c5e17fd33ae9b1159144b3f30233090d041b146bd3640533a68354a9500",
+     "tx_hash": "82a816bce9fd875a74618f4d6b1eca71d6d458fe37592916b3e70ee124b9007c"
+    },
+    {
+     "kind": "REVOKE_ID",
+     "payload": {
+      "tourist_id": "TID-7480049BA1D9",
+      "reason": "demo revocation (lost device)"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.208429,
+     "signature": "297f20995394e36678f7f0bc1b2465786d01f3c6b5ba4ebc7bfd84c53e0ee7c6a48b02565894bfd0017a7bfc02a037e0398231cbb4490ec650d3a04c9ac3fa0a",
+     "tx_hash": "86d8ac4c33630ae9f16566e1a54c79661a0481d790d2dc8569db94b1c2b6ac3b"
+    },
+    {
+     "kind": "REVOKE_ID",
+     "payload": {
+      "tourist_id": "TID-7FD12EF30708",
+      "reason": "demo revocation (lost device)"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2084715,
+     "signature": "b9eaeed2bd81659f82c24b0b3b3a8333179b60ae92407bdf56208fe60a5eb30d63231f76564050453652d74f18b2fcfbabeecd894ddbaa7f500a609d490ad909",
+     "tx_hash": "aa16d3ce13c214931f31b697a0a8c439b5664312e504d0e2c297973471de7492"
+    },
+    {
+     "kind": "REVOKE_ID",
+     "payload": {
+      "tourist_id": "TID-49BDCEDA282D",
+      "reason": "demo revocation (lost device)"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.208513,
+     "signature": "1cd88e33a119dd0dc4a367811570881089f0860725950a176e6824e2fb6749d54dad5640c4b45a42f40793ac41c15ea1d541791674461ce47c57eda17b94af0e",
+     "tx_hash": "06ed2434e524106ebfe350418b1d31344c934c7dc6c7222d63e494217ca54802"
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "timestamp": 1793541731.2195175,
+   "prev_hash": "72183f2bdb16df88d4d05a27230707dd3fd11fa706b036b705aea622d0eabb43",
+   "merkle_root": "c7c1e99afab101e9930d1cbc72e278620526b562c5a701866f1b59a9282f6318",
+   "validator": "City Police",
+   "hash": "c97a21b81a7812cc2d78c783ee728f561ef5c960da9e6f146ded3b7b74cb4308",
+   "signature": "e7e3c292c9b7f0dae301ffcf16a20b8ad09eb578665da8043fa4182e95d0257633462ff7126f3efb124078483ca44d37ac8a5b1bf9e105aeabb210b7ef84c203",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-CC29DBDAD6B1",
+      "time": "2026-12-15T13:31:00",
+      "lat": 12.978,
+      "lon": 77.5951,
+      "risk_level": "LOW",
+      "decided_by": "on-device",
+      "alert_hash": "b9e2c072f9d490e827aaa38523c757e2749e39c8cf6b8dd9d78498f93de89717"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2194345,
+     "signature": "208512f50a38178569c7e1e9a2203320a474762ded3ebb959b0f4655f90e9a47886434ba1cd44140d20c068d65ecf711e6408253e254451d90c3a56ce8f0b507",
+     "tx_hash": "c7c1e99afab101e9930d1cbc72e278620526b562c5a701866f1b59a9282f6318"
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "timestamp": 1793541731.2201235,
+   "prev_hash": "c97a21b81a7812cc2d78c783ee728f561ef5c960da9e6f146ded3b7b74cb4308",
+   "merkle_root": "8b2b81e69d4a7ea232e1d772a64c2a14efb4d2743cba1c5852556d5b61640712",
+   "validator": "Immigration Office",
+   "hash": "a4da4ba2c385cc9863034bf2c23e80b975cb72cf30ae0c44cc9ce3db013cbdee",
+   "signature": "7468db5ddbf834933b01999f50d50784f7183c95816e146f501d691ee1c2abdf0b06d26fd148a9618c72be369ef3dfc246ded48d3a209aee431a879995c63e0e",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-2B434A9716D4",
+      "time": "2026-12-01T13:31:00",
+      "lat": 12.9778,
+      "lon": 77.595,
+      "risk_level": "LOW",
+      "decided_by": "on-device",
+      "alert_hash": "acab85bc168f26f24821d8880b5a60c8b7af77d252bc72a3d5d2428ebf812e64"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2200575,
+     "signature": "21f80b87a05222ba3139c46bcdb2dfbfa6916cfa753b2a71a3703561281cd9511be03e8b83fd8f4002370d247e3f1935ae91a74236b4a283af8abfd0643b2508",
+     "tx_hash": "8b2b81e69d4a7ea232e1d772a64c2a14efb4d2743cba1c5852556d5b61640712"
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "timestamp": 1793541731.2207043,
+   "prev_hash": "a4da4ba2c385cc9863034bf2c23e80b975cb72cf30ae0c44cc9ce3db013cbdee",
+   "merkle_root": "49eb02993d935a7c864b60261f6183d2ef875a1bccfd14d0a100da78be642f59",
+   "validator": "Tourism Department",
+   "hash": "a5d60b0b614799f8b16c45d521296f7ec14e7532467c5ccddf5036ac9d61bb78",
+   "signature": "dbac7a3daecbef770699deabc5e0643434f543414087332dbda7c2400524f97921209e4dd052e9f27f01e1b8031b0401842f56a658b742091565acb22850e20c",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-32E82F12BFD1",
+      "time": "2026-12-19T13:31:00",
+      "lat": 12.9779,
+      "lon": 77.5951,
+      "risk_level": "LOW",
+      "decided_by": "on-device",
+      "alert_hash": "b50eb3f08c6d238acbc8fd073bee6296617a671ec224c7d81cd7b72595ab0171"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2206397,
+     "signature": "367d43f1ba476858c438c481a084426d8a9493752b96cb7a41a1bcb16d514a9aaab16e49b4842918cfbe92e28a4515719ddf8d16dee514948afad0b94e801702",
+     "tx_hash": "49eb02993d935a7c864b60261f6183d2ef875a1bccfd14d0a100da78be642f59"
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "timestamp": 1793541731.2213247,
+   "prev_hash": "a5d60b0b614799f8b16c45d521296f7ec14e7532467c5ccddf5036ac9d61bb78",
+   "merkle_root": "704182ed43045120aa17b1f8e11b40427f0b7ed0c24e5d1abd20275d55d96af2",
+   "validator": "City Police",
+   "hash": "ab2a46f0927ebb3d993cff36f1bc8565cf3e31a4fd919d858aaee14ff3cb875d",
+   "signature": "2b288d926a128b124062f68e2e0335a544004a5ab3c4257a8f28604da4f0b23963146046c77968662b474f2ce810a7c45bbbdfd876cb58ead7aef4066fe06901",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-90AF23845093",
+      "time": "2026-12-08T13:31:00",
+      "lat": 12.9778,
+      "lon": 77.5951,
+      "risk_level": "LOW",
+      "decided_by": "on-device",
+      "alert_hash": "76a73deed43960baa2063c26ac3718bad4080df375b92301cd669546fa129858"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2212257,
+     "signature": "0e216aee3bb35e9e6faa7cbe35a65b4b4861c1996363120e96d8488f8a6bb5dee5e8cc2bc21aa6a953f6459fb193ffa11f1283d140c65b01f6f4c035908c8c0f",
+     "tx_hash": "704182ed43045120aa17b1f8e11b40427f0b7ed0c24e5d1abd20275d55d96af2"
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "timestamp": 1793541731.2281454,
+   "prev_hash": "ab2a46f0927ebb3d993cff36f1bc8565cf3e31a4fd919d858aaee14ff3cb875d",
+   "merkle_root": "01f9622481a0086d6ef334b960f8ccb589a1d7df513950d421a8dfcd9e080c73",
+   "validator": "Immigration Office",
+   "hash": "5a44a27b6f69a27cafe14b34a432be626529e27eef659c76ffe30618407c42ca",
+   "signature": "a908939c62ec7d39b03643cabe5b2712cba4173115ab6e84be0e25ec8b0224042148b78e79d05992c6163917cae5e5d7d2e8b460793c1c167b343a3312913401",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-655794AC5310",
+      "time": "2026-12-16T19:16:00",
+      "lat": 12.9802,
+      "lon": 77.5852,
+      "risk_level": "MODERATE",
+      "decided_by": "cloud LLM",
+      "alert_hash": "1475f08a1051c35177e4585906cfac221b26bcc874cd965253a5c5cf52b5fdf7"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2280254,
+     "signature": "d7330c5e7088466e9919615e491c5333e088e7370065bae83e978853bad8eddc033a3412d385305db753a24f2fdc30de7c0c44fec1c50017990c48ecf953e007",
+     "tx_hash": "01f9622481a0086d6ef334b960f8ccb589a1d7df513950d421a8dfcd9e080c73"
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "timestamp": 1793541731.2291782,
+   "prev_hash": "5a44a27b6f69a27cafe14b34a432be626529e27eef659c76ffe30618407c42ca",
+   "merkle_root": "bf683f4388dd8fc3c7b2955812cdf83003b1a0d469732a546af51b93f6f3f227",
+   "validator": "Tourism Department",
+   "hash": "49ff7b2931df853cb8087fdc4c1029c4f42d0befb216eb6e383333a6efd88ac9",
+   "signature": "c2446677efc1747e49701377f68dc1373730b275e9b3faedfd9e23b5fcb44e9f194bec0177ed56019a4795499f43f451ceabc9d5aab34cf8daaba168617b860e",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-646E0B06C32D",
+      "time": "2026-12-12T19:16:00",
+      "lat": 12.9802,
+      "lon": 77.5852,
+      "risk_level": "MODERATE",
+      "decided_by": "cloud LLM",
+      "alert_hash": "1e2dd4f6d0b972e6956f4ae2f3c9a0b5a6fc9417520d8ed0fdc098889fba0072"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2290742,
+     "signature": "664b918eda93502ed968ec2bc3480c87378b052ba348d3bded6f92a8a964ef58187e629c508d8d390f259c0418c97a22829c7c751bf870914be83c94600ddc01",
+     "tx_hash": "bf683f4388dd8fc3c7b2955812cdf83003b1a0d469732a546af51b93f6f3f227"
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "timestamp": 1793541731.2396126,
+   "prev_hash": "49ff7b2931df853cb8087fdc4c1029c4f42d0befb216eb6e383333a6efd88ac9",
+   "merkle_root": "48991b109633e14425909073021782795c2c82a5af71814e0215c98c863c41cd",
+   "validator": "City Police",
+   "hash": "1526fc8e770207e42c85cb80454e00faf22915db962cdf69e7c5fa28f8e7a625",
+   "signature": "4f9aac0fd3f2b572b95c9570f9424fb973221aa5456c399a3856f9e3840b924c9aa6dd92d4802e49ac0e41139393277404ae170edf60e82b272819c2da68340b",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-C9F0F2E8C90C",
+      "time": "2026-12-19T19:16:00",
+      "lat": 12.9803,
+      "lon": 77.5852,
+      "risk_level": "MODERATE",
+      "decided_by": "cloud LLM",
+      "alert_hash": "b2299cc92bcea3e2aef8b3aef15d29f0ed4cb88b2c54fcaf80e7561f81f6b47b"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.239512,
+     "signature": "a5c084f6d4d40311154307455804b8f9a067c43c0b6df39bf4c5b2feabb69f5d2b54976eefefb4240af02be95db7db410bd682a85c88e14d0d66e53c48e3e40f",
+     "tx_hash": "48991b109633e14425909073021782795c2c82a5af71814e0215c98c863c41cd"
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "timestamp": 1793541731.2403972,
+   "prev_hash": "1526fc8e770207e42c85cb80454e00faf22915db962cdf69e7c5fa28f8e7a625",
+   "merkle_root": "1025781dff19a56f5577f73c08b914c5a37430ac758c21dc4faba81008eb53d1",
+   "validator": "Immigration Office",
+   "hash": "7f64d4aef8862518005aaf8808e7baef544fd888deccac662097f2dee4c4d851",
+   "signature": "b6c5f3a795658ba0cf5468ee81456aa4b7fe86859beebf1e46a5db8df6fdca5dda63ebc5a23a3f21bdc3c965ce1cbbe76c69d40f8d6d4c1fe538b831884fb001",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-A63034B92665",
+      "time": "2026-12-16T19:16:00",
+      "lat": 12.9803,
+      "lon": 77.5853,
+      "risk_level": "MODERATE",
+      "decided_by": "cloud LLM",
+      "alert_hash": "ff6b5ca25673919ddb594e087669e934473858a61cd97a9b4aa59ccf8dfe5cad"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2403188,
+     "signature": "3e22e5969db43c7c496e0b91e026d6a1a4403c13d229b0e1719b856dada3eb8c3a98d83223165b87f31a3b32434f73af6d3f51c5b736477ec46fd582f355060c",
+     "tx_hash": "1025781dff19a56f5577f73c08b914c5a37430ac758c21dc4faba81008eb53d1"
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "timestamp": 1793541731.2411215,
+   "prev_hash": "7f64d4aef8862518005aaf8808e7baef544fd888deccac662097f2dee4c4d851",
+   "merkle_root": "a5e74c4f177c00141694869a7d75153a17e8b50d9b14c8b0eb9aa4125e22aa2a",
+   "validator": "Tourism Department",
+   "hash": "d49b670ad53470a28d0c43573df83ce8307b10c2b7b2d68bf373884971bc0c4a",
+   "signature": "d060cbb7646a85b950be9f63d914a779a300f42fcdb37e39b9881fe8e765c4f1f47ce17213a987441a0d7d1d4068469bd66cc35c48ae802f9dcaf5afb4ec4708",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-2493F0B3DCF8",
+      "time": "2026-12-11T01:43:00",
+      "lat": 12.986,
+      "lon": 77.5959,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "d9806e14138629f9f9f2b87a8631b7fce408cacea52fb39a947d3b79f2c644ec"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.241022,
+     "signature": "d2750d2e921d7f316be9ddf576a3f5d5ec6a5ab4a46c65011c7dd6ab01f7133957e7a3c9ab0b7bd164bd82546ff6eb4b2e52502a27076489e897271ca6f32d06",
+     "tx_hash": "a5e74c4f177c00141694869a7d75153a17e8b50d9b14c8b0eb9aa4125e22aa2a"
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "timestamp": 1793541731.2419333,
+   "prev_hash": "d49b670ad53470a28d0c43573df83ce8307b10c2b7b2d68bf373884971bc0c4a",
+   "merkle_root": "774bf628abc026ff0c4fc5b236d8072b570b2465b71d4c7790a0d20ffdbd052b",
+   "validator": "City Police",
+   "hash": "0865d3d46f134d72da6f964c541e3d6ee8dac3d79c5e372bb5fef50563f785be",
+   "signature": "6d804e74993617a27ef114057a45a6e92b5d2dce317732c8cc118e65ce93300d5436f8cacac551bcb26bcdfe0f90f43bd0c9736607f7e520b0b6fddac00fc30f",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-946FD8FD2A7D",
+      "time": "2026-12-19T01:43:00",
+      "lat": 12.986,
+      "lon": 77.5958,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "f470014d08d77531d8d526a38f6a23a5151c166509d59a4994dd961954d60299"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2418401,
+     "signature": "556a72d1e931c093e0df25bc3b4c1f37d092456c742d49d7bd55f67607d95d406019434635030ad56b2b24e40795ccd429ce18faebc0a834f40894c0b0f0410b",
+     "tx_hash": "774bf628abc026ff0c4fc5b236d8072b570b2465b71d4c7790a0d20ffdbd052b"
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "timestamp": 1793541731.2427042,
+   "prev_hash": "0865d3d46f134d72da6f964c541e3d6ee8dac3d79c5e372bb5fef50563f785be",
+   "merkle_root": "1c0c798ee1099f12414b004c18abf7cc28b10db3ef0058456916de6e12ff7350",
+   "validator": "Immigration Office",
+   "hash": "db4dda304643aa94a97d7845e77c30e57d45d8ae1a46785ac37ff5ac3d5aeafd",
+   "signature": "dcb875c793c2e8edd29ec518d0ca85dfb3ffba07774771ccfeb1f8a377b90307351c90fe086e2665ebdf380b160a53a801cef3281d4a80996b21256fae1a9e0e",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-96C5088470C4",
+      "time": "2026-12-19T01:43:00",
+      "lat": 12.986,
+      "lon": 77.5958,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "104fb66b60fd74a9e2c12d4351a124bab25de3dcd2cad9d882e4517fe62e795e"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2426107,
+     "signature": "3c23869878c85e3722546f78ccbd254763c67f938b50ab9e73e8fdfdb8394d55ad11409724ef70921fd77ed8e1223a3e8a69baa58c9877c6ff1ef356f2a7e408",
+     "tx_hash": "1c0c798ee1099f12414b004c18abf7cc28b10db3ef0058456916de6e12ff7350"
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "timestamp": 1793541731.243466,
+   "prev_hash": "db4dda304643aa94a97d7845e77c30e57d45d8ae1a46785ac37ff5ac3d5aeafd",
+   "merkle_root": "4afd59d6ec1779743d809e8a440cf55740e6b5c4117139669e85d96788842d6a",
+   "validator": "Tourism Department",
+   "hash": "3925d78bbc7dbd5cf9d705a6076bf4407357e371b1064652f649e6fa582b46a8",
+   "signature": "7a6dd752ee7cb99b0f49f3ade221ae1ba720215ff7a5921d5ecc5d9655abe0f737241cbfda5a819a159bb74ee81dcf337d4391f03889a83e18d58c37dbb6f207",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-FF67B7EDDB40",
+      "time": "2026-12-02T01:43:00",
+      "lat": 12.986,
+      "lon": 77.5958,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "b45f7608873f43f0ae1b6588a0e3c655bd46266b79b6606626e1eeba7ccfe46b"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.243371,
+     "signature": "825cf974dcae377ed00ea1efc7b4fc89dde7264055827ec7cbc5d5aab1d0357a174ac0782cf59df60aba161660a011c33d7d14ba34f3a2c3ef88f554746bc605",
+     "tx_hash": "4afd59d6ec1779743d809e8a440cf55740e6b5c4117139669e85d96788842d6a"
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "timestamp": 1793541731.2442086,
+   "prev_hash": "3925d78bbc7dbd5cf9d705a6076bf4407357e371b1064652f649e6fa582b46a8",
+   "merkle_root": "718fe4d4f7efa23fdd58778c7f5102431eed31999e53eb639dc00b15de900a1e",
+   "validator": "City Police",
+   "hash": "c54bda1221c1087cc7b4291dc761bf7631a8c48de75a3e3aca4e705a003fcc56",
+   "signature": "52b466e8793583931001ee4f5b2a317024a90d5287bd1e93f4b19ee618cb1fdd14493b478930276cc47e7ceaf25246401241238cb01e01e03231648b48d1030b",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-1A46F01DEE58",
+      "time": "2026-12-06T00:03:00",
+      "lat": 12.9819,
+      "lon": 77.574,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "5a4fd19057ec3fdbde68bba7d4e0bdc2ac3224fc98859ec3bd5ce7058b352d44"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2441282,
+     "signature": "3fcd0d4cbf603fe5b940267d11a653097928f1d8a3d3357e9816dead15c114fcfa93b5467a4793036cdbcf0aba39267d80d5be467d24151ce40557f8a6812e02",
+     "tx_hash": "718fe4d4f7efa23fdd58778c7f5102431eed31999e53eb639dc00b15de900a1e"
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "timestamp": 1793541731.244937,
+   "prev_hash": "c54bda1221c1087cc7b4291dc761bf7631a8c48de75a3e3aca4e705a003fcc56",
+   "merkle_root": "13ef204258a244b08eefac1e821641c7ed112f0c991dbc67822dfb5af8e27124",
+   "validator": "Immigration Office",
+   "hash": "8ba3c017d7ef0481cfb83a716fcfa8f8cd0c6f532ef1adb8300f5ec43fe78b1c",
+   "signature": "92f974e5a2e2b985ab2115044c6072ee0bc64d80482d7180e8edcfc093db85b598fd1cb24a5995afc13c50cf0e1f2c22bb380dd48b47257d86738bb274e31401",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-AB33A76143B4",
+      "time": "2026-12-03T00:03:00",
+      "lat": 12.9819,
+      "lon": 77.574,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "9962ff107ea7b4ce8687fdfdc309adcc6e05a244a2eeb2a37e39a06f68cfc588"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.244861,
+     "signature": "d8efa45b025ee9e2c1fc054413c63ab4a4f5a63ff0a530765aa06bdafecf50cf5b49a691a421636ef0a7a2ede7f7e7e6d0244819b38cbf5fa3076119f4304501",
+     "tx_hash": "13ef204258a244b08eefac1e821641c7ed112f0c991dbc67822dfb5af8e27124"
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "timestamp": 1793541731.2458642,
+   "prev_hash": "8ba3c017d7ef0481cfb83a716fcfa8f8cd0c6f532ef1adb8300f5ec43fe78b1c",
+   "merkle_root": "27a5f5deb9376bba8d648a43f1c83f34661f5582b500d878b89a7324075077ed",
+   "validator": "Tourism Department",
+   "hash": "b32dae3db2c874c009f737ab7cf7f431cec66532da00e785eddfc2b3e3e7a7a0",
+   "signature": "cc7ef342154f5dede4440d13fd34828f3be87e008d82ce81f1de87222fff34bb6d5cd76461aed186e45c62aa315d003a9be359bbdd0bce36e59cfb6abb379e0d",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-4C7A2DC85DCD",
+      "time": "2026-12-21T00:03:00",
+      "lat": 12.982,
+      "lon": 77.574,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "0b91165a17f90e4a705f42c9a0815e6c17bff2a696c9156c0ef9974ed86cd676"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.2457688,
+     "signature": "7262335b5b599809c0e6419755a503a9f1bad1b87f4f69adb98f031a2798be574371fe69b7fd5878d4fc7a63e4120a80ee1802ae39d62154de95a4aee9a91500",
+     "tx_hash": "27a5f5deb9376bba8d648a43f1c83f34661f5582b500d878b89a7324075077ed"
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "timestamp": 1793541731.246759,
+   "prev_hash": "b32dae3db2c874c009f737ab7cf7f431cec66532da00e785eddfc2b3e3e7a7a0",
+   "merkle_root": "156f7532e0b07a1c9d1cdd5ac06cccf771e015a395c3bb7c4c8d0d50182ba4f7",
+   "validator": "City Police",
+   "hash": "b7c76695e5ba497aaef04b9c3f3f3295ab6e1970a04d02720abd6debf6bcd7ba",
+   "signature": "183d2592322d16bf4bbf7f2410981961a3413408f2f44ec7259d31060aa5b480ad77a0c4913bc1c473c9e5992e489e032054d765606d025238dbbc062260a509",
+   "transactions": [
+    {
+     "kind": "INCIDENT",
+     "payload": {
+      "tourist_id": "TID-EF828A4E2C42",
+      "time": "2026-12-12T00:03:00",
+      "lat": 12.982,
+      "lon": 77.574,
+      "risk_level": "CRITICAL",
+      "decided_by": "cloud LLM",
+      "alert_hash": "8f9e672fa16d2ca709ac03522bcfa758369efc33fe76e21b9d86a6c712caef45"
+     },
+     "issuer": "City Police",
+     "timestamp": 1793541731.246672,
+     "signature": "becaf7c4037fcda107746c492bf5fc87cf490a1249127d1ba0de2d18a007bcdbd56967f453103c2d7cd9e315e3f077b898f26aa17a0e3a0ea8891499c46f1801",
+     "tx_hash": "156f7532e0b07a1c9d1cdd5ac06cccf771e015a395c3bb7c4c8d0d50182ba4f7"
+    }
+   ]
+  }
+ ],
+ "pending": []
+}

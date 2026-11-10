@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Police Dashboard · Tourist Safety</title>
+<link rel="icon" href="/tourist/icon-192.png">
+<link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/static/app.css">
+<style>
+  body { display: flex; flex-direction: column; height: 100vh; }
+  header { background: var(--navy); color: #fff; padding: 10px 16px; display: flex; gap: 14px; align-items: center; }
+  header h1 { font-size: 18px; margin: 0; flex: 1; }
+  header .pill { background: #22325a; color: #c9d3e3; }
+  #app { flex: 1; display: grid; grid-template-columns: 1fr 470px; min-height: 0; }
+  #map { height: 100%; }
+  aside { display: flex; flex-direction: column; border-left: 1px solid var(--line); background: #fff; min-height: 0; }
+  .tabs { display: flex; border-bottom: 1px solid var(--line); }
+  .tabs button { flex: 1; background: none; color: var(--muted); border-radius: 0; padding: 12px 4px; font-size: 14px; }
+  .tabs button.active { color: var(--blue); box-shadow: inset 0 -3px 0 var(--blue); }
+  .pane { flex: 1; overflow: auto; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .inc { border: 1px solid var(--line); border-left: 6px solid var(--muted); border-radius: 12px; padding: 10px 12px; }
+  .inc.LOW { border-left-color: var(--LOW); } .inc.MODERATE { border-left-color: var(--MODERATE); }
+  .inc.HIGH { border-left-color: var(--HIGH); } .inc.CRITICAL { border-left-color: var(--CRITICAL); }
+  .inc.new { animation: flash 1.2s 3; }
+  @keyframes flash { 50% { background: #fff3cd; } }
+  .inc .acts { display: flex; gap: 6px; margin-top: 8px; }
+  .inc .acts button { padding: 6px 10px; font-size: 13px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .kpis div { background: #f2f4f8; border-radius: 10px; padding: 8px; text-align: center; }
+  .kpis b { display: block; font-size: 22px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  td, th { border-bottom: 1px solid var(--line); padding: 6px 4px; text-align: left; vertical-align: top; }
+  #login { max-width: 380px; margin: 12vh auto; }
+  .mono { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; word-break: break-all; }
+  #reader { width: 100%; }
+  .rep { border: 1px solid var(--line); border-left: 6px solid var(--orange); border-radius: 12px; padding: 10px 12px; }
+  .rep.new { animation: flash 1.2s 3; }
+  .rep img { width: 100%; max-height: 240px; object-fit: cover; border-radius: 8px; margin-top: 6px; cursor: zoom-in; }
+  .rep .acts { display: flex; gap: 6px; margin-top: 8px; } .rep .acts button { padding: 6px 10px; font-size: 13px; }
+  .rep-pin { background: var(--orange); color: #fff; border: 2px solid #fff; border-radius: 50%; width: 26px; height: 26px;
+             display: flex; align-items: center; justify-content: center; font-weight: 700; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  @media (max-width: 900px) { #app { grid-template-columns: 1fr; grid-template-rows: 45vh 1fr; } aside { border-left: 0; } }
+</style>
+</head>
+<body>
+<header><span style="font-size:22px">🛡️</span><h1>Tourist Safety · Police Dashboard</h1>
+  <span id="llm" class="pill"></span><span id="live" class="pill">offline</span><span id="who" class="pill hidden"></span>
+  <button class="secondary hidden" id="logoutBtn" style="padding:6px 10px">Log out</button></header>
+
+<div id="login" class="card hidden">
+  <h2>Authority login</h2>
+  <form id="loginForm">
+    <label>Username</label><input name="username" autocomplete="username" required>
+    <label>Password</label><input name="password" type="password" autocomplete="current-password" required>
+    <button style="width:100%;margin-top:14px">Log in</button>
+    <p class="muted" id="loginMsg"></p>
+  </form>
+</div>
+
+<div id="app" class="hidden">
+  <div id="map"></div>
+  <aside>
+    <div class="tabs">
+      <button data-tab="incidents" class="active">🚨 Incidents</button>
+      <button data-tab="reports">📢 Reports <span id="kRep" class="pill bad hidden"></span></button>
+      <button data-tab="tourists">🧳 Tourists</button>
+      <button data-tab="verify">🪪 Verify ID</button>
+      <button data-tab="zones">⚠️ Zones</button>
+      <button data-tab="chain">⛓️ Blockchain</button>
+    </div>
+    <div class="pane" id="tab-incidents">
+      <div class="kpis"><div><b id="kOpen">0</b><span class="muted">open</span></div><div><b id="kCrit">0</b><span class="muted">critical</span></div>
+        <div><b id="kTour">0</b><span class="muted">tourists</span></div><div><b id="kCloud">0</b><span class="muted">cloud-checked</span></div></div>
+      <div class="row"><select id="filter" class="grow"><option value="">All incidents</option><option value="open">Open</option><option value="acknowledged">Acknowledged</option><option value="resolved">Resolved</option></select></div>
+      <div id="incList"></div>
+    </div>
+    <div class="pane hidden" id="tab-reports">
+      <p class="muted">Incidents reported by tourists while travelling (photo, description, GPS). Verify a real one to mark the place as a caution zone for all tourists; reject false reports.</p>
+      <div class="row"><select id="rFilter" class="grow"><option value="">All reports</option><option value="pending">Pending</option><option value="corroborated">Reported by several tourists</option><option value="verified">Verified</option><option value="rejected">Rejected</option></select></div>
+      <div id="repList"></div>
+    </div>
+    <div class="pane hidden" id="tab-tourists"><table><thead><tr><th>Tourist</th><th>Last seen</th><th>Risk</th><th></th></tr></thead><tbody id="tourList"></tbody></table></div>
+    <div class="pane hidden" id="tab-verify">
+      <p class="muted">Scan the QR code on the tourist’s phone, or paste the credential text.</p>
+      <div class="row"><button id="scanBtn">📷 Scan QR with camera</button><button class="secondary" id="stopScan">Stop</button></div>
+      <div id="reader"></div>
+      <label>Credential (from QR)</label><textarea id="credText" rows="5" class="mono"></textarea>
+      <button id="verifyBtn">Verify on blockchain</button>
+      <div id="verifyOut"></div>
+    </div>
+    <div class="pane hidden" id="tab-zones">
+      <p class="muted"><b>Click on the map</b> to place a new zone, then save it here.</p>
+      <label>Name</label><input id="zName" placeholder="e.g. Unlit underpass">
+      <div class="row"><div class="grow"><label>Radius (m)</label><input id="zRadius" type="number" value="200" min="10" max="20000"></div>
+        <div class="grow"><label>Type</label><select id="zHazard"><option value="1">Hazard zone</option><option value="0">Safe zone</option></select></div></div>
+      <p class="muted" id="zPos">No location picked yet.</p>
+      <button id="zSave" disabled>Save zone</button>
+      <table><tbody id="zList"></tbody></table>
+    </div>
+    <div class="pane hidden" id="tab-chain"><div id="chainOut" class="muted">Loading…</div></div>
+  </aside>
+</div>
+<div id="toast" class="toast hidden"></div>
+<script src="/static/vendor/leaflet/leaflet.js"></script>
+<script src="/static/vendor/qr/html5-qrcode.min.js"></script>
+<script src="police.js"></script>
+</body>
+</html>

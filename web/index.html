@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Tourist Safety</title>
+<link rel="icon" href="/tourist/icon-192.png">
+<link rel="stylesheet" href="/static/app.css">
+<style>
+  body { background: var(--navy); color: #f7f6f2; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .wrap { max-width: 920px; width: 100%; }
+  h1 { font-size: clamp(28px, 5vw, 48px); line-height: 1.1; margin-bottom: 8px; }
+  .sub { color: #c9d3e3; font-size: 18px; margin-bottom: 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .tile { background: #1c2c50; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 10px; }
+  .tile a.btn { display: inline-block; text-align: center; background: #e8b04a; color: #14213d; padding: 12px; border-radius: 10px; font-weight: 700; text-decoration: none; }
+  .tile p { color: #c9d3e3; margin: 0; }
+  img.qr { width: 170px; background: #fff; padding: 8px; border-radius: 10px; align-self: center; }
+  .foot { color: #8fa1c2; font-size: 14px; margin-top: 20px; }
+  a { color: #e8b04a; }
+</style>
+</head>
+<body><div class="wrap">
+  <h1>🛡️ Smart Tourist Safety Monitoring &amp; Incident Response System</h1>
+  <div class="sub">AI risk classification · Geo-fencing · Blockchain-based digital ID</div>
+  <div class="grid">
+    <div class="tile"><h2>Tourist app</h2><p>Register, get your digital ID, live safety tracking and SOS. Scan with your phone:</p>
+      <img class="qr" id="qr" alt="QR code to open the tourist app"><a class="btn" href="/tourist/">Open tourist app</a></div>
+    <div class="tile"><h2>Police dashboard</h2><p>Live map of tourists, real-time incidents, ID verification, hazard zones and the blockchain audit log.</p>
+      <a class="btn" href="/police/">Open police dashboard</a></div>
+    <div class="tile"><h2>API</h2><p>Interactive documentation of every endpoint.</p><a class="btn" href="/docs">Open API docs</a>
+      <p id="health"></p></div>
+  </div>
+  <p class="foot">Phones need HTTPS for GPS: start the server with <code>python run_server.py --https</code> and open the address shown in the console.</p>
+</div>
+<script>
+  document.getElementById('qr').src = '/api/qr?text=' + encodeURIComponent(location.origin + '/tourist/');
+  fetch('/api/health').then(r => r.json()).then(h => document.getElementById('health').textContent =
+    `Server OK · cloud check: ${h.llm} · blockchain height ${h.chain_height}`).catch(() => {});
+</script>
+</body></html>

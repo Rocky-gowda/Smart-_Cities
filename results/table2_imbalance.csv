@@ -1,0 +1,5 @@
+Strategy,Accuracy (%),95% CI,Macro-F1 (%),LOW recall (%),MODERATE recall (%),HIGH recall (%),CRITICAL recall (%)
+Unweighted,73.3,"[71.9, 74.6]",68.9,68.9,83.9,67.5,44.3
+Balanced weights,65.8,"[64.3, 67.2]",63.6,84.1,66.4,52.0,68.8
+Cost-sensitive,57.0,"[55.6, 58.4]",55.1,67.8,63.5,29.4,83.7
+Balanced + cost,44.2,"[43.0, 45.5]",44.4,82.5,38.9,11.7,94.6

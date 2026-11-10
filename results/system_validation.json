@@ -1,0 +1,124 @@
+{
+  "architecture": {
+    "onnx_vs_sklearn_label_agreement": 1.0,
+    "onnx_vs_sklearn_max_prob_diff": 4.172325134277344e-07,
+    "embedded_coefficients_vs_onnx_max_prob_diff": 4.964555668784953e-07,
+    "geofence_features_vs_training_features_max_diff": 0.0,
+    "components": [
+      "Stage 1 geofence gate",
+      "Stage 2a ONNX model",
+      "Escalation policy",
+      "Stage 2b cloud stub",
+      "Alert dispatcher",
+      "Offline queue"
+    ]
+  },
+  "scenarios": [
+    {
+      "scenario": "normal_walk",
+      "description": "Walks the planned route without stopping",
+      "tourists": 20,
+      "events": 0,
+      "class_counts": {
+        "LOW": 0,
+        "MODERATE": 0,
+        "HIGH": 0,
+        "CRITICAL": 0
+      }
+    },
+    {
+      "scenario": "cafe_break",
+      "description": "Stops 20 min at a cafe on the route, midday",
+      "tourists": 20,
+      "events": 20,
+      "class_counts": {
+        "LOW": 20,
+        "MODERATE": 0,
+        "HIGH": 0,
+        "CRITICAL": 0
+      }
+    },
+    {
+      "scenario": "lost_offroute",
+      "description": "Wanders ~400 m off route and stays 25 min, evening",
+      "tourists": 20,
+      "events": 20,
+      "class_counts": {
+        "LOW": 0,
+        "MODERATE": 20,
+        "HIGH": 0,
+        "CRITICAL": 0
+      }
+    },
+    {
+      "scenario": "hazard_night",
+      "description": "Stops 40 min inside the unlit lake periphery at 01:00",
+      "tourists": 20,
+      "events": 20,
+      "class_counts": {
+        "LOW": 0,
+        "MODERATE": 0,
+        "HIGH": 0,
+        "CRITICAL": 20
+      }
+    },
+    {
+      "scenario": "restricted_area",
+      "description": "Idle 30 min inside the railway yard at 23:00",
+      "tourists": 20,
+      "events": 20,
+      "class_counts": {
+        "LOW": 0,
+        "MODERATE": 0,
+        "HIGH": 0,
+        "CRITICAL": 20
+      }
+    }
+  ],
+  "offline_mode": {
+    "alerts": 1,
+    "decided_by": [
+      "on-device (cloud offline, escalation queued)"
+    ],
+    "queued_escalations": 1
+  },
+  "bulk": {
+    "events": 4000,
+    "system_accuracy": 0.8715,
+    "system_critical_recall": 0.8722826086956522,
+    "escalated": 0.7465,
+    "on_device_latency_mean_us": 12.73326224804805,
+    "on_device_latency_p99_us": 38.49181994155513,
+    "ai_stage_latency_mean_s": 5.055389664707793,
+    "end_to_end_estimate_s": 10.955389664707793,
+    "simulation_accuracy": 0.8633012500000001,
+    "simulation_critical_recall": 0.8638179347826087,
+    "simulation_escalated": 0.7465,
+    "wall_time_s": 0.2286993860000166
+  },
+  "blockchain": {
+    "authorities": [
+      "Tourism Department",
+      "City Police",
+      "Immigration Office"
+    ],
+    "blocks": 26,
+    "transactions": 221,
+    "tourists_registered": 200,
+    "valid_verifications": 200,
+    "revoked_rejected": "5/5",
+    "forged_rejected": "20/20",
+    "expired_rejected": "20/20",
+    "incidents_anchored": 16,
+    "chain_intact": true,
+    "tamper_detected": true,
+    "tamper_report": [
+      "block 10: Merkle root mismatch (a transaction was altered)",
+      "block 10: invalid signature on transaction d35c12a7c051"
+    ],
+    "register_ms_mean": 0.2056199399999059,
+    "verify_ms_mean": 0.16601171000047543,
+    "chain_file_kb": 177.390625,
+    "personal_data_on_chain": false
+  }
+}

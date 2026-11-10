@@ -1,0 +1,8 @@
+{
+  "name": "tourist-digital-id-contract",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solidity smart contract for the blockchain-based tourist digital ID",
+  "scripts": { "test": "node test_contract.js" },
+  "dependencies": { "solc": "0.8.26", "ganache": "7.9.2", "ethers": "6.13.4" }
+}

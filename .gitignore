@@ -1,0 +1,7 @@
+server_data/
+__pycache__/
+.pytest_cache/
+contracts/node_modules/
+venv/
+docs/paper/
+docs/paper/

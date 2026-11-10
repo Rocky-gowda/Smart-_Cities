@@ -1,0 +1,1580 @@
+{
+  "quick_mode": false,
+  "data": {
+    "n_train": 12000,
+    "n_val": 4000,
+    "n_test": 4000,
+    "class_mix_train": [
+      0.171,
+      0.47,
+      0.267,
+      0.092
+    ]
+  },
+  "comparison": [
+    {
+      "model": "Majority class",
+      "params": {},
+      "val_macro_f1": 0.1598639455782313,
+      "test_accuracy": 0.47,
+      "test_macro_f1": 0.1598639455782313,
+      "test_critical_recall": 0.0,
+      "accuracy_ci": [
+        0.47,
+        0.47
+      ],
+      "critical_recall_ci": [
+        0.0,
+        0.0
+      ],
+      "macro_f1_ci": [
+        0.1598639455782313,
+        0.1598639455782313
+      ],
+      "onnx_size_kb": null,
+      "mean_us": null,
+      "p95_us": null,
+      "p99_us": null,
+      "ram_mb": null,
+      "work": null
+    },
+    {
+      "model": "Rule-based score",
+      "params": {},
+      "val_macro_f1": 0.6430432856810767,
+      "test_accuracy": 0.66875,
+      "test_macro_f1": 0.6427872780385657,
+      "test_critical_recall": 0.5625,
+      "accuracy_ci": [
+        0.6545,
+        0.683
+      ],
+      "critical_recall_ci": [
+        0.5108695652173914,
+        0.6114130434782609
+      ],
+      "macro_f1_ci": [
+        0.6261263937820745,
+        0.6587351810119524
+      ],
+      "onnx_size_kb": null,
+      "mean_us": null,
+      "p95_us": null,
+      "p99_us": null,
+      "ram_mb": null,
+      "work": null
+    },
+    {
+      "model": "Logistic regression",
+      "params": {
+        "clf__C": 10.0
+      },
+      "val_macro_f1": 0.6868015906330185,
+      "test_accuracy": 0.733,
+      "test_macro_f1": 0.689137156521221,
+      "test_critical_recall": 0.4429347826086957,
+      "accuracy_ci": [
+        0.71925,
+        0.74625
+      ],
+      "critical_recall_ci": [
+        0.38858695652173914,
+        0.4945652173913043
+      ],
+      "macro_f1_ci": [
+        0.6709219896376026,
+        0.7061293400217625
+      ],
+      "onnx_size_kb": 0.6640625,
+      "mean_us": 6.308903,
+      "p95_us": 6.53915,
+      "p99_us": 16.886720000000015,
+      "ram_mb": 8.50390625,
+      "work": "20 MAC",
+      "onnx_label_match": 1.0
+    },
+    {
+      "model": "Decision tree",
+      "params": {
+        "max_depth": 10,
+        "min_samples_leaf": 50
+      },
+      "val_macro_f1": 0.6795091029696938,
+      "test_accuracy": 0.716,
+      "test_macro_f1": 0.6737063432346401,
+      "test_critical_recall": 0.4375,
+      "accuracy_ci": [
+        0.70199375,
+        0.73
+      ],
+      "critical_recall_ci": [
+        0.3858695652173913,
+        0.48641304347826086
+      ],
+      "macro_f1_ci": [
+        0.6561786816588879,
+        0.6910587400176806
+      ],
+      "onnx_size_kb": 18.767578125,
+      "mean_us": 5.6286233999999995,
+      "p95_us": 8.14105,
+      "p99_us": 16.08314000000022,
+      "ram_mb": 9.01953125,
+      "work": "8",
+      "onnx_label_match": 1.0
+    },
+    {
+      "model": "Random forest",
+      "params": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "n_estimators": 200
+      },
+      "val_macro_f1": 0.6776705781144213,
+      "test_accuracy": 0.72,
+      "test_macro_f1": 0.6711688301171383,
+      "test_critical_recall": 0.40217391304347827,
+      "accuracy_ci": [
+        0.70625,
+        0.73325
+      ],
+      "critical_recall_ci": [
+        0.3504755434782609,
+        0.45108695652173914
+      ],
+      "macro_f1_ci": [
+        0.6528934560214162,
+        0.68868423171042
+      ],
+      "onnx_size_kb": 15319.7724609375,
+      "mean_us": 25.3716756,
+      "p95_us": 34.8661,
+      "p99_us": 51.85707000000004,
+      "ram_mb": 196.140625,
+      "work": "2,180",
+      "onnx_label_match": 1.0
+    },
+    {
+      "model": "Gradient boosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "n_estimators": 200
+      },
+      "val_macro_f1": 0.6777610110588721,
+      "test_accuracy": 0.72325,
+      "test_macro_f1": 0.6767867166542313,
+      "test_critical_recall": 0.41032608695652173,
+      "accuracy_ci": [
+        0.70975,
+        0.73625625
+      ],
+      "critical_recall_ci": [
+        0.358695652173913,
+        0.4592391304347826
+      ],
+      "macro_f1_ci": [
+        0.6589185586109447,
+        0.6936954628996944
+      ],
+      "onnx_size_kb": 442.205078125,
+      "mean_us": 23.3703408,
+      "p95_us": 33.65615000000001,
+      "p99_us": 46.357630000000015,
+      "ram_mb": 14.28125,
+      "work": "2,400",
+      "onnx_label_match": 1.0
+    },
+    {
+      "model": "Hist. gradient boosting",
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "max_iter": 100
+      },
+      "val_macro_f1": 0.6777824037326902,
+      "test_accuracy": 0.7265,
+      "test_macro_f1": 0.6738401250695412,
+      "test_critical_recall": 0.38858695652173914,
+      "accuracy_ci": [
+        0.713,
+        0.73925625
+      ],
+      "critical_recall_ci": [
+        0.33695652173913043,
+        0.4375
+      ],
+      "macro_f1_ci": [
+        0.6556625052828003,
+        0.6907776022421565
+      ],
+      "onnx_size_kb": null,
+      "mean_us": null,
+      "p95_us": null,
+      "p99_us": null,
+      "ram_mb": null,
+      "work": "\u2013",
+      "onnx_error": "ValueError: Unable to create node 'TreeEnsembleClassifier' with name='TreeEnsembleClassifier' and attributes={'base_values': array(["
+    },
+    {
+      "model": "MLP (32-16)",
+      "params": {
+        "clf__alpha": 0.01
+      },
+      "val_macro_f1": 0.6917929741059893,
+      "test_accuracy": 0.72975,
+      "test_macro_f1": 0.6884960180581783,
+      "test_critical_recall": 0.4701086956521739,
+      "accuracy_ci": [
+        0.716,
+        0.74275
+      ],
+      "critical_recall_ci": [
+        0.41847826086956524,
+        0.5190217391304348
+      ],
+      "macro_f1_ci": [
+        0.6713597473391648,
+        0.7046705604253001
+      ],
+      "onnx_size_kb": 4.4345703125,
+      "mean_us": 11.4712694,
+      "p95_us": 17.5651,
+      "p99_us": 34.193039999999996,
+      "ram_mb": 8.7265625,
+      "work": "736 MAC",
+      "onnx_label_match": 1.0
+    }
+  ],
+  "selection": {
+    "equivalent": [
+      "Logistic regression",
+      "MLP (32-16)"
+    ],
+    "selected": "Logistic regression",
+    "best_val_macro_f1": 0.6917929741059893
+  },
+  "paired_tests": [
+    {
+      "a": "Gradient boosting",
+      "b": "Random forest",
+      "mcnemar_p": 0.45939446053139743,
+      "cv5x2_f_p": 0.3841491099624509
+    },
+    {
+      "a": "Gradient boosting",
+      "b": "Logistic regression",
+      "mcnemar_p": 0.012245256103375074,
+      "cv5x2_f_p": 0.010996010561465708
+    },
+    {
+      "a": "Gradient boosting",
+      "b": "Decision tree",
+      "mcnemar_p": 0.15455243269399094,
+      "cv5x2_f_p": 0.0039119583592408524
+    },
+    {
+      "a": "MLP (32-16)",
+      "b": "Gradient boosting",
+      "mcnemar_p": 0.12230130671769322,
+      "cv5x2_f_p": 0.015270123159726534
+    }
+  ],
+  "regenerated": {
+    "Logistic regression": {
+      "mean": 0.7334999999999999,
+      "sd": 0.006239435515778298,
+      "runs": [
+        0.744,
+        0.73375,
+        0.742,
+        0.728,
+        0.731,
+        0.7285,
+        0.725,
+        0.733,
+        0.73875,
+        0.731
+      ]
+    },
+    "Decision tree": {
+      "mean": 0.7138500000000001,
+      "sd": 0.004198544721421656,
+      "runs": [
+        0.72225,
+        0.7145,
+        0.7155,
+        0.70925,
+        0.717,
+        0.71175,
+        0.71025,
+        0.71725,
+        0.711,
+        0.70975
+      ]
+    },
+    "Random forest": {
+      "mean": 0.7273750000000001,
+      "sd": 0.003057890521984789,
+      "runs": [
+        0.733,
+        0.73,
+        0.72925,
+        0.7235,
+        0.72675,
+        0.72325,
+        0.72725,
+        0.72775,
+        0.7285,
+        0.7245
+      ]
+    },
+    "Gradient boosting": {
+      "mean": 0.72775,
+      "sd": 0.004422166387140554,
+      "runs": [
+        0.7345,
+        0.72725,
+        0.73275,
+        0.7235,
+        0.72025,
+        0.72425,
+        0.72575,
+        0.72875,
+        0.731,
+        0.7295
+      ]
+    },
+    "Hist. gradient boosting": {
+      "mean": 0.7285,
+      "sd": 0.0036247605284886,
+      "runs": [
+        0.734,
+        0.728,
+        0.72875,
+        0.7255,
+        0.728,
+        0.72375,
+        0.72725,
+        0.728,
+        0.7355,
+        0.72625
+      ]
+    },
+    "MLP (32-16)": {
+      "mean": 0.734875,
+      "sd": 0.00539836652248727,
+      "runs": [
+        0.7445,
+        0.7365,
+        0.74125,
+        0.72525,
+        0.73,
+        0.7335,
+        0.734,
+        0.73275,
+        0.7365,
+        0.7345
+      ]
+    }
+  },
+  "permutation_importance_pp": {
+    "displacement": 35.9925,
+    "idle duration": 0.9225000000000039,
+    "hour of day": 12.297500000000001,
+    "hazard flag": 5.9525000000000015
+  },
+  "ece_selected": 0.028036493867635726,
+  "imbalance": [
+    {
+      "strategy": "Unweighted",
+      "accuracy": 0.733,
+      "macro_f1": 0.689137156521221,
+      "recall": [
+        0.6885964912280702,
+        0.8388297872340426,
+        0.6750936329588015,
+        0.4429347826086957
+      ],
+      "accuracy_ci": [
+        0.71925,
+        0.74625
+      ],
+      "critical_recall_ci": [
+        0.38858695652173914,
+        0.4945652173913043
+      ],
+      "macro_f1_ci": [
+        0.6709219896376026,
+        0.7061293400217625
+      ]
+    },
+    {
+      "strategy": "Balanced weights",
+      "accuracy": 0.658,
+      "macro_f1": 0.6361459846957935,
+      "recall": [
+        0.8406432748538012,
+        0.6643617021276595,
+        0.5196629213483146,
+        0.6875
+      ],
+      "accuracy_ci": [
+        0.643,
+        0.672
+      ],
+      "critical_recall_ci": [
+        0.6385869565217391,
+        0.7364130434782609
+      ],
+      "macro_f1_ci": [
+        0.6203825122279949,
+        0.6511684698663764
+      ]
+    },
+    {
+      "strategy": "Cost-sensitive",
+      "accuracy": 0.57,
+      "macro_f1": 0.5513265207912041,
+      "recall": [
+        0.6783625730994152,
+        0.6351063829787233,
+        0.2940074906367041,
+        0.8369565217391305
+      ],
+      "accuracy_ci": [
+        0.55574375,
+        0.58375625
+      ],
+      "critical_recall_ci": [
+        0.7989130434782609,
+        0.875
+      ],
+      "macro_f1_ci": [
+        0.5374726189533464,
+        0.5647780996059429
+      ]
+    },
+    {
+      "strategy": "Balanced + cost",
+      "accuracy": 0.442,
+      "macro_f1": 0.4439026716505642,
+      "recall": [
+        0.8245614035087719,
+        0.38882978723404255,
+        0.11704119850187265,
+        0.9456521739130435
+      ],
+      "accuracy_ci": [
+        0.4295,
+        0.455
+      ],
+      "critical_recall_ci": [
+        0.9211956521739131,
+        0.967391304347826
+      ],
+      "macro_f1_ci": [
+        0.43290240753540205,
+        0.4556648522163791
+      ]
+    }
+  ],
+  "confusion_balanced": [
+    [
+      575,
+      109,
+      0,
+      0
+    ],
+    [
+      279,
+      1249,
+      345,
+      7
+    ],
+    [
+      14,
+      193,
+      555,
+      306
+    ],
+    [
+      0,
+      19,
+      96,
+      253
+    ]
+  ],
+  "deployed": {
+    "mean_us": 6.869696,
+    "p95_us": 10.897200000000005,
+    "p99_us": 21.032110000000003,
+    "ram_mb": 8.50390625,
+    "size_kb": 0.6640625
+  },
+  "cloud_sigma": 0.170105363356015,
+  "cloud_test_accuracy": 0.8959699999999999,
+  "val_target_accuracy": 0.8676950000000001,
+  "operating_points": [
+    {
+      "theta": 1.01,
+      "policy": "conf",
+      "escalated": 1.0,
+      "accuracy": 0.8955087499999999,
+      "critical_recall": 0.8762364130434781,
+      "ai_latency_s": 6.801135574783781,
+      "total_latency_s": 12.70113557478378,
+      "cloud_acc_on_escalated": 0.8955087499999999,
+      "accuracy_ci": [
+        0.88599375,
+        0.905
+      ],
+      "critical_recall_ci": [
+        0.842391304347826,
+        0.904891304347826
+      ],
+      "accuracy_indep": 0.89570875,
+      "config": "Cloud-only",
+      "reduction_vs_cloud": -8.941533730566498e-05
+    },
+    {
+      "theta": 0.0,
+      "policy": "conf",
+      "escalated": 0.0,
+      "accuracy": 0.6580000000000001,
+      "critical_recall": 0.6875,
+      "ai_latency_s": 6.869696000000001e-06,
+      "total_latency_s": 5.900006869696,
+      "cloud_acc_on_escalated": null,
+      "accuracy_ci": [
+        0.64375,
+        0.67175
+      ],
+      "critical_recall_ci": [
+        0.6385869565217391,
+        0.7336956521739131
+      ],
+      "accuracy_indep": 0.6580000000000001,
+      "config": "On-device only",
+      "reduction_vs_cloud": 0.5354325299451967
+    },
+    {
+      "theta": 0.5,
+      "policy": "conf",
+      "escalated": 0.0785,
+      "accuracy": 0.6916800000000001,
+      "critical_recall": 0.7311277173913043,
+      "ai_latency_s": 0.5351657855574936,
+      "total_latency_s": 6.435165785557494,
+      "cloud_acc_on_escalated": 0.8844585987261147,
+      "accuracy_ci": [
+        0.678,
+        0.70450625
+      ],
+      "critical_recall_ci": [
+        0.6875,
+        0.7744565217391305
+      ],
+      "accuracy_indep": 0.69266125,
+      "config": "Hybrid, latency-first",
+      "reduction_vs_cloud": 0.4932940326332681
+    },
+    {
+      "theta": 0.775,
+      "policy": "conf",
+      "escalated": 0.8245,
+      "accuracy": 0.87663375,
+      "critical_recall": 0.9030027173913043,
+      "ai_latency_s": 5.606846627165846,
+      "total_latency_s": 11.506846627165846,
+      "cloud_acc_on_escalated": 0.8894890842935115,
+      "accuracy_ci": [
+        0.86674375,
+        0.88675
+      ],
+      "critical_recall_ci": [
+        0.8695652173913043,
+        0.9320652173913043
+      ],
+      "accuracy_indep": 0.8819475,
+      "config": "Hybrid, balanced",
+      "reduction_vs_cloud": 0.09394908447513017
+    },
+    {
+      "theta": 0.725,
+      "policy": "safety",
+      "escalated": 0.7465,
+      "accuracy": 0.8633012500000001,
+      "critical_recall": 0.8638179347826087,
+      "ai_latency_s": 5.077078156602314,
+      "total_latency_s": 10.977078156602314,
+      "cloud_acc_on_escalated": 0.8805107166778299,
+      "accuracy_ci": [
+        0.85175,
+        0.8735
+      ],
+      "critical_recall_ci": [
+        0.8260869565217391,
+        0.8967391304347826
+      ],
+      "accuracy_indep": 0.87458875,
+      "config": "Hybrid, safety-aware",
+      "reduction_vs_cloud": 0.13566313727540835
+    }
+  ],
+  "curves_test": {
+    "conf": [
+      {
+        "theta": 0.0,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.025,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.05,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.075,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.1,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.125,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.15,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.175,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.2,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.225,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.25,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.275,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.3,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.325,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.35,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.375,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.4,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.425,
+        "policy": "conf",
+        "escalated": 0.0,
+        "accuracy": 0.6579999999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 6.869696e-06,
+        "total_latency_s": 5.900006869696,
+        "cloud_acc_on_escalated": null
+      },
+      {
+        "theta": 0.45,
+        "policy": "conf",
+        "escalated": 0.00075,
+        "accuracy": 0.6586699999999999,
+        "critical_recall": 0.6875,
+        "ai_latency_s": 0.005138214490514202,
+        "total_latency_s": 5.905138214490514,
+        "cloud_acc_on_escalated": 0.8933333333333333
+      },
+      {
+        "theta": 0.475,
+        "policy": "conf",
+        "escalated": 0.02175,
+        "accuracy": 0.6686799999999999,
+        "critical_recall": 0.6954891304347828,
+        "ai_latency_s": 0.1484067380679087,
+        "total_latency_s": 6.048406738067909,
+        "cloud_acc_on_escalated": 0.9048275862068965
+      },
+      {
+        "theta": 0.5,
+        "policy": "conf",
+        "escalated": 0.0785,
+        "accuracy": 0.6917199999999998,
+        "critical_recall": 0.7317934782608695,
+        "ai_latency_s": 0.5351967233165204,
+        "total_latency_s": 6.435196723316521,
+        "cloud_acc_on_escalated": 0.884968152866242
+      },
+      {
+        "theta": 0.525,
+        "policy": "conf",
+        "escalated": 0.15975,
+        "accuracy": 0.72012,
+        "critical_recall": 0.783532608695652,
+        "ai_latency_s": 1.0871215269932593,
+        "total_latency_s": 6.98712152699326,
+        "cloud_acc_on_escalated": 0.8692957746478873
+      },
+      {
+        "theta": 0.55,
+        "policy": "conf",
+        "escalated": 0.24625,
+        "accuracy": 0.747205,
+        "critical_recall": 0.81375,
+        "ai_latency_s": 1.6729990322062342,
+        "total_latency_s": 7.572999032206234,
+        "cloud_acc_on_escalated": 0.8729137055837565
+      },
+      {
+        "theta": 0.575,
+        "policy": "conf",
+        "escalated": 0.35275,
+        "accuracy": 0.78008,
+        "critical_recall": 0.8751086956521741,
+        "ai_latency_s": 2.3964740262108233,
+        "total_latency_s": 8.296474026210824,
+        "cloud_acc_on_escalated": 0.875492558469171
+      },
+      {
+        "theta": 0.6,
+        "policy": "conf",
+        "escalated": 0.4345,
+        "accuracy": 0.803575,
+        "critical_recall": 0.918641304347826,
+        "ai_latency_s": 2.951086765520858,
+        "total_latency_s": 8.851086765520858,
+        "cloud_acc_on_escalated": 0.8747410817031072
+      },
+      {
+        "theta": 0.625,
+        "policy": "conf",
+        "escalated": 0.4785,
+        "accuracy": 0.8170700000000001,
+        "critical_recall": 0.9266847826086958,
+        "ai_latency_s": 3.2504452654281755,
+        "total_latency_s": 9.150445265428175,
+        "cloud_acc_on_escalated": 0.8747544409613376
+      },
+      {
+        "theta": 0.65,
+        "policy": "conf",
+        "escalated": 0.5215,
+        "accuracy": 0.8265300000000001,
+        "critical_recall": 0.9184782608695652,
+        "ai_latency_s": 3.5413479354818422,
+        "total_latency_s": 9.441347935481843,
+        "cloud_acc_on_escalated": 0.8749376797698944
+      },
+      {
+        "theta": 0.675,
+        "policy": "conf",
+        "escalated": 0.56775,
+        "accuracy": 0.8364500000000001,
+        "critical_recall": 0.9122826086956521,
+        "ai_latency_s": 3.8543551779613727,
+        "total_latency_s": 9.754355177961372,
+        "cloud_acc_on_escalated": 0.8774988991633641
+      },
+      {
+        "theta": 0.7,
+        "policy": "conf",
+        "escalated": 0.6215,
+        "accuracy": 0.8454299999999999,
+        "critical_recall": 0.9071195652173912,
+        "ai_latency_s": 4.220772309728782,
+        "total_latency_s": 10.120772309728782,
+        "cloud_acc_on_escalated": 0.8776025744167337
+      },
+      {
+        "theta": 0.725,
+        "policy": "conf",
+        "escalated": 0.69425,
+        "accuracy": 0.8569049999999998,
+        "critical_recall": 0.9055978260869564,
+        "ai_latency_s": 4.716454009303391,
+        "total_latency_s": 10.616454009303391,
+        "cloud_acc_on_escalated": 0.8799495858840476
+      },
+      {
+        "theta": 0.75,
+        "policy": "conf",
+        "escalated": 0.75975,
+        "accuracy": 0.8679150000000001,
+        "critical_recall": 0.9105978260869564,
+        "ai_latency_s": 5.161378020197859,
+        "total_latency_s": 11.06137802019786,
+        "cloud_acc_on_escalated": 0.8853767686739059
+      },
+      {
+        "theta": 0.775,
+        "policy": "conf",
+        "escalated": 0.8245,
+        "accuracy": 0.8768100000000001,
+        "critical_recall": 0.9054347826086958,
+        "ai_latency_s": 5.602250270601507,
+        "total_latency_s": 11.502250270601508,
+        "cloud_acc_on_escalated": 0.8897028502122499
+      },
+      {
+        "theta": 0.8,
+        "policy": "conf",
+        "escalated": 0.83925,
+        "accuracy": 0.8793749999999999,
+        "critical_recall": 0.8951086956521739,
+        "ai_latency_s": 5.703198585549049,
+        "total_latency_s": 11.603198585549048,
+        "cloud_acc_on_escalated": 0.8890378313970808
+      },
+      {
+        "theta": 0.825,
+        "policy": "conf",
+        "escalated": 0.8535,
+        "accuracy": 0.8827750000000001,
+        "critical_recall": 0.89125,
+        "ai_latency_s": 5.799580592798939,
+        "total_latency_s": 11.699580592798938,
+        "cloud_acc_on_escalated": 0.8887229056824839
+      },
+      {
+        "theta": 0.85,
+        "policy": "conf",
+        "escalated": 0.86975,
+        "accuracy": 0.88504,
+        "critical_recall": 0.8835869565217392,
+        "ai_latency_s": 5.909269837807131,
+        "total_latency_s": 11.809269837807133,
+        "cloud_acc_on_escalated": 0.8879448117275079
+      },
+      {
+        "theta": 0.875,
+        "policy": "conf",
+        "escalated": 0.88325,
+        "accuracy": 0.8862299999999999,
+        "critical_recall": 0.8827717391304348,
+        "ai_latency_s": 6.001705537133754,
+        "total_latency_s": 11.901705537133754,
+        "cloud_acc_on_escalated": 0.8884574016416643
+      },
+      {
+        "theta": 0.9,
+        "policy": "conf",
+        "escalated": 0.8965,
+        "accuracy": 0.88772,
+        "critical_recall": 0.8820108695652175,
+        "ai_latency_s": 6.092137289207768,
+        "total_latency_s": 11.992137289207768,
+        "cloud_acc_on_escalated": 0.8881427774679308
+      },
+      {
+        "theta": 0.925,
+        "policy": "conf",
+        "escalated": 0.91225,
+        "accuracy": 0.889815,
+        "critical_recall": 0.8789673913043476,
+        "ai_latency_s": 6.199560089685134,
+        "total_latency_s": 12.099560089685134,
+        "cloud_acc_on_escalated": 0.8885338448890107
+      },
+      {
+        "theta": 0.95,
+        "policy": "conf",
+        "escalated": 0.93375,
+        "accuracy": 0.891455,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.345523470945455,
+        "total_latency_s": 12.245523470945455,
+        "cloud_acc_on_escalated": 0.8896439089692101
+      },
+      {
+        "theta": 0.975,
+        "policy": "conf",
+        "escalated": 0.95125,
+        "accuracy": 0.8928549999999998,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.465546312269281,
+        "total_latency_s": 12.36554631226928,
+        "cloud_acc_on_escalated": 0.8907805519053876
+      },
+      {
+        "theta": 1.0,
+        "policy": "conf",
+        "escalated": 1.0,
+        "accuracy": 0.895385,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.7964423698433745,
+        "total_latency_s": 12.696442369843375,
+        "cloud_acc_on_escalated": 0.895385
+      }
+    ],
+    "safety": [
+      {
+        "theta": 0.0,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.025,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.05,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.075,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.1,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.125,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.15,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.175,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.2,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.225,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.25,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.275,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.3,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.325,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.35,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.375,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.4,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.425,
+        "policy": "safety",
+        "escalated": 0.3905,
+        "accuracy": 0.7978000000000001,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.6532124148674603,
+        "total_latency_s": 8.55321241486746,
+        "cloud_acc_on_escalated": 0.8752880921895008
+      },
+      {
+        "theta": 0.45,
+        "policy": "safety",
+        "escalated": 0.39075,
+        "accuracy": 0.7980449999999999,
+        "critical_recall": 0.837391304347826,
+        "ai_latency_s": 2.654879016723161,
+        "total_latency_s": 8.554879016723161,
+        "cloud_acc_on_escalated": 0.8753550863723608
+      },
+      {
+        "theta": 0.475,
+        "policy": "safety",
+        "escalated": 0.401,
+        "accuracy": 0.8009150000000002,
+        "critical_recall": 0.8427173913043479,
+        "ai_latency_s": 2.724808172002517,
+        "total_latency_s": 8.624808172002517,
+        "cloud_acc_on_escalated": 0.8769700748129675
+      },
+      {
+        "theta": 0.5,
+        "policy": "safety",
+        "escalated": 0.42075,
+        "accuracy": 0.80527,
+        "critical_recall": 0.8529891304347826,
+        "ai_latency_s": 2.859421026178311,
+        "total_latency_s": 8.75942102617831,
+        "cloud_acc_on_escalated": 0.8764587046939988
+      },
+      {
+        "theta": 0.525,
+        "policy": "safety",
+        "escalated": 0.4485,
+        "accuracy": 0.8134699999999999,
+        "critical_recall": 0.8529891304347826,
+        "ai_latency_s": 3.048292123681192,
+        "total_latency_s": 8.948292123681192,
+        "cloud_acc_on_escalated": 0.874515050167224
+      },
+      {
+        "theta": 0.55,
+        "policy": "safety",
+        "escalated": 0.4775,
+        "accuracy": 0.8210250000000001,
+        "critical_recall": 0.8558695652173912,
+        "ai_latency_s": 3.243674689040468,
+        "total_latency_s": 9.143674689040468,
+        "cloud_acc_on_escalated": 0.8738743455497381
+      },
+      {
+        "theta": 0.575,
+        "policy": "safety",
+        "escalated": 0.50425,
+        "accuracy": 0.8277199999999999,
+        "critical_recall": 0.8558695652173912,
+        "ai_latency_s": 3.4260966541142115,
+        "total_latency_s": 9.326096654114211,
+        "cloud_acc_on_escalated": 0.8745066931085771
+      },
+      {
+        "theta": 0.6,
+        "policy": "safety",
+        "escalated": 0.53225,
+        "accuracy": 0.8334999999999999,
+        "critical_recall": 0.8589673913043478,
+        "ai_latency_s": 3.616765661838623,
+        "total_latency_s": 9.516765661838622,
+        "cloud_acc_on_escalated": 0.8745890089243776
+      },
+      {
+        "theta": 0.625,
+        "policy": "safety",
+        "escalated": 0.56425,
+        "accuracy": 0.8397500000000002,
+        "critical_recall": 0.8629347826086955,
+        "ai_latency_s": 3.8343107907894294,
+        "total_latency_s": 9.73431079078943,
+        "cloud_acc_on_escalated": 0.8741692512184315
+      },
+      {
+        "theta": 0.65,
+        "policy": "safety",
+        "escalated": 0.5965,
+        "accuracy": 0.8437300000000001,
+        "critical_recall": 0.8629347826086955,
+        "ai_latency_s": 4.051783081437511,
+        "total_latency_s": 9.951783081437512,
+        "cloud_acc_on_escalated": 0.8754903604358759
+      },
+      {
+        "theta": 0.675,
+        "policy": "safety",
+        "escalated": 0.6355,
+        "accuracy": 0.8504499999999999,
+        "critical_recall": 0.8629347826086955,
+        "ai_latency_s": 4.315612819331024,
+        "total_latency_s": 10.215612819331024,
+        "cloud_acc_on_escalated": 0.8779701022816679
+      },
+      {
+        "theta": 0.7,
+        "policy": "safety",
+        "escalated": 0.68125,
+        "accuracy": 0.855405,
+        "critical_recall": 0.8629347826086955,
+        "ai_latency_s": 4.626757868926671,
+        "total_latency_s": 10.526757868926671,
+        "cloud_acc_on_escalated": 0.8783926605504587
+      },
+      {
+        "theta": 0.725,
+        "policy": "safety",
+        "escalated": 0.7465,
+        "accuracy": 0.863235,
+        "critical_recall": 0.8651086956521741,
+        "ai_latency_s": 5.071782907998957,
+        "total_latency_s": 10.971782907998957,
+        "cloud_acc_on_escalated": 0.8804219691895513
+      },
+      {
+        "theta": 0.75,
+        "policy": "safety",
+        "escalated": 0.80575,
+        "accuracy": 0.8724500000000001,
+        "critical_recall": 0.8761413043478261,
+        "ai_latency_s": 5.47442665975591,
+        "total_latency_s": 11.37442665975591,
+        "cloud_acc_on_escalated": 0.8854483400558487
+      },
+      {
+        "theta": 0.775,
+        "policy": "safety",
+        "escalated": 0.8635,
+        "accuracy": 0.87941,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 5.8675872582512705,
+        "total_latency_s": 11.767587258251272,
+        "cloud_acc_on_escalated": 0.8895888824551246
+      },
+      {
+        "theta": 0.8,
+        "policy": "safety",
+        "escalated": 0.8715,
+        "accuracy": 0.881685,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 5.922534998991001,
+        "total_latency_s": 11.822534998991001,
+        "cloud_acc_on_escalated": 0.8894836488812392
+      },
+      {
+        "theta": 0.825,
+        "policy": "safety",
+        "escalated": 0.8805,
+        "accuracy": 0.883865,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 5.983373424045135,
+        "total_latency_s": 11.883373424045136,
+        "cloud_acc_on_escalated": 0.889398069278819
+      },
+      {
+        "theta": 0.85,
+        "policy": "safety",
+        "escalated": 0.8905,
+        "accuracy": 0.885655,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.050883409129888,
+        "total_latency_s": 11.950883409129888,
+        "cloud_acc_on_escalated": 0.8890005614823134
+      },
+      {
+        "theta": 0.875,
+        "policy": "safety",
+        "escalated": 0.89875,
+        "accuracy": 0.88656,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.1075444443539935,
+        "total_latency_s": 12.007544444353993,
+        "cloud_acc_on_escalated": 0.8890792767732962
+      },
+      {
+        "theta": 0.9,
+        "policy": "safety",
+        "escalated": 0.909,
+        "accuracy": 0.887875,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.1771857938811285,
+        "total_latency_s": 12.077185793881128,
+        "cloud_acc_on_escalated": 0.8884763476347635
+      },
+      {
+        "theta": 0.925,
+        "policy": "safety",
+        "escalated": 0.92075,
+        "accuracy": 0.8898849999999999,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.25686420289466,
+        "total_latency_s": 12.15686420289466,
+        "cloud_acc_on_escalated": 0.8888243279934837
+      },
+      {
+        "theta": 0.95,
+        "policy": "safety",
+        "escalated": 0.93725,
+        "accuracy": 0.891455,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.369318851967661,
+        "total_latency_s": 12.269318851967661,
+        "cloud_acc_on_escalated": 0.8900560149373166
+      },
+      {
+        "theta": 0.975,
+        "policy": "safety",
+        "escalated": 0.95275,
+        "accuracy": 0.8928549999999998,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.475604840202031,
+        "total_latency_s": 12.375604840202032,
+        "cloud_acc_on_escalated": 0.8909525059039622
+      },
+      {
+        "theta": 1.0,
+        "policy": "safety",
+        "escalated": 1.0,
+        "accuracy": 0.895385,
+        "critical_recall": 0.877445652173913,
+        "ai_latency_s": 6.7964423698433745,
+        "total_latency_s": 12.696442369843375,
+        "cloud_acc_on_escalated": 0.895385
+      }
+    ]
+  },
+  "imbalance_system": [
+    {
+      "strategy": "Unweighted",
+      "theta": 0.8,
+      "accuracy": 0.868355,
+      "critical_recall": 0.8615489130434782,
+      "escalated": 0.68875
+    },
+    {
+      "strategy": "Balanced weights",
+      "theta": 0.725,
+      "accuracy": 0.8633012500000001,
+      "critical_recall": 0.8638179347826087,
+      "escalated": 0.7465
+    },
+    {
+      "strategy": "Cost-sensitive",
+      "theta": 0.8,
+      "accuracy": 0.868355,
+      "critical_recall": 0.8615489130434782,
+      "escalated": 0.68875
+    },
+    {
+      "strategy": "Balanced + cost",
+      "theta": 0.725,
+      "accuracy": 0.863205,
+      "critical_recall": 0.8638179347826087,
+      "escalated": 0.7515
+    }
+  ],
+  "sensitivity": [
+    {
+      "cloud_acc": 0.5,
+      "accuracy": 0.578535,
+      "critical_recall": 0.48991847826086954
+    },
+    {
+      "cloud_acc": 0.55,
+      "accuracy": 0.61638,
+      "critical_recall": 0.5370788043478261
+    },
+    {
+      "cloud_acc": 0.6,
+      "accuracy": 0.653865,
+      "critical_recall": 0.5941847826086957
+    },
+    {
+      "cloud_acc": 0.65,
+      "accuracy": 0.6915662499999999,
+      "critical_recall": 0.6402989130434783
+    },
+    {
+      "cloud_acc": 0.7,
+      "accuracy": 0.72914125,
+      "critical_recall": 0.6863315217391304
+    },
+    {
+      "cloud_acc": 0.75,
+      "accuracy": 0.76624375,
+      "critical_recall": 0.7383288043478261
+    },
+    {
+      "cloud_acc": 0.8,
+      "accuracy": 0.80350375,
+      "critical_recall": 0.7861005434782607
+    },
+    {
+      "cloud_acc": 0.85,
+      "accuracy": 0.8400725,
+      "critical_recall": 0.8390217391304347
+    },
+    {
+      "cloud_acc": 0.9,
+      "accuracy": 0.87801875,
+      "critical_recall": 0.8852853260869565
+    },
+    {
+      "cloud_acc": 0.95,
+      "accuracy": 0.91524,
+      "critical_recall": 0.9350679347826087
+    },
+    {
+      "cloud_acc": 1.0,
+      "accuracy": 0.9525000000000001,
+      "critical_recall": 0.9836956521739134
+    }
+  ],
+  "stress": [
+    {
+      "condition": "In-distribution",
+      "device_acc": 0.67225,
+      "device_crit": 0.7119565217391305,
+      "escalated": 0.74225,
+      "hybrid_acc": 0.8633875000000001,
+      "hybrid_crit": 0.8849456521739131
+    },
+    {
+      "condition": "GPS noise x3",
+      "device_acc": 0.588,
+      "device_crit": 0.6603260869565217,
+      "escalated": 0.7365,
+      "hybrid_acc": 0.8424475000000001,
+      "hybrid_crit": 0.8850407608695652
+    },
+    {
+      "condition": "Gazetteer error 30%",
+      "device_acc": 0.6435,
+      "device_crit": 0.7092391304347826,
+      "escalated": 0.76075,
+      "hybrid_acc": 0.8563850000000001,
+      "hybrid_crit": 0.8942255434782608
+    },
+    {
+      "condition": "Prior shift (CRITICAL 18%)",
+      "device_acc": 0.66575,
+      "device_crit": 0.7222222222222222,
+      "escalated": 0.78,
+      "hybrid_acc": 0.86288125,
+      "hybrid_crit": 0.8869305555555556
+    },
+    {
+      "condition": "Combined",
+      "device_acc": 0.58275,
+      "device_crit": 0.6930555555555555,
+      "escalated": 0.78225,
+      "hybrid_acc": 0.8531025,
+      "hybrid_crit": 0.8978958333333334
+    }
+  ]
+}

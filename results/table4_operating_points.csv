@@ -1,0 +1,6 @@
+Configuration,Policy,theta_c,Escalated (%),Accuracy (%),95% CI,CRITICAL recall (%),Acc. indep. cloud (%),AI-stage latency (s),Total latency (s),Reduction (%)
+Cloud-only,conf,1.01,100.0,89.6,"[88.6, 90.5]",87.6,89.6,6.8,12.7,-0.0
+On-device only,conf,0.0,0.0,65.8,"[64.4, 67.2]",68.8,65.8,0.0,5.9,53.5
+"Hybrid, latency-first",conf,0.5,7.8,69.2,"[67.8, 70.5]",73.1,69.3,0.54,6.44,49.3
+"Hybrid, balanced",conf,0.775,82.5,87.7,"[86.7, 88.7]",90.3,88.2,5.61,11.51,9.4
+"Hybrid, safety-aware",safety,0.725,74.7,86.3,"[85.2, 87.4]",86.4,87.5,5.08,10.98,13.6

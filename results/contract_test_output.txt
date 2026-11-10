@@ -1,0 +1,15 @@
+Deployed at 0x04c6dC90ED7E98605E97348Af65BcFF0704b7011
+  PASS admin added police as authority
+  PASS registered ID verifies
+  PASS forged credential rejected
+  PASS duplicate registration reverts
+  PASS outsider cannot register
+  PASS invalid period reverts
+  PASS incident recorded
+  PASS incident fields stored
+  PASS incidents indexed by tourist
+  PASS incident for unknown ID reverts
+  PASS revoked ID rejected
+  PASS expired ID rejected
+  PASS non-admin cannot add authority
+13 passed, 0 failed
